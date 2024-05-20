@@ -1,3 +1,3 @@
 # StardewValleyMods
-## ariella
+## ella
 stardew valley mods !
