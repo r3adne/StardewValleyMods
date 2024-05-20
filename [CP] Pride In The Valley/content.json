@@ -1,0 +1,10 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+		{	
+            "LogName": "Dialogues",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue.json"
+        }	
+    ]
+}

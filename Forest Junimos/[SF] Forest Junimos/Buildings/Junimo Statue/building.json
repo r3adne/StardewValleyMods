@@ -1,0 +1,31 @@
+{
+    "Name": "Building.Name.Junimo_Statue",
+	"Description": "Building.Description.Junimo_Statue",
+	"Size":{
+		"X": 2,
+		"Y": 3
+	},
+	"CollisionMap":"OO\nOO\nXX",
+	"DrawShadow": true,
+	"Builder": "Wizard",
+	"MagicalConstruction": true,
+	"BuildCost": 10000,
+	"BuildMaterials":[
+		{
+			"ItemID": 390,
+			"Amount": 100
+		},
+		{
+			"ItemID": 336,
+			"Amount": 10
+		}
+	],
+	"PaintMasks": [
+		{
+			"Name": "Junimo"
+		},
+		{
+			"Name": "Stardrop"
+		}
+	]
+}

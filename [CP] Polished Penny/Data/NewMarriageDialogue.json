@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialoguePenny",
+            "Entries": {
+                "spouseRoom_Penny": "{{i18n:PP.Penny.spouseRoom_Penny}}",
+                "jobLeave_Penny": "{{i18n:PP.Penny.jobLeave_Penny}}",
+                "jobReturn_Penny": "{{i18n:PP.Penny.jobReturn_Penny}}",
+                "OneKid_2": "{{i18n:PP.Penny.OneKid_2}}",
+                "OneKid_3": "{{i18n:PP.Penny.OneKid_3}}",
+                "OneKid_4": "{{i18n:PP.Penny.OneKid_4}}",
+                "TwoKids_2": "{{i18n:PP.Penny.TwoKids_2}}",
+                "TwoKids_4": "{{i18n:PP.Penny.TwoKids_4}}",
+                "Good_5": "{{i18n:PP.Penny.Good_5}}",
+                "Good_7": "{{i18n:PP.Penny.Good_7}}",
+                "Good_8": "{{i18n:PP.Penny.Good_8}}",
+                "Good_9": "{{i18n:PP.Penny.Good_9}}",
+                "Neutral_0": "{{i18n:PP.Penny.Neutral_0}}",
+                "Neutral_1": "{{i18n:PP.Penny.Neutral_1}}",
+                "Bad_0": "{{i18n:PP.Penny.Bad_0}}",
+                "Bad_1": "{{i18n:PP.Penny.Bad_1}}",
+                "Bad_2": "{{i18n:PP.Penny.Bad_2}}",
+                "spring_3": "{{i18n:PP.Penny.spring_3}}",
+                "spring_5": "{{i18n:PP.Penny.spring_5}}",
+                "spring_7": "{{i18n:PP.Penny.spring_7}}",
+                "spring_9": "{{i18n:PP.Penny.spring_9}}",
+                "spring_11": "{{i18n:PP.Penny.spring_11}}",
+                "spring_19": "{{i18n:PP.Penny.spring_19}}",
+                "summer_21": "{{i18n:PP.Penny.summer_21}}",
+                "summer_23": "{{i18n:PP.Penny.summer_23}}",
+                "summer_25": "{{i18n:PP.Penny.summer_25}}",
+                "fall_27": "{{i18n:PP.Penny.fall_27}}",
+                "winter_5": "{{i18n:PP.Penny.winter_5}}",
+                "winter_7": "{{i18n:PP.Penny.winter_7}}"
+            }
+        }
+    ]
+}

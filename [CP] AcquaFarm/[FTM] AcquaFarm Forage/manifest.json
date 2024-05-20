@@ -1,0 +1,11 @@
+{
+	"Name": "AcquaFarm Forage",
+	"Author": "Kana",
+	"Description": "",
+	"Version": "1.0.1",
+	"UniqueID": "Kana.AcquaFarmForage",
+	"UpdateKeys": [ "??" ],
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager"
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+
+		"ToolsRecolor": 
+		{
+			"AllowValues": "Basic, Copper, Steel, Gold, Iridium",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Basic, Copper, Steel, Gold, Iridium"
+		},
+		"____________":
+		{
+			"AllowValues": "spacer",
+			"Default": "spacer",
+		},
+		"ReturnScepterRecolor":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"____________":
+		{
+			"AllowValues": "spacer",
+			"Default": "spacer",
+		},
+		"TrashCanRecolor":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"____________":
+		{
+			"AllowValues": "spacer",
+			"Default": "spacer",
+		},
+		"OtherToolsRecolor":
+		{
+			"AllowValues": "Shears, Milk Pail, Copper Pan, Iridium Shears, Iridium Milk Pail, Iridium Pan, Steel Pan, Gold Pan",
+			"AllowMultiple": true,
+			"AllowBlank": true,
+			"Default": "Shears, Milk Pail, Copper Pan, Iridium Shears, Iridium Milk Pail, Iridium Pan, Steel Pan, Gold Pan",
+		},
+		"____________":
+		{
+			"AllowValues": "spacer",
+			"Default": "spacer",
+		},
+		"FishingRodRecolor":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"____________":
+		{
+			"AllowValues": "spacer",
+			"Default": "spacer",
+		},
+	},
+
+		"Changes":
+		[
+			{
+				"Action": "Include",
+				"FromFile": "Code/Tools.json",
+			}
+		],
+}

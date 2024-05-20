@@ -1,0 +1,1398 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "TroughRecolor": {
+            "AllowValues": "Auto, Vanilla, Earthy, Elegant, Rustic, Vibrant Pastoral",
+            "Default": "Auto",
+            "Description": "Controls the interior recolor of the Terrarium feeding trough. There is automatic compatibility with Earthy Recolor, More Elegant Town Interiors, Rustic Country Town Interiors, and Vibrant Pastoral Recolor, but you can also select a recolor manually."
+        }
+    },
+    "DynamicTokens": [
+        // Manual and auto recolor support
+        {
+            "Name": "Recolor",
+            "Value": "Vanilla",
+            "When": {
+                "TroughRecolor": "Auto"
+            }
+        },
+        {
+            "Name": "Recolor",
+            "Value": "Vibrant Pastoral",
+            "When": {
+                "HasMod": "grapeponta.VibrantPastoralRecolor",
+                "TroughRecolor": "Auto"
+            }
+        },
+        {
+            "Name": "Recolor",
+            "Value": "Earthy",
+            "When": {
+                "HasMod": "DaisyNiko.EarthyInteriors",
+                "TroughRecolor": "Auto"
+            }
+        },
+        {
+            "Name": "Recolor",
+            "Value": "Elegant",
+            "When": {
+                "HasMod": "colling.towninterior",
+                "TroughRecolor": "Auto"
+            }
+        },
+        {
+            "Name": "Recolor",
+            "Value": "Rustic",
+            "When": {
+                "HasMod": "Hesper.RusticCountrysideTownInterior",
+                "TroughRecolor": "Auto"
+            }
+        },
+        {
+            "Name": "Recolor",
+            "Value": "{{TroughRecolor}}",
+            "When": {
+                "TroughRecolor |contains=Auto": "false"
+            }
+        },
+    ],
+    "Changes": [
+        // American Green Tree Frog
+        {
+            "LogName": "Load data for American Green Tree Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "American Green Tree Frog": {
+                    "DisplayName": "{{i18n: American_Green_Tree_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_American_Green_Tree_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: American_Green_Tree_Frog.Name}}",
+                    "ShopDescription": "{{i18n: American_Green_Tree_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "259"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "70"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_American_Green_Tree_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Red-Eyed Tree Frog
+        {
+            "LogName": "Load data for Red-Eyed Tree Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Red-Eyed Tree Frog": {
+                    "DisplayName": "{{i18n: Red-Eyed_Tree_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Red-Eyed_Tree_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Red-Eyed_Tree_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Red-Eyed_Tree_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "259"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "64"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Red-Eyed_Tree_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Clown Tree Frog
+        {
+            "LogName": "Load data for Clown Tree Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Clown Tree Frog": {
+                    "DisplayName": "{{i18n: Clown_Tree_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Clown_Tree_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Clown_Tree_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Clown_Tree_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "259"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "347"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Clown_Tree_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Blue Poison Dart Frog
+        {
+            "LogName": "Load data for Blue Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Blue Poison Dart Frog": {
+                    "DisplayName": "{{i18n: Blue_Poison_Dart_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Blue_Poison_Dart_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Blue_Poison_Dart_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Blue_Poison_Dart_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "422"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "84"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Blue_Poison_Dart_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Golden Poison Dart Frog
+        {
+            "LogName": "Load data for Golden Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Golden Poison Dart Frog": {
+                    "DisplayName": "{{i18n: Golden_Poison_Dart_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Golden_Poison_Dart_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Golden_Poison_Dart_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Golden_Poison_Dart_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "420"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "384"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Golden_Poison_Dart_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Strawberry Poison Dart Frog
+        {
+            "LogName": "Load data for Strawberry Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Strawberry Poison Dart Frog": {
+                    "DisplayName": "{{i18n: Strawberry_Poison_Dart_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Strawberry_Poison_Dart_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Strawberry_Poison_Dart_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Strawberry_Poison_Dart_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "420"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "745"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Strawberry_Poison_Dart_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Amazonian Poison Dart Frog
+        {
+            "LogName": "Load data for Amazonian Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Amazonian Poison Dart Frog": {
+                    "DisplayName": "{{i18n: Amazonian_Poison_Dart_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Amazonian_Poison_Dart_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Amazonian_Poison_Dart_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Amazonian_Poison_Dart_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "420"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "62"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Amazonian_Poison_Dart_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Purple Fluorescent Frog
+        {
+            "LogName": "Load data for Purple Fluorescent Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Purple Fluorescent Frog": {
+                    "DisplayName": "{{i18n: Purple_Fluorescent_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Purple_Fluorescent_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Purple_Fluorescent_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Purple_Fluorescent_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "422"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "66"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Purple_Fluorescent_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Fire-Bellied Toad
+        {
+            "LogName": "Load data for Fire-Bellied Toad",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Fire-Bellied Toad": {
+                    "DisplayName": "{{i18n: Fire-Bellied_Toad.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Fire-Bellied_Toad_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Fire-Bellied_Toad.Name}}",
+                    "ShopDescription": "{{i18n: Fire-Bellied_Toad.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "82"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "64"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Fire-Bellied_Toad",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Pale Frog
+        {
+            "LogName": "Load data for Pale Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Pale Frog": {
+                    "DisplayName": "{{i18n: Pale_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Pale_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Pale_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Pale_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "86"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "347"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Pale_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Northern Glass Frog
+        {
+            "LogName": "Load data for Northern Glass Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Northern Glass Frog": {
+                    "DisplayName": "{{i18n: Northern_Glass_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Northern_Glass_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Northern_Glass_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Northern_Glass_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "80"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "60"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Northern_Glass_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Desert Rain Frog
+        {
+            "LogName": "Load data for Desert Rain Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Desert Rain Frog": {
+                    "DisplayName": "{{i18n: Desert_Rain_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Desert_Rain_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Desert_Rain_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Desert_Rain_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "90"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "394"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Desert_Rain_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Vietnamese Mossy Frog
+        {
+            "LogName": "Load data for Vietnamese Mossy Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Vietnamese Mossy Frog": {
+                    "DisplayName": "{{i18n: Vietnamese_Mossy_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Vietnamese_Mossy_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Vietnamese_Mossy_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Vietnamese_Mossy_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "Moss"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "MossySeed"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Vietnamese_Mossy_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Amazon Milk Frog
+        {
+            "LogName": "Load data for Amazon Milk Frog for the Coop",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Amazon Milk Frog": {
+                    "DisplayName": "{{i18n: Amazon_Milk_Frog.Name}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}_Amazon_Milk_Frog_Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n: Amazon_Milk_Frog.Name}}",
+                    "ShopDescription": "{{i18n: Amazon_Milk_Frog.Description}}",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "184"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "186"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}_Amazon_Milk_Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "SleepFrame": 16,
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        // Load all the frog sprites
+        {
+            "LogName": "Load adultSprite for American Green Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_American_Green_Tree_Frog",
+            "FromFile": "assets/AmericanGreenTreeFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for American Green Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_American_Green_Tree_Frog_Icon",
+            "FromFile": "assets/AmericanGreenTreeFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Red-Eyed Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Red-Eyed_Tree_Frog",
+            "FromFile": "assets/RedEyedTreeFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Red-Eyed Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Red-Eyed_Tree_Frog_Icon",
+            "FromFile": "assets/RedEyedTreeFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Clown Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Clown_Tree_Frog",
+            "FromFile": "assets/ClownTreeFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Clown Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Clown_Tree_Frog_Icon",
+            "FromFile": "assets/ClownTreeFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Blue Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Blue_Poison_Dart_Frog",
+            "FromFile": "assets/BluePoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Blue Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Blue_Poison_Dart_Frog_Icon",
+            "FromFile": "assets/BluePoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Golden Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Golden_Poison_Dart_Frog",
+            "FromFile": "assets/GoldenPoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Golden Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Golden_Poison_Dart_Frog_Icon",
+            "FromFile": "assets/GoldenPoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Strawberry Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Strawberry_Poison_Dart_Frog",
+            "FromFile": "assets/StrawberryPoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Strawberry Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Strawberry_Poison_Dart_Frog_Icon",
+            "FromFile": "assets/StrawberryPoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Amazonian Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Amazonian_Poison_Dart_Frog",
+            "FromFile": "assets/AmazonianPoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Amazonian Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Amazonian_Poison_Dart_Frog_Icon",
+            "FromFile": "assets/AmazonianPoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Purple Fluorescent Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Purple_Fluorescent_Frog",
+            "FromFile": "assets/PurpleFluorescentFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Purple Fluorescent Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Purple_Fluorescent_Frog_Icon",
+            "FromFile": "assets/PurpleFluorescentFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Fire-Bellied Toad",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Fire-Bellied_Toad",
+            "FromFile": "assets/FireBelliedToad.png"
+        },
+        {
+            "LogName": "Load shopIcon for Fire-Bellied Toad",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Fire-Bellied_Toad_Icon",
+            "FromFile": "assets/FireBelliedToadIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Pale Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Pale_Frog",
+            "FromFile": "assets/PaleFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Pale Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Pale_Frog_Icon",
+            "FromFile": "assets/PaleFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Northern Glass Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Northern_Glass_Frog",
+            "FromFile": "assets/NorthernGlassFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Northern Glass Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Northern_Glass_Frog_Icon",
+            "FromFile": "assets/NorthernGlassFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Desert Rain Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Desert_Rain_Frog",
+            "FromFile": "assets/DesertRainFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Desert Rain Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Desert_Rain_Frog_Icon",
+            "FromFile": "assets/DesertRainFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Vietnamese Mossy Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Vietnamese_Mossy_Frog",
+            "FromFile": "assets/VietnameseMossyFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Vietnamese Mossy Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Vietnamese_Mossy_Frog_Icon",
+            "FromFile": "assets/VietnameseMossyFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Amazon Milk Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Amazon_Milk_Frog",
+            "FromFile": "assets/AmazonMilkFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Amazon Milk Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}_Amazon_Milk_Frog_Icon",
+            "FromFile": "assets/AmazonMilkFrogIcon.png"
+        },
+        // Create Terrarium and Big Terrarium custom buildings
+        {
+            "LogName": "Create Terrarium custom building",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "{{ModID}}_Terrarium": {
+                    "ID": "{{ModID}}_Terrarium",
+                    "Name": "{{i18n: Terrarium.Name}}",
+                    "Description": "{{i18n: Terrarium.Description}}",
+                    "Texture": "Buildings/{{ModID}}_Terrarium",
+                    "Skins": [],
+                    "DrawShadow": true,
+                    "UpgradeSignTile": "2, 2",
+                    "UpgradeSignHeight": 18.0,
+                    "Size": {
+                        "X": 6,
+                        "Y": 3
+                    },
+                    "FadeWhenBehind": true,
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 96,
+                        "Height": 112
+                    },
+                    "SeasonOffset": {
+                        "X": 96,
+                        "Y": 0
+                    },
+                    "DrawOffset": "0, 0",
+                    "SortTileOffset": 0.0,
+                    "CollisionMap": null,
+                    "AdditionalPlacementTiles": null,
+                    "BuildingType": null,
+                    "Builder": "Robin",
+                    "BuildCondition": null,
+                    "BuildDays": 3,
+                    "BuildCost": 5000,
+                    "BuildMaterials": [
+                        {
+                            "ItemId": "388",
+                            "Amount": 300
+                        },
+                        {
+                            "ItemId": "390",
+                            "Amount": 100
+                        },
+                        {
+                            "ItemId": "Moss",
+                            "Amount": 20
+                        }
+                    ],
+                    "BuildingToUpgrade": null,
+                    "MagicalConstruction": false,
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "HumanDoor": {
+                        "X": 1,
+                        "Y": 2
+                    },
+                    "AnimalDoor": {
+                        "X": 2,
+                        "Y": 2,
+                        "Width": 1,
+                        "Height": 1
+                    },
+                    "AnimalDoorOpenDuration": 0.3125,
+                    "AnimalDoorOpenSound": "doorCreak",
+                    "AnimalDoorCloseDuration": 0.3125,
+                    "AnimalDoorCloseSound": "doorCreakReverse",
+                    "NonInstancedIndoorLocation": null,
+                    "IndoorMap": "{{ModID}}_Terrarium",
+                    "IndoorMapType": "StardewValley.AnimalHouse",
+                    "MaxOccupants": 7,
+                    "ValidOccupantTypes": [
+                        "Coop",
+                        "{{ModID}}_Terrarium"
+                    ],
+                    "AllowAnimalPregnancy": false,
+                    "IndoorItemMoves": null,
+                    "IndoorItems": [
+                        {
+                            "Id": "Default_FeedHopper",
+                            "ItemId": "(BC)99",
+                            "Tile": {
+                                "X": 2,
+                                "Y": 4
+                            },
+                            "Indestructible": true
+                        }
+                    ],
+                    "AddMailOnBuild": null,
+                    "Metadata": {},
+                    "ModData": {},
+                    "HayCapacity": 0,
+                    "Chests": null,
+                    "DefaultAction": null,
+                    "AdditionalTilePropertyRadius": 0,
+                    "AllowsFlooringUnderneath": true,
+                    "ActionTiles": [],
+                    "TileProperties": [],
+                    "ItemConversions": null,
+                    "DrawLayers": [
+                        {
+                            "Id": "Default_AnimalDoor",
+                            "Texture": null,
+                            "SourceRect": {
+                                "X": 0,
+                                "Y": 112,
+                                "Width": 16,
+                                "Height": 16
+                            },
+                            "DrawPosition": "32, 96",
+                            "DrawInBackground": false,
+                            "SortTileOffset": 0.02,
+                            "OnlyDrawIfChestHasContents": null,
+                            "FrameDuration": 90,
+                            "FrameCount": 1,
+                            "FramesPerRow": -1,
+                            "AnimalDoorOffset": {
+                                "X": 0,
+                                "Y": -13
+                            }
+                        },
+                        {
+                            "Id": "Default_AnimalDoor_Open",
+                            "Texture": null,
+                            "SourceRect": {
+                                "X": 16,
+                                "Y": 112,
+                                "Width": 16,
+                                "Height": 16
+                            },
+                            "DrawPosition": "32, 96",
+                            "DrawInBackground": false,
+                            "SortTileOffset": 1.0,
+                            "OnlyDrawIfChestHasContents": null,
+                            "FrameDuration": 90,
+                            "FrameCount": 1,
+                            "FramesPerRow": -1,
+                            "AnimalDoorOffset": {
+                                "X": 0,
+                                "Y": 0
+                            }
+                        }
+                    ],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Create Big Terrarium custom building",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "{{ModID}}_BigTerrarium": {
+                    "ID": "{{ModID}}_BigTerrarium",
+                    "Name": "{{i18n: Big_Terrarium.Name}}",
+                    "Description": "{{i18n: Big_Terrarium.Description}}",
+                    "Texture": "Buildings/{{ModID}}_Big Terrarium",
+                    "Skins": [],
+                    "DrawShadow": true,
+                    "UpgradeSignTile": "2, 2",
+                    "UpgradeSignHeight": 18.0,
+                    "Size": {
+                        "X": 6,
+                        "Y": 3
+                    },
+                    "FadeWhenBehind": true,
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 96,
+                        "Height": 112
+                    },
+                    "SeasonOffset": {
+                        "X": 96,
+                        "Y": 0
+                    },
+                    "DrawOffset": "0, 0",
+                    "SortTileOffset": 0.0,
+                    "CollisionMap": null,
+                    "AdditionalPlacementTiles": null,
+                    "BuildingType": null,
+                    "Builder": "Robin",
+                    "BuildCondition": null,
+                    "BuildDays": 2,
+                    "BuildCost": 10000,
+                    "BuildMaterials": [
+                        {
+                            "ItemId": "388",
+                            "Amount": 400
+                        },
+                        {
+                            "ItemId": "390",
+                            "Amount": 150
+                        },
+                        {
+                            "ItemId": "Moss",
+                            "Amount": 40
+                        }
+                    ],
+                    "BuildingToUpgrade": "{{ModID}}_Terrarium",
+                    "MagicalConstruction": false,
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "HumanDoor": {
+                        "X": 1,
+                        "Y": 2
+                    },
+                    "AnimalDoor": {
+                        "X": 2,
+                        "Y": 2,
+                        "Width": 1,
+                        "Height": 1
+                    },
+                    "AnimalDoorOpenDuration": 0.3125,
+                    "AnimalDoorOpenSound": "doorCreak",
+                    "AnimalDoorCloseDuration": 0.3125,
+                    "AnimalDoorCloseSound": "doorCreakReverse",
+                    "NonInstancedIndoorLocation": null,
+                    "IndoorMap": "{{ModID}}_Terrarium2",
+                    "IndoorMapType": "StardewValley.AnimalHouse",
+                    "MaxOccupants": 14,
+                    "ValidOccupantTypes": [
+                        "Coop",
+                        "{{ModID}}_Terrarium"
+                    ],
+                    "AllowAnimalPregnancy": false,
+                    "IndoorItemMoves": null,
+                    "IndoorItems": [],
+                    "AddMailOnBuild": null,
+                    "Metadata": {},
+                    "ModData": {},
+                    "HayCapacity": 0,
+                    "Chests": null,
+                    "DefaultAction": null,
+                    "AdditionalTilePropertyRadius": 0,
+                    "AllowsFlooringUnderneath": true,
+                    "ActionTiles": [],
+                    "TileProperties": [],
+                    "ItemConversions": null,
+                    "DrawLayers": [
+                        {
+                            "Id": "Default_AnimalDoor",
+                            "Texture": null,
+                            "SourceRect": {
+                                "X": 0,
+                                "Y": 112,
+                                "Width": 16,
+                                "Height": 16
+                            },
+                            "DrawPosition": "32, 96",
+                            "DrawInBackground": false,
+                            "SortTileOffset": 0.02,
+                            "OnlyDrawIfChestHasContents": null,
+                            "FrameDuration": 90,
+                            "FrameCount": 1,
+                            "FramesPerRow": -1,
+                            "AnimalDoorOffset": {
+                                "X": 0,
+                                "Y": -13
+                            }
+                        },
+                        {
+                            "Id": "Default_AnimalDoor_Open",
+                            "Texture": null,
+                            "SourceRect": {
+                                "X": 16,
+                                "Y": 112,
+                                "Width": 16,
+                                "Height": 16
+                            },
+                            "DrawPosition": "32, 96",
+                            "DrawInBackground": false,
+                            "SortTileOffset": 1.0,
+                            "OnlyDrawIfChestHasContents": null,
+                            "FrameDuration": 90,
+                            "FrameCount": 1,
+                            "FramesPerRow": -1,
+                            "AnimalDoorOffset": {
+                                "X": 0,
+                                "Y": 0
+                            }
+                        }
+                    ],
+                    "CustomFields": null
+                }
+            }
+        },
+        // Load custom tilesheet for Terrarium building interior
+        {
+            "LogName": "Load trough tilesheet based on recolor",
+            "Action": "Load",
+            "Target": "Maps/neuralwiles_trough",
+            "FromFile": "assets/buildings/neuralwiles_trough_{{Recolor}}.png"
+        },
+        // Load exterior textures for Terrariums
+        {
+            "LogName": "Load Terrarium exterior",
+            "Action": "Load",
+            "Target": "Buildings/{{ModID}}_Terrarium",
+            "FromFile": "assets/buildings/Terrarium.png"
+        },
+        {
+            "LogName": "Load Big Terrarium exterior",
+            "Action": "Load",
+            "Target": "Buildings/{{ModID}}_Big Terrarium",
+            "FromFile": "assets/buildings/Big Terrarium.png"
+        },
+        // Load Terrarium interior maps
+        {
+            "LogName": "Load Terrarium map",
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_Terrarium",
+            "FromFile": "assets/buildings/Terrarium.tmx"
+        },
+        {
+            "LogName": "Load Big Terrarium map",
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_Terrarium2",
+            "FromFile": "assets/buildings/Terrarium2.tmx"
+        }
+    ]
+}

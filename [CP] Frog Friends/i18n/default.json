@@ -1,0 +1,69 @@
+{
+    // Translations for Config
+    "Config.TroughRecolor.Name": "Trough Recolor",
+    "Config.TroughRecolor.Description": "Controls the interior recolor of the Terrarium feeding trough. There is automatic compatibility with Earthy Recolor, More Elegant Town Interiors, Rustic Country Town Interiors, and Vibrant Pastoral Recolor, but you can also select a recolor manually.",
+
+    // Translations for American Green Tree Frog
+    "American_Green_Tree_Frog.Name": "American Green Tree Frog",
+    "American_Green_Tree_Frog.Description": "These industrious amphibian friends will find ferns and jade for you!",
+    
+    // Translations for Red-Eyed Tree Frog
+    "Red-Eyed_Tree_Frog.Name": "Red-Eyed Tree Frog",
+    "Red-Eyed_Tree_Frog.Description": "These industrious amphibian friends will find ferns and rubies for you!",
+    
+    // Translations for Clown Tree Frog
+    "Clown_Tree_Frog.Name": "Clown Tree Frog",
+    "Clown_Tree_Frog.Description": "These industrious amphibian friends will find ferns and rare seeds for you!",
+    
+    // Translations for Blue Poison Dart Frog
+    "Blue_Poison_Dart_Frog.Name": "Blue Poison Dart Frog",
+    "Blue_Poison_Dart_Frog.Description": "These industrious amphibian friends will find purple mushrooms and frozen tears for you!",
+    
+    // Translations for Golden Poison Dart Frog
+    "Golden_Poison_Dart_Frog.Name": "Golden Poison Dart Frog",
+    "Golden_Poison_Dart_Frog.Description": "These industrious amphibian friends will find red mushrooms and gold ore for you!",
+    
+    // Translations for Strawberry Poison Dart Frog
+    "Strawberry_Poison_Dart_Frog.Name": "Strawberry Poison Dart Frog",
+    "Strawberry_Poison_Dart_Frog.Description": "These industrious amphibian friends will find red mushrooms and strawberry seeds for you!",
+    
+    // Translations for Amazonian Poison Dart Frog
+    "Amazonian_Poison_Dart_Frog.Name": "Amazonian Poison Dart Frog",
+    "Amazonian_Poison_Dart_Frog.Description": "These industrious amphibian friends will find red mushrooms and aquamarine for you!",
+    
+    // Translations for Purple Fluorescent Frog
+    "Purple_Fluorescent_Frog.Name": "Purple Fluorescent Frog",
+    "Purple_Fluorescent_Frog.Description": "These industrious amphibian friends will find purple mushrooms and amethyst for you!",
+    
+    // Translations for Fire-Bellied Toad
+    "Fire-Bellied_Toad.Name": "Fire-Bellied Toad",
+    "Fire-Bellied_Toad.Description": "These industrious amphibian friends will find fire quartz and rubies for you!",
+    
+    // Translations for Pale Frog
+    "Pale_Frog.Name": "Pale Frog",
+    "Pale_Frog.Description": "These industrious amphibian friends will find earth crystals and rare seeds for you!",
+    
+    // Translations for Northern Glass Frog
+    "Northern_Glass_Frog.Name": "Northern Glass Frog",
+    "Northern_Glass_Frog.Description": "These industrious amphibian friends will find quartz and emeralds for you!",
+    
+    // Translations for Desert Rain Frog
+    "Desert_Rain_Frog.Name": "Desert Rain Frog",
+    "Desert_Rain_Frog.Description": "These industrious amphibian friends will find cactus fruit and rainbow shells for you!",
+    
+    // Translations for Vietnamese Mossy Frog
+    "Vietnamese_Mossy_Frog.Name": "Vietnamese Mossy Frog",
+    "Vietnamese_Mossy_Frog.Description": "These industrious amphibian friends will find moss and mossy seeds for you!",
+    
+    // Translations for Amazon Milk Frog
+    "Amazon_Milk_Frog.Name": "Amazon Milk Frog",
+    "Amazon_Milk_Frog.Description": "These industrious amphibian friends will find milk for you!",
+    
+    // Translations for Terrarium
+    "Terrarium.Name": "Terrarium",
+    "Terrarium.Description": "Provides a healthy environment for raising reptiles and amphibians.",
+
+    // Translations for Big Terrarium
+    "Big_Terrarium.Name": "Big Terrarium",
+    "Big_Terrarium.Description": "Provides a healthy environment for raising reptiles and amphibians."
+}

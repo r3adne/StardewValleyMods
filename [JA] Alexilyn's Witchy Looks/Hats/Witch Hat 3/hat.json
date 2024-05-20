@@ -1,0 +1,8 @@
+{
+	"Name": "Witchy Daisy Hat",
+	"Description": "Witch hat with daisies",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"CanPurchase": true
+}

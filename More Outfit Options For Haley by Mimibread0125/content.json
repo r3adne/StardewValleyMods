@@ -1,0 +1,47 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+    	"Enable Haley - Winter": {
+    		"AllowValues": "true, false",
+    		"Default": true
+    	},
+    	"Enable Haley - Spring": {
+    		"AllowValues": "true, false",
+    		"Default": true
+    	},
+    	"Enable Haley - Beach": {
+    		"AllowValues": "true, false",
+    		"Default": true
+    	}
+    
+    },
+    "Changes": [
+	{
+		"LogName": "Haley - Winter",
+		"Action": "EditImage",
+		"Target": "Characters/Haley_Winter",
+		"FromFile": "assets/winter.png",
+		"When": {
+		"Enable Haley - Winter": true
+		}
+	},
+	{
+		"LogName": "Haley",
+		"Action": "EditImage",
+		"Target": "Characters/Haley",
+    		"FromFile": "assets/spring.png",
+    		"When": {
+		"Enable Haley - Spring": true
+		}
+	},
+	{
+		"LogName": "Haley - Beach",
+		"Action": "EditImage",
+		"Target": "Characters/Haley_Beach",
+		"FromFile": "assets/beach.png",
+		"When": {
+		"Enable Haley - Beach": true
+		}
+	}
+	]
+}

@@ -1,0 +1,282 @@
+{
+	"Changes": [
+	
+
+	
+	//seeds
+		{
+    "Action": "EditImage",
+    "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Ancient Ferns Seed",
+    "FromFile": "assets/sve/seedpackets/Ancient Fern.png",
+
+	"When": {
+
+				"SVE Seeds |contains=Ancient Fern": "true",
+				"Enable Seedpackets": "true",
+				
+				
+				},
+			},
+
+			{
+    "Action": "EditImage",
+    "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Shrub Seed",
+    "FromFile": "assets/sve/seedpackets/Salal Berry.png",
+	
+	
+	"When": {
+
+				"SVE Seeds |contains= Salal Berry": "true",
+				"Enable Seedpackets": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+    "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Slime Seed",
+    "FromFile": "assets/sve/seedpackets/Slime Berry.png",
+	
+	
+	"When": {
+
+				"SVE Seeds |contains= Slime Berry": "true",
+				"Enable Seedpackets": "true",
+				
+				
+				},
+			},
+	
+			{
+    "Action": "EditImage",
+    "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Void Seed",
+    "FromFile": "assets/sve/seedpackets/Void Root.png",
+	
+	
+	"When": {
+
+				"SVE Seeds |contains= Void Root": "true",
+				"Enable Seedpackets": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+    "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Stalk Seed",
+    "FromFile": "assets/sve/seedpackets/Monster Fruit.png",
+	
+	
+	"When": {
+
+				"SVE Seeds |contains= Monster Fruit": "true",
+				"Enable Seedpackets": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+ "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Fungus Seed",
+    "FromFile": "assets/sve/seedpackets/Giant Mushroom.png",
+	
+	
+	"When": {
+
+				"SVE Seeds |contains= Giant Mushroom": "true",
+				"Enable Seedpackets": "true",
+				
+				
+				},
+			},
+			{
+	"Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Berry Starter",
+    "FromFile": "assets/sve/seedpackets/Joja Berry.png",
+	
+	
+	"When": {
+
+				"SVE Seeds |contains= Joja Berry": "true",
+				"Enable Seedpackets": "true",
+				"Seedpacket style": "colored",
+				
+				
+				},
+			},	
+			{		
+	"Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Veggie Seeds",
+    "FromFile": "assets/sve/seedpackets/Joja Veggie.png",
+
+	
+	"When": {
+
+				"SVE Seeds |contains= Joja Veggie": "true",
+				"Enable Seedpackets": "true",
+				"Seedpacket style": "colored",
+				
+				
+				},
+			},
+
+			{		
+		"Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Berry Starter",
+    "FromFile": "assets/sve/seedpackets/Joja Berryalt.png",
+	
+	"When": {
+
+				"SVE Seeds |contains= Joja Berry": "true",
+				"Enable Seedpackets": "true",
+				"Seedpacket style": "one tone",
+				
+				
+				},
+			},	
+			{		
+	"Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Veggie Seeds",
+    "FromFile": "assets/sve/seedpackets/Joja Veggiealt.png",
+	
+	
+	"When": {
+
+				"SVE Seeds |contains= Joja Veggie": "true",
+				"Enable Seedpackets": "true",
+				"Seedpacket style": "one tone",
+				
+				
+				},
+			},		
+	
+	
+	
+	//crops
+	{
+    "Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Ancient Fiber",
+    "FromFile": "assets/sve/crops/Ancient Fiber.png",
+	
+	
+	"When": {
+
+				"SVE Crops |contains= Ancient Fern": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				},
+			},
+	{
+    "Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Dewdrop Berry",
+    "FromFile": "assets/sve/crops/Dewdrop Berry.png",
+
+	
+	"When": {
+
+				"SVE Crops |contains= Dewdrop Berry": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Salal Berry",
+    "FromFile": "assets/sve/crops/Salal Berry.png",
+	
+	
+	"When": {
+
+				"SVE Crops |contains= Salal Berry": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Slime Berry",
+    "FromFile": "assets/sve/crops/Slime Berry.png",
+	
+	
+	"When": {
+
+				"SVE Crops |contains= Slime Berry": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Super Starfruit",
+    "FromFile": "assets/sve/crops/Super Starfruit.png",
+
+	
+	"When": {
+
+				"SVE Crops |contains= Super Starfruit": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Void Root",
+    "FromFile": "assets/sve/crops/Void Root.png",
+
+	
+	"When": {
+
+				"SVE Crops |contains= Void Root": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Monster Fruit",
+    "FromFile": "assets/sve/crops/Monster Fruit.png",
+	
+	
+	"When": {
+
+				"SVE Crops |contains= Monster Fruit": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				},
+			},
+			{
+    "Action": "EditImage",
+
+	 "Target":  "Mods\\FlashShifter.StardewValleyExpandedCP\\Green Mushroom",
+    "FromFile": "assets/sve/crops/Green Mushroom.png",
+	
+	"When": {
+
+				"SVE Crops |contains= Green Mushroom": "true",
+				"Enable SVE Crops and Forage": "true",
+				
+				
+				}
+
+		}
+		
+		
+	]
+}

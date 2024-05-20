@@ -1,0 +1,11 @@
+How to install:
+-Don't forget to make a backup
+
+EDIT 12/28/2017: Please note due to the fact that the Beta patch 1.2 came out those who are playing the game in a different language, i modified the files so it can be easier to override.
+
+EDIT 7/28/2018: Beta patch 1.3, This Mods has been Updated! enjoy~
+Due to a major game update, mods are automatically disables incompatible mods.
+
+- The furniture.xnb goes into your Steam\steamapps\common\Stardew Valley\Content\TileSheets folder 
+
+(furniture.ja-JP if you play the game in Japanese) & (furniture.zh-CN if you play the game in Chinese).

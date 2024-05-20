@@ -1,0 +1,120 @@
+{	
+  "Changes": [ 	  
+	  
+//shop and barrel	  
+{  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Shop/Barrel.png",
+		  "ToArea": { "X": 160, "Y": 43, "Width": 16, "Height": 21 },},
+	  
+{ "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Shop/Shop.png",
+		  "ToArea": { "X": 176, "Y": 11, "Width": 64, "Height": 69 },},
+
+{  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+		   "PatchMode": "Overlay",
+          "FromFile": "Shop/{{Season}} Shop languages/sign.{{Language}}.png",
+		  "ToArea": { "X": 176, "Y": 11, "Width": 64, "Height": 69 },	  
+		  "When": {	"HasFile:{{FromFile}}": true    },   },
+
+//rsv changes	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Ice Fishing/Ice Sculptures.png",
+		  "ToArea": { "X": 64, "Y": 352, "Width": 96, "Height": 48 },	  
+		 "When": {	   "HasMod": "Rafseazz.RSVCP" },},  	   
+			   
+       {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+		   "PatchMode": "Overlay",
+          "FromFile": "Fall/SDV Fair/carpenters horse.png",
+		  "ToArea": { "X": 416, "Y": 131, "Width": 15, "Height": 45 },		  
+		  "When": {	     "HasMod": "Rafseazz.RSVCP"},   },   
+	   
+			   
+       {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+		   "PatchMode": "Overlay",
+          "FromFile": "Fall/SDV Fair/Wood and Tools.png",
+		  "ToArea": { "X": 432, "Y": 128, "Width": 16, "Height": 48 },		  
+		  "When": {	    "HasMod": "Rafseazz.RSVCP" },   },
+
+//Winter Star
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Tables.png",
+		  "ToArea": { "X": 352, "Y": 369, "Width": 96, "Height": 78 },  },
+	   	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Shop Top.png",
+		  "ToArea": { "X": 449, "Y": 439, "Width": 62, "Height": 41 }, },
+	   	
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Table and Chairs.png",
+		  "ToArea": { "X": 128, "Y": 6, "Width": 46, "Height": 26 }, },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/CandyCanes.png",
+		  "ToArea": { "X": 304, "Y": 401, "Width": 32, "Height": 47 },  },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Gift1.png",
+		  "ToArea": { "X": 384, "Y": 352, "Width": 16, "Height": 16 },  },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Gift2.png",
+		  "ToArea": { "X": 401, "Y": 352, "Width": 15, "Height": 16 }, },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Gift3.png",
+		  "ToArea": { "X": 416, "Y": 353, "Width": 16, "Height": 15 },  },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Gift4.png",
+		  "ToArea": { "X": 433, "Y": 355, "Width": 14, "Height": 13 }, },
+	   
+	   { "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "Winter/Winter Star Festival/Farmer's Gift.png",
+		  "ToArea": { "X": 287, "Y": 1231, "Width": 97, "Height": 16 },	   },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Tree Top.png",
+		  "ToArea": { "X": 144, "Y": 288, "Width": 33, "Height": 32 },   },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Star.png",
+		  "ToArea": { "X": 177, "Y": 288, "Width": 14, "Height": 16 },   },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Fence1.png",
+		  "ToArea": { "X": 288, "Y": 368, "Width": 48, "Height": 32 },   },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Fence2.png",
+		  "ToArea": { "X": 336, "Y": 368, "Width": 16, "Height":  80 },	   },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Winter/Winter Star Festival/Rug.png",
+		  "ToArea": { "X": 0, "Y": 208, "Width": 63, "Height": 32 }	,	  
+		  "PatchMode": "Overlay",  },
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/winter_town",
+          "FromFile": "Winter/Winter Star Festival/winter_town.png",
+		   "PatchMode": "Overlay",}   	   
+ ],}

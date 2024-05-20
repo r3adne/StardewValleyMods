@@ -1,0 +1,86 @@
+{	
+  "Changes": [ 	  
+	  
+//shop and barrel	  
+{  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Shop/Barrel.png",
+		  "ToArea": { "X": 160, "Y": 43, "Width": 16, "Height": 21 },},
+	  
+{ "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Shop/Shop.png",
+		  "ToArea": { "X": 176, "Y": 11, "Width": 64, "Height": 69 },},
+
+{  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+		   "PatchMode": "Overlay",
+          "FromFile": "Shop/{{Season}} Shop languages/sign.{{Language}}.png",
+		  "ToArea": { "X": 176, "Y": 11, "Width": 64, "Height": 69 },	  
+		  "When": {	"HasFile:{{FromFile}}": true    },   },
+
+{  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Shop.png",
+		   "PatchMode": "Overlay",
+		  "ToArea": { "X": 176, "Y": 11, "Width": 64, "Height": 69 }, },
+	  
+//Flower Dance	   
+			   
+       {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+		   "PatchMode": "Overlay",
+          "FromFile": "Fall/SDV Fair/Picnic Table.png",
+		  "ToArea": { "X": 416, "Y": 10, "Width": 48, "Height": 38 },	  
+		 "When": {	   "HasMod": "Rafseazz.RSVCP" },}, 
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Big Flower Pot.png",
+		  "PatchMode": "Overlay",
+		  "ToArea": { "X": 112, "Y": 82, "Width": 16, "Height": 30 },  },
+	   
+	   {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Flower Pot.png",
+		  "ToArea": { "X": 48, "Y": 16, "Width": 14, "Height": 16 },	 },
+	   
+	   {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Big Flower Barrel.png",
+		  "PatchMode": "Overlay",
+		  "ToArea": { "X": 480, "Y": 342, "Width": 32, "Height": 42},	  },
+	   
+	   {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Big Flower Barrel Eemies.png",
+		  "PatchMode": "Overlay",
+		  "ToArea": { "X": 480, "Y": 342, "Width": 32, "Height": 42},		  
+		  "When": {  "HasMod": "minervamaga.CP.eemieMapRecolour"	,  },	},      
+	   
+	   { "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Fence3.png",
+		  "ToArea": { "X": 64, "Y": 0, "Width": 48, "Height": 32 }, },
+	   
+	   {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Fence4.png",
+		  "ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 80 },	 },
+	   	   	   
+	   {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Table.png",
+		  "ToArea": { "X": 160, "Y": 80, "Width": 80, "Height": 63 },  },
+	   
+	   {  "Action": "EditImage",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Gelatin.png",
+		  "ToArea": { "X": 160, "Y": 66, "Width": 16, "Height": 14 }, },
+	   
+	   {  "Action": "EditImage",
+		  "PatchMode": "Overlay",
+          "Target": "Maps/Festivals, Maps/Festivals.{Language}",
+          "FromFile": "Spring/Flower Festival/Flags.png",
+		  "ToArea": { "X": 241, "Y": 4, "Width": 72, "Height": 10 },  },	   		
+  ],}

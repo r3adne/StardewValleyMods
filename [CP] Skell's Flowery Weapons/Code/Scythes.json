@@ -1,0 +1,41 @@
+{
+    "Changes": 
+    [
+
+		// Scythes
+
+		{
+			"LogName": "Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Scythes/Scythe.png",
+			"ToArea": { "X": 112, "Y": 80, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ScythesRecolor |contains=Basic Scythe": true,
+			}
+		},
+		{
+			"LogName": "Golden Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Scythes/GoldenScythe.png",
+			"ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ScythesRecolor |contains=Golden Scythe": true,
+			}
+		},
+		{
+			"LogName": "Iridium Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Scythes/IridiumScythe.png",
+			"ToArea": { "X": 32, "Y": 128, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ScythesRecolor |contains=Iridium Scythe": true,
+			}
+		},
+    ]
+}

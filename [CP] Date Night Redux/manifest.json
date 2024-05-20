@@ -1,0 +1,31 @@
+{
+	"Name": "Date Night Redux",
+	"Author": "SUPERT, AgentLyoko",
+	"Version": "2.0.5",
+	"Description": "Adds random events where you can go and spend time on a date with your spouse! Updated to 1.6.",
+	"UniqueID": "agentlyoko.datenightredux",
+	"MinimumApiVersion": "4.0.7",
+    "MinimumGameVersion": "1.6.4",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	"UpdateKeys": [ "Nexus:22714" ],
+	"Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "supert.guildexpandedsaat",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "supert.adventureguildexpanded",
+			"IsRequired": false,
+		},
+	]
+}

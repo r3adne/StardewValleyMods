@@ -1,0 +1,8 @@
+{
+	"Name": "Witchy Shroom Hat",
+	"Description": "Mushroom witch hat",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"CanPurchase": true
+}

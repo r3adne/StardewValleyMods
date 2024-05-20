@@ -1,0 +1,172 @@
+{"loadLate": true,
+	
+"Format": "1.24",
+	
+		"DynamicTokens": [
+		{		"Name": "herbivoor",		"Value": "false",		},
+		{		"Name": "herbivoor",		"Value": "true",			"When": { "HasMod": "herbivoor.bettercropsandartisangoodsinsve" },		}	],
+		
+	"ConfigSchema":	{
+	"Egg Hunt": {	"AllowValues": "true, false",           "Default": "true"},
+	"Flower Dance": {	"AllowValues": "true, false",       "Default": "true"},
+	"Luau": {	"AllowValues": "true, false",            	"Default": "true"},
+	"Moonlight Jellies": {	"AllowValues": "true, false",   "Default": "true"},
+	"SDV Fair": {	"AllowValues": "true, false",           "Default": "true"},
+	"Spirit's Eve": {	"AllowValues": "true, false",       "Default": "true"},
+	"Ice Fishing": {	"AllowValues": "true, false",       "Default": "true"},
+	"Winter Star": {	"AllowValues": "true, false",       "Default": "true"},
+	"TownFlowers": {	"AllowValues": "Day Of Dance, Seven Days, Half Month, Whole Month, Never",       "Default": "Day Of Dance"},	},
+	
+  "Changes": [ 	  
+	  
+{"LogName": "Egg Hunt",
+            "Action": "Include",
+            "FromFile": "Spring/Egg Hunt.json",
+ 		"When": { "DayEvent": "egg festival" , "Egg Hunt" : true},},
+
+{"LogName": "Flower Festival",
+            "Action": "Include",
+            "FromFile": "Spring/Flower Festival.json",
+ 		"When": { "DayEvent": "flower dance" ,  "Flower Dance" : true},},
+
+{"LogName": "Luau",
+            "Action": "Include",
+            "FromFile": "Summer/Luau.json",
+ 		"When": { "DayEvent": "luau"  ,  "Luau" : true},},
+
+{"LogName": "Moonlight Jellies",
+            "Action": "Include",
+            "FromFile": "Summer/Moonlight Jellies.json",
+ 		"When": { "Season": "Summer",	"Day": "28",  "Moonlight Jellies": true},},
+
+{"LogName": "SDV Fair",
+            "Action": "Include",
+            "FromFile": "Fall/SDV Fair.json",
+ 		"When": { "Season": "Fall"	,  "Day": "16",	   "SDV Fair": true },},
+	  		  		 
+{"LogName": "Spirit's Eve",
+            "Action": "Include",
+            "FromFile": "Fall/Spirit's Eve.json",
+ 		"When": { "DayEvent": "spirit's eve",  "Spirit's Eve": true  },},
+	  		  		 
+{"LogName": "Ice Fishing",
+            "Action": "Include",
+            "FromFile": "Winter/Ice Fishing.json",
+ 		"When": { "Dayevent": "Festival of Ice", "Ice Fishing": true },},
+	  		  		 
+{"LogName": "Winter Star",
+            "Action": "Include",
+            "FromFile": "Winter/Winter Star.json",
+ 		"When": { "DayEvent": "feast of the winter star", "Winter Star": true },},
+
+//town flowers
+	   {  "Action": "EditImage",
+          "Target": "Maps/spring_outdoorsTileSheet",
+          "FromFile": "Spring/Flower Festival/spring_outdoorsTileSheet.png",
+		  "PatchMode": "Overlay",
+		  "When": {  "TownFlowers": "Day of Dance", "DayEvent": "flower dance" ,  "Flower Dance" : true   },},
+	   
+	   {  "Action": "EditImage",
+          "Target": "Maps/spring_outdoorsTileSheet",
+          "FromFile": "Spring/Flower Festival/spring_outdoorsTileSheet.png",
+		  "PatchMode": "Overlay",
+		  "When": {  "TownFlowers": "Seven Days", "Season": "Spring", "Day": "21, 22, 23, 24, 25, 26, 27"  ,  "Flower Dance" : true },},
+	   
+	   	{  "Action": "EditImage",
+          "Target": "Maps/spring_outdoorsTileSheet",
+          "FromFile": "Spring/Flower Festival/spring_outdoorsTileSheet.png",
+		  "PatchMode": "Overlay",
+		  "When": {  "TownFlowers": "Half Month", "Season": "Spring", "Day": "15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28" ,  "Flower Dance" : true  },},
+		   
+		{  "Action": "EditImage",
+          "Target": "Maps/spring_outdoorsTileSheet",
+          "FromFile": "Spring/Flower Festival/spring_outdoorsTileSheet.png",
+		  "PatchMode": "Overlay",
+		  "When": {  "TownFlowers": "Whole Month", "Season": "Spring" ,  "Flower Dance" : true  },},	
+	
+//Animations Fair because animations don't work when included
+{ "LogName": "Fishing Game Stall",
+		  "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "Fall/SDV Fair/Fishing.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 40 },
+		  "ToArea": {  "X": 368, "Y": 215, "Width": 32, "Height": 40  },	
+		  	"AnimationFrameTime": 20,
+			"AnimationFrameCount": 3,	 
+		  "When": {	 "Season": "Fall"	,  "Day": "16",	   "SDV Fair": true   },   },	   
+			   
+{  "LogName": "Food Tourist",
+		   "Action": "EditImage",
+          "Target": "Maps/Festivals",
+		   "PatchMode": "Overlay",
+          "FromFile": "Fall/SDV Fair/Food Tourist.png",
+		   	"FromArea": { "X": 0, "Y": 0, "Width": 15, "Height": 31 },
+		   "ToArea": { "X": 448, "Y": 145, "Width": 15, "Height": 31 },	
+		  	"AnimationFrameTime": 10,
+			"AnimationFrameCount": 27,		 	  
+		  "When": {	 "Season": "Fall"	,  "Day": "16",	    "SDV Fair": true   },   },
+	   			   
+{ "LogName": "Fortune Rainbow",
+		  "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "Fall/SDV Fair/Fortune Rainbow.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 18, "Height": 18 },
+		  "ToArea": { "X": 407, "Y": 225, "Width": 18, "Height": 18 },
+		  	"AnimationFrameTime": 10,
+			"AnimationFrameCount": 7,	 
+		  "When": 	{   "Season": "Fall"	,  "Day": "16",   "SDV Fair": true	   },},
+
+//Animations Spirit's Eve
+		{ "LogName": "big scary spider map",
+		  "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "Fall/Spirit's Eve Assets/BigSpider.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+		  "ToArea": { "X": 256, "Y": 256, "Width": 32, "Height": 32 },	
+		  	"AnimationFrameTime": 25,
+			"AnimationFrameCount": 2,	 
+		  "When": 	{  "DayEvent": "spirit's eve",  "Spirit's Eve": true    ,  },},		
+			   
+	  { "LogName": "Jackolights",
+          "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "Fall/Spirit's Eve Assets/Jackolights.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+		  "ToArea": { "X": 224, "Y": 272, "Width": 32, "Height": 16},	
+		  	"AnimationFrameTime": 20,
+			"AnimationFrameCount": 3 ,
+	  "When": 	{ "DayEvent": "spirit's eve",  "Spirit's Eve": true  ,    },},
+	  
+	  { "LogName": "Better Jackolights",
+          "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "Fall/Spirit's Eve Assets/Better Jackolights.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+		  "ToArea": { "X": 224, "Y": 272, "Width": 32, "Height": 16},	
+		  	"AnimationFrameTime": 20,
+			"AnimationFrameCount": 3 ,
+	  "When": 	{ "DayEvent": "spirit's eve",  "Spirit's Eve": true  ,   "HasMod": "cometkins.BetterCropsAndForaging"},},
+
+//Animations Luau
+{ "LogName": "Fire Pit roast map",
+		    "Action": "EditImage",
+          "Target": "Maps/Festivals",	   
+          "FromFile": "Summer/Luau/Fire Pit roast.png",
+		  		"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+		  "ToArea": { "X": 0, "Y": 131, "Width": 32, "Height": 16 },	
+		  		"AnimationFrameTime": 15,
+				"AnimationFrameCount": 20,
+		  "When": {	       "DayEvent": "Luau", "Luau": true  }, },	
+
+//Animations Winter Star
+	{   "LogName": "Winter star table gelatin map",
+          "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "Winter/Winter Star Festival/table.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+		  "ToArea": { "X": 400, "Y": 373, "Width": 48, "Height": 48 },
+		  		 "AnimationFrameTime": 30,
+				"AnimationFrameCount": 2,   
+		  "When": {	       "DayEvent": "feast of the winter star", "Winter Star": true  }, },
+		
+  ],}

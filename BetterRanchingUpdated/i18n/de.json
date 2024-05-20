@@ -1,0 +1,31 @@
+{
+    // Config settings
+    "config.option.failed_harvest.name": "Fehlernte verhindern",
+    "config.option.failed_harvest.description": "Verhindert die Animation und den Soundeffekt des fehlgeschlagenen Melkens/Scherens, wenn kein geeignetes Tier ausgewählt ist. Tipp: Deaktiviere es bei Nutzung des 'Tap-to-move & Auto-Attack'-Kontrollschemas in Android.",
+    "config.option.animal_produce.name": "Tierprodukte anzeigen",
+    "config.option.animal_produce.description": "Zeigt das Produkt über dem Tier an, wenn es geerntet werden kann.",
+    "config.option.hearts_animal.name": "Farmtiere Herzen anzeigen",
+    "config.option.hearts_animal.description": "Zeigt Herzen über den Farmtieren (Kühe, Enten, etc.) an, die noch nicht gestreichelt wurden.",
+    "config.option.hearts_pet.name": "Haustiere Herzen anzeigen",
+    "config.option.hearts_pet.description": "Zeigt Herzen über den Haustieren (Hunde, Katzen, etc.) an, die noch nicht gestreichelt wurden.",
+    "config.option.hearts_enabled.name": "[!] Herzen anzeigen",
+    "config.option.hearts_enabled.description": "Erlaubt die Anzeige von Herzen über Tieren. Warnung: Wenn dies ausgeschaltet wird, werden ALLE Herzen versteckt (Farmtiere, Haustiere, etc.)",
+    "config.option.hearts_max_friendship.name": "Verstecke Herzen bei maximaler Freundschaft",
+    "config.option.hearts_max_friendship.description": "Versteckt die Herzen von Tieren auf maximalem Freundschaftslevel. Warnung: Freundschaft sinkt am Ende des Tages, wenn das Tier nicht gestreichelt wurde!",
+
+    // Other messages
+    "notification.inventory_full": "Inventar voll",
+
+    "action.out_of_range.milk": "melken",
+    "action.out_of_range.shear": "scheren",
+    "notification.out_of_range": "Außerhalb der {{ranchActionPresent}} Reichweite",
+
+    "product.milk": "Milch",
+    "product.wool": "Wolle",
+
+    "notification.util_action": "Baby {{Name}} wird {{Product}} in {{Days}} Tagen produzieren.",
+
+    "action.unable.milk": "melken",
+    "action.unable.shear": "scheren",
+    "notification.unable": "Nicht zu {{Action}}"
+}

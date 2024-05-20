@@ -1,0 +1,12 @@
+{
+    "Name": "[MG] Flowering Fields",
+    "Author": "Lita",
+    "Version": "2.0.0",
+    "Description": "More Grass pack for Flowering Fields, includes several options for grass.",
+    "UniqueID": "Lita.FloweringFields",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:1981" ],
+    "ContentPackFor": {
+        "UniqueID": "EpicBellyFlop45.MoreGrass"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "Haley More Outfit Options",
+    "Author": "TimTheBig",
+    "Version": "1.1.0",
+    "Description": "Replacement for three versions of Haley's outfit. Created by: MimiBread0125",
+    "UniqueID": "TimTheBig.Haley_More_Outfit_Options",
+    "UpdateKeys": [ "Nexus:20893" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "MinimumApiVersion": "3.0.0"
+}

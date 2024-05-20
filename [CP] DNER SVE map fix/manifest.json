@@ -1,0 +1,22 @@
+{
+    "Name": "DNER SVE map fix",
+    "Author": "Xryzo11",
+    "Version": "1.0.0",
+    "Description": "This mod fixes the incorrect background on the world map while using the Earthy Recolour with Stardew Valley Expanded.",
+    "UniqueID": "DNER.SVEmapfix",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:21691"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "DaisyNiko.EarthyRecolour",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": true
+        }
+    ]
+}

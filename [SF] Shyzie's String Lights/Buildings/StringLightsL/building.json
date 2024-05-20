@@ -1,0 +1,307 @@
+{
+
+	"Id": "Shyzie.SF.StringLightsL",
+	"Name": "String Lights (L)",
+	"Description": "Decorative fairy string lights for your farm.",
+	"DrawShadow": false,
+	"FadeWhenBehind": false,
+	"BuildCost": 1000,
+	"SourceRect": { "X": 0, "Y":0, "Width": 80, "Height": 48 },
+	"Size": { "X": 5, "Y": 1 },
+	"CollisionMap": "XOOOX",
+	"Lights": [
+		{
+		"Tile": { "X": 2, "Y": 1 },
+		"TileOffsetInPixels": { "X": 3, "Y": 2 },
+		"TextureID": 1,
+		"Radius": 6.0,
+		"Color": [ 255, 255, 255, 255 ]
+		},
+		{
+		"Tile": { "X": 3, "Y": 1 },
+		"TileOffsetInPixels": { "X": 2, "Y": 2 },
+		"TextureID": 1,
+		"Radius": 6.0,
+		"Color": [ 255, 255, 255, 255 ]
+		}
+	],
+	
+// Animations
+
+	"DrawLayers": [
+    {
+	"SourceRect": { "X": 0, "Y":0, "Width": 80, "Height": 48 },
+	"DrawPosition": { "X": 0, "Y": 0 },
+	"HideBaseTexture": true,
+	"Sequences": [
+		{
+		"Frame": 0,
+		"Duration": 700
+		},
+        {
+		"Frame": 1,
+		"Duration": 700
+        },
+        {
+		"Frame": 2,
+		"Duration": 700
+        },
+        {
+		"Frame": 3,
+		"Duration": 700
+        }
+		],
+	"SkinFilter": [ 
+		"FireflyDarkL",
+		"FireflyLightL", 
+		"FireflyVanillaL", 
+		"FestiveDarkL", 
+		"FestiveLightL", 
+		"FestiveVanillaL", 
+		"GarlandPinkDarkL", 
+		"GarlandPinkLightL", 
+		"GarlandPinkVanillaL", 
+		"GarlandWhiteDarkL", 
+		"GarlandWhiteLightL", 
+		"GarlandWhiteVanillaL", 
+		"GemstonesDarkL", 
+		"GemstonesLightL", 
+		"GemstonesVanillaL"
+		]
+    }
+	],
+
+// Skins
+	
+	"Skins": [
+	
+	{
+	"ID": "DefaultLightL",
+	"Name": "String Lights",
+	"Description": "Decorative fairy string lights for your farm.",
+	"Texture": "StringLightsLargeLight"
+    },
+	{
+	"ID": "DefaultVanillaL",
+	"Name": "String Lights",
+	"Description": "Decorative fairy string lights for your farm.",
+	"Texture": "StringLightsLargeVanilla"
+    },
+    {
+	"ID": "BeachDarkL",
+	"Name": "Beach String Lights",
+	"Description": "Beach themed string lights for your farm.",
+	"Texture": "BeachLightsLargeDark"
+    },
+	{
+	"ID": "BeachLightL",
+	"Name": "Beach String Lights",
+	"Description": "Beach themed string lights for your farm.",
+	"Texture": "BeachLightsLargeLight"
+    },
+	{
+	"ID": "BeachVanillaL",
+	"Name": "Beach String Lights",
+	"Description": "Beach themed string lights for your farm.",
+	"Texture": "BeachLightsLargeVanilla"
+    },
+    {
+	"ID": "BubbleDarkL",
+	"Name": "Bubble String Lights",
+	"Description": "Soap bubble string lights for your farm. No one will know they are made of soap..",
+	"Texture": "BubbleLightsLargeDark"
+    },
+	{
+	"ID": "BubbleLightL",
+	"Name": "Bubble String Lights",
+	"Description": "Soap bubble string lights for your farm. No one will know they are made of soap..",
+	"Texture": "BubbleLightsLargeLight"
+    },
+	{
+	"ID": "BubbleVanillaL",
+	"Name": "Bubble String Lights",
+	"Description": "Soap bubble string lights for your farm. No one will know they are made of soap..",
+	"Texture": "BubbleLightsLargeVanilla"
+    },
+	{
+	"ID": "ColorfulStarsDarkL",
+	"Name": "Colorful Star String Lights",
+	"Description": "Colorful star string lights for your farm.",
+	"Texture": "ColorfulStarsLightsLargeDark"
+    },
+	{
+	"ID": "ColorfulStarsLightL",
+	"Name": "Colorful Star String Lights",
+	"Description": "Colorful star string lights for your farm.",
+	"Texture": "ColorfulStarsLightsLargeLight"
+    },
+	{
+	"ID": "ColorfulStarsVanillaL",
+	"Name": "Colorful Star String Lights",
+	"Description": "Colorful star string lights for your farm.",
+	"Texture": "ColorfulStarsLightsLargeVanilla"
+    },
+    {
+	"ID": "MoonPhaseDarkL",
+	"Name": "Moon Phase String Lights",
+	"Description": "Dreamy moon phase string lights for your farm.",
+	"Texture": "MoonPhaseLightsLargeDark"
+    },
+	{
+	"ID": "MoonPhaseLightL",
+	"Name": "Moon Phase String Lights",
+	"Description": "Dreamy moon phase string lights for your farm.",
+	"Texture": "MoonPhaseLightsLargeLight"
+    },
+	{
+	"ID": "MoonPhaseVanillaL",
+	"Name": "Moon Phase String Lights",
+	"Description": "Dreamy moon phase string lights for your farm.",
+	"Texture": "MoonPhaseLightsLargeVanilla"
+    },
+	{
+	"ID": "PlanetsDarkL",
+	"Name": "Planetary String Lights",
+	"Description": "Planetary string lights for your farm.",
+	"Texture": "PlanetLightsLargeDark"
+    },
+	{
+	"ID": "PlanetsLightL",
+	"Name": "Planetary String Lights",
+	"Description": "Planetary string lights for your farm.",
+	"Texture": "PlanetLightsLargeLight"
+    },
+	{
+	"ID": "PlanetsVanillaL",
+	"Name": "Planetary String Lights",
+	"Description": "Planetary string lights for your farm.",
+	"Texture": "PlanetLightsLargeVanilla"
+    },
+    {
+	"ID": "PokeballsDarkL",
+	"Name": "Pokeball String Lights",
+	"Description": "Pokeball string lights for your farm. Pokemon not included.",
+	"Texture": "PokeballLightsLargeDark"
+    },
+	{
+	"ID": "PokeballsLightL",
+	"Name": "Pokeball String Lights",
+	"Description": "Pokeball string lights for your farm. Pokemon not included.",
+	"Texture": "PokeballLightsLargeLight"
+    },
+	{
+	"ID": "PokeballsVanillaL",
+	"Name": "Pokeball String Lights",
+	"Description": "Pokeball string lights for your farm. Pokemon not included.",
+	"Texture": "PokeballLightsLargeVanilla"
+    },
+	{
+	"ID": "PumpkinDarkL",
+	"Name": "Spooky Pumpkin String Lights",
+	"Description": "Spooky pumpkin string lights for your spooky farm.",
+	"Texture": "PumpkinLightsLargeDark"
+    },
+	{
+	"ID": "PumpkinLightL",
+	"Name": "Spooky Pumpkin String Lights",
+	"Description": "Spooky pumpkin string lights for your spooky farm.",
+	"Texture": "PumpkinLightsLargeLight"
+    },
+	{
+	"ID": "PumpkinVanillaL",
+	"Name": "Spooky Pumpkin String Lights",
+	"Description": "Spooky pumpkin string lights for your spooky farm.",
+	"Texture": "PumpkinLightsLargeVanilla"
+    },
+	{
+	"ID": "FireflyDarkL",
+	"Name": "Firefly String Lights",
+	"Description": "Firefly string lights for your farm.",
+	"Texture": "FireflyLightsLargeDark"
+    },
+	{
+	"ID": "FireflyLightL",
+	"Name": "Firefly String Lights",
+	"Description": "Firefly string lights for your farm.",
+	"Texture": "FireflyLightsLargeLight"
+    },
+	{
+	"ID": "FireflyVanillaL",
+	"Name": "Firefly String Lights",
+	"Description": "Firefly string lights for your farm.",
+	"Texture": "FireflyLightsLargeVanilla"
+    },
+	{
+	"ID": "FestiveDarkL",
+	"Name": "Festive String Lights",
+	"Description": "Festive holiday string lights for your farm.",
+	"Texture": "FestiveLightsLargeDark"
+    },
+	{
+	"ID": "FestiveLightL",
+	"Name": "Festive String Lights",
+	"Description": "Festive holiday string lights for your farm.",
+	"Texture": "FestiveLightsLargeLight"
+    },
+	{
+	"ID": "FestiveVanillaL",
+	"Name": "Festive String Lights",
+	"Description": "Festive holiday string lights for your farm.",
+	"Texture": "FestiveLightsLargeVanilla"
+    },
+	{
+	"ID": "GarlandPinkDarkL",
+	"Name": "Floral Pink Garland String Lights",
+	"Description": "A floral pink garland with string lights for your farm.",
+	"Texture": "GarlandLightsPinkLargeDark"
+    },
+	{
+	"ID": "GarlandPinkLightL",
+	"Name": "Floral Pink Garland String Lights",
+	"Description": "A floral pink garland with string lights for your farm.",
+	"Texture": "GarlandLightsPinkLargeLight"
+    },
+	{
+	"ID": "GarlandPinkVanillaL",
+	"Name": "Floral Pink Garland String Lights",
+	"Description": "A floral pink garland with string lights for your farm.",
+	"Texture": "GarlandLightsPinkLargeVanilla"
+    },
+	{
+	"ID": "GarlandWhiteDarkL",
+	"Name": "Floral White Garland String Lights",
+	"Description": "A floral white garland with string lights for your farm.",
+	"Texture": "GarlandLightsWhiteLargeDark"
+    },
+	{
+	"ID": "GarlandWhiteLightL",
+	"Name": "Floral White Garland String Lights",
+	"Description": "A floral white garland with string lights for your farm.",
+	"Texture": "GarlandLightsWhiteLargeLight"
+    },
+	{
+	"ID": "GarlandWhiteVanillaL",
+	"Name": "Floral White Garland String Lights",
+	"Description": "A floral white garland with string lights for your farm.",
+	"Texture": "GarlandLightsWhiteLargeVanilla"
+    },
+    {
+	"ID": "GemstonesDarkL",
+	"Name": "Gemstone String Lights",
+	"Description": "Sparkly gemstone string lights for your farm.",
+	"Texture": "GemstoneLightsLargeDark"
+    },
+	{
+	"ID": "GemstonesLightL",
+	"Name": "Gemstone String Lights",
+	"Description": "Sparkly gemstone string lights for your farm.",
+	"Texture": "GemstoneLightsLargeLight"
+    },
+	{
+	"ID": "GemstonesVanillaL",
+	"Name": "Gemstone String Lights",
+	"Description": "Sparkly gemstone string lights for your farm.",
+	"Texture": "GemstoneLightsLargeVanilla"
+    }
+	]
+}

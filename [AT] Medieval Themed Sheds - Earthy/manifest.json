@@ -1,0 +1,14 @@
+{
+  "Name": "[AT] Medieval Themed Sheds - Earthy",
+  "Author": "Shyzie",
+  "Version": "2.0.0",
+  "Description": "Medieval sheds from Gwen's Way Back Pelican Town.",
+  "UniqueID": "Shyzie.Medieval.Themed.Sheds.Earthy.AT",
+  "UpdateKeys": ["Nexus:20429"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+		
+}
