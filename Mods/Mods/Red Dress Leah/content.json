@@ -1,0 +1,569 @@
+{
+	"Format": "1.28",
+
+	"ConfigSchema":{
+		"Leah's Clothes In Town":{
+			"AllowValues": "Red Dress, Nude", 
+			"Default": "Red Dress",
+			"Section": "In Town"
+		},
+		"Leah's Choaker In Town":{
+			"AllowValues": "No Choaker, Choaker, Choaker With Heart", 
+			"Default": "Choaker With Heart",
+			"Section": "In Town"
+		},
+		"Leah's Shoulder Straps In Town":{
+			"AllowValues": "No Straps, Straps", 
+			"Default": "Straps",
+			"Section": "In Town"
+		},
+		"Leah's Clothes On Island":{
+			"AllowValues": "Bikini, Nude", 
+			"Default": "Nude",
+			"Section": "On Island"
+		},
+		"Leah's Choaker On Island":{
+			"AllowValues": "No Choaker, Choaker, Choaker With Heart", 
+			"Default": "No Choaker",
+			"Section": "On Island"
+		},
+		"Leah's Shoulder Straps On Island":{
+			"AllowValues": "No Straps, Straps", 
+			"Default": "No Straps",
+			"Section": "On Island"
+		},
+	},
+	
+	"Changes": [
+
+// ON Island ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//NH_Leah_Beach_Dress
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Dress.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Dress.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Dress_Choaker
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Dress_Choaker.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Dress_Choaker.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Dress_Choaker_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Dress_Choaker.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Dress_Choaker_Straps.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Dress_ChoakerHeart
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Dress_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Dress_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Dress_ChoakerHeart_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Dress_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Dress_ChoakerHeart_Straps.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Dress_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Dress.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Dress_Straps.png",
+				"When":{
+					"Leah's Clothes On Island": "Bikini",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Nude
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Nude.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Nude.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Nude_Choaker
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Nude_Choaker.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Nude_Choaker.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Nude_Choaker_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Nude_Choaker.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Nude_Choaker_Straps.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Nude_ChoakerHeart
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Nude_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Nude_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "No Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Nude_ChoakerHeart_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Nude_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Nude_ChoakerHeart_Straps.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "Choaker With Heart",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},
+
+	//NH_Leah_Beach_Nude_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/Characters/NH_Leah_Beach_Nude.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/Portraits/NH_Leah_Beach_Nude_Straps.png",
+				"When":{
+					"Leah's Clothes On Island": "Nude",
+					"Leah's Choaker On Island": "No Choaker",
+					"Leah's Shoulder Straps On Island": "Straps",
+				},
+		},
+
+// In Town //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//NH_Leah_Dress
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Dress.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Dress.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},
+
+	//NH_Leah_Dress_Choaker
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Dress_Choaker.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Dress_Choaker.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},
+
+	//NH_Leah_Dress_Choaker_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Dress_Choaker.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Dress_Choaker_Straps.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},
+
+	//NH_Leah_Dress_ChoakerHeart
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Dress_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Dress_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},
+
+	//NH_Leah_Dress_ChoakerHeart_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Dress_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Dress_ChoakerHeart_Straps.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},
+
+	//NH_Leah_Dress_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Dress.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Dress_Straps.png",
+				"When":{
+					"Leah's Clothes In Town": "Red Dress",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},
+
+	//NH_Leah_Nude
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Nude.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Nude.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},
+
+	//NH_Leah_Nude_Choaker
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Nude_Choaker.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Nude_Choaker.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},
+
+	//NH_Leah_Nude_Choaker_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Nude_Choaker.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Nude_Choaker_Straps.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},
+
+	//NH_Leah_Nude_ChoakerHeart
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Nude_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Nude_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "No Straps",
+				},
+		},
+
+	//NH_Leah_Nude_ChoakerHeart_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Nude_ChoakerHeart.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Nude_ChoakerHeart_Straps.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "Choaker With Heart",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},
+
+	//NH_Leah_Nude_Straps
+		{	
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/Characters/NH_Leah_Nude.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},	
+		{	
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Portraits/NH_Leah_Nude_Straps.png",
+				"When":{
+					"Leah's Clothes In Town": "Nude",
+					"Leah's Choaker In Town": "No Choaker",
+					"Leah's Shoulder Straps In Town": "Straps",
+				},
+		},	
+	],
+}

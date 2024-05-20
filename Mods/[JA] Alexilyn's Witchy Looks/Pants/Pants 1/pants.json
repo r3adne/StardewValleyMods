@@ -1,8 +1,0 @@
-{
-    "Name": "Witchy Skirt with corset",
-    "Description": "Skirt with corset",
-    "HasFemaleVariant": true,
-    "Price": 1,
-    "Dyeable":false,
-    "DefaultColor": "255,255,255,0"
-}

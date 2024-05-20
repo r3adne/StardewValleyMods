@@ -1,8 +1,0 @@
-{
-	"Name": "Witchy Bear Straw Hat",
-	"Description": "Bear Straw Hat",
-	"PurchasePrice": "1000",
-	"ShowHair": true,
-	"IgnoreHairstyleOffset": true,
-	"CanPurchase": true
-}
