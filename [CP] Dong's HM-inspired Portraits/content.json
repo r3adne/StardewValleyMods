@@ -1,0 +1,691 @@
+{
+  "Format": "1.10.0",
+  "Changes": [
+    {
+      "LogName": "Abigail Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail",
+      "FromFile": "Assets/Abigail.png",
+    },
+	
+    {
+      "LogName": "Abigail Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Beach",
+      "FromFile": "Assets/Abigail_Beach.png",
+    },
+	
+    {
+      "LogName": "Abigail Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Abigail_Winter",
+      "FromFile": "Assets/Abigail_Winter.png",
+    },
+
+    {
+      "LogName": "Alex Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Alex",
+      "FromFile": "Assets/Alex.png",
+    },
+
+    {
+      "LogName": "Alex Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Alex_Beach",
+      "FromFile": "Assets/Alex_Beach.png",
+    },
+
+    {
+      "LogName": "Alex Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Alex_Winter",
+      "FromFile": "Assets/Alex_Winter.png",
+    },
+
+    {
+      "LogName": "Caroline Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline",
+      "FromFile": "Assets/Caroline.png",
+    },
+
+    {
+      "LogName": "Caroline Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Beach",
+      "FromFile": "Assets/Caroline_Beach.png",
+    },
+
+    {
+      "LogName": "Caroline Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Caroline_Winter",
+      "FromFile": "Assets/Caroline_Winter.png",
+    },
+
+    {
+      "LogName": "Clint Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Clint",
+      "FromFile": "Assets/Clint.png",
+    },
+
+    {
+      "LogName": "Clint Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Beach",
+      "FromFile": "Assets/Clint_Beach.png",
+    },
+
+    {
+      "LogName": "Clint Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Clint_Winter",
+      "FromFile": "Assets/Clint_Winter.png",
+    },
+
+    {
+      "LogName": "Demetrius Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius",
+      "FromFile": "Assets/Demetrius.png",
+    },
+
+    {
+      "LogName": "Demetrius Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Demetrius_Winter",
+      "FromFile": "Assets/Demetrius_Winter.png",
+    },
+
+    {
+      "LogName": "Dwarf Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Dwarf",
+      "FromFile": "Assets/Dwarf.png",
+    },
+
+    {
+      "LogName": "Elliott Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott",
+      "FromFile": "Assets/Elliott.png",
+    },
+
+    {
+      "LogName": "Elliott Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Beach",
+      "FromFile": "Assets/Elliott_Beach.png",
+    },
+
+    {
+      "LogName": "Elliott Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Elliott_Winter",
+      "FromFile": "Assets/Elliott_Winter.png",
+    },
+
+    {
+      "LogName": "Emily Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily",
+      "FromFile": "Assets/Emily.png",
+    },
+
+    {
+      "LogName": "Emily Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Beach",
+      "FromFile": "Assets/Emily_Beach.png",
+    },
+
+    {
+      "LogName": "Emily Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Emily_Winter",
+      "FromFile": "Assets/Emily_Winter.png",
+    },
+
+    {
+      "LogName": "Evelyn Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn",
+      "FromFile": "Assets/Evelyn.png",
+    },
+
+    {
+      "LogName": "Evelyn Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Evelyn_Winter",
+      "FromFile": "Assets/Evelyn_Winter.png",
+    },
+
+    {
+      "LogName": "George Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/George",
+      "FromFile": "Assets/George.png",
+    },
+
+    {
+      "LogName": "George Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/George_Winter",
+      "FromFile": "Assets/George_Winter.png",
+    },
+
+    {
+      "LogName": "Gil Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Gil",
+      "FromFile": "Assets/Gil.png",
+    },
+
+    {
+      "LogName": "Grandpa Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Grandpa",
+      "FromFile": "Assets/Grandpa.png",
+    },
+
+    {
+      "LogName": "Gunther Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Gunther",
+      "FromFile": "Assets/Gunther.png",
+    },
+
+    {
+      "LogName": "Gus Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Gus",
+      "FromFile": "Assets/Gus.png",
+    },
+
+    {
+      "LogName": "Gus Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Gus_Winter",
+      "FromFile": "Assets/Gus_Winter.png",
+    },
+
+    {
+      "LogName": "Haley Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley",
+      "FromFile": "Assets/Haley.png",
+    },
+
+    {
+      "LogName": "Haley Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Beach",
+      "FromFile": "Assets/Haley_Beach.png",
+    },
+
+    {
+      "LogName": "Haley Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Haley_Winter",
+      "FromFile": "Assets/Haley_Winter.png",
+    },
+
+    {
+      "LogName": "Harvey Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey",
+      "FromFile": "Assets/Harvey.png",
+    },
+
+    {
+      "LogName": "Harvey Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Beach",
+      "FromFile": "Assets/Harvey_Beach.png",
+    },
+
+    {
+      "LogName": "Harvey Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Harvey_Winter",
+      "FromFile": "Assets/Harvey_Winter.png",
+    },
+
+    {
+      "LogName": "Jas Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Jas",
+      "FromFile": "Assets/Jas.png",
+    },
+
+    {
+      "LogName": "Jas Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Jas_Winter",
+      "FromFile": "Assets/Jas_Winter.png",
+    },
+
+    {
+      "LogName": "Jodi Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi",
+      "FromFile": "Assets/Jodi.png",
+    },
+
+    {
+      "LogName": "Jodi Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Beach",
+      "FromFile": "Assets/Jodi_Beach.png",
+    },
+
+    {
+      "LogName": "Jodi Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Jodi_Winter",
+      "FromFile": "Assets/Jodi_Winter.png",
+    },
+
+    {
+      "LogName": "Kent Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Kent",
+      "FromFile": "Assets/Kent.png",
+    },
+
+    {
+      "LogName": "Kent Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Kent_Winter",
+      "FromFile": "Assets/Kent_Winter.png",
+    },
+
+    {
+      "LogName": "Krobus Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus",
+      "FromFile": "Assets/Krobus.png",
+    },
+
+    {
+      "LogName": "Krobus Trenchcoat Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Krobus_Trenchcoat",
+      "FromFile": "Assets/Krobus_Trenchcoat.png",
+    },
+
+    {
+      "LogName": "Leah Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah",
+      "FromFile": "Assets/Leah.png",
+    },
+
+    {
+      "LogName": "Leah Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah_Beach",
+      "FromFile": "Assets/Leah_Beach.png",
+    },
+
+    {
+      "LogName": "Leah Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Leah_Winter",
+      "FromFile": "Assets/Leah_Winter.png",
+    },
+
+    {
+      "LogName": "Lewis Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Lewis",
+      "FromFile": "Assets/Lewis.png",
+    },
+
+    {
+      "LogName": "Lewis Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Lewis_Winter",
+      "FromFile": "Assets/Lewis_Winter.png",
+    },
+
+    {
+      "LogName": "Linus Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Linus",
+      "FromFile": "Assets/Linus.png",
+    },
+
+    {
+      "LogName": "Linus Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Linus_Winter",
+      "FromFile": "Assets/Linus_Winter.png",
+    },
+
+    {
+      "LogName": "Marlon Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Marlon",
+      "FromFile": "Assets/Marlon.png",
+    },
+
+    {
+      "LogName": "Marnie Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie",
+      "FromFile": "Assets/Marnie.png",
+    },
+
+    {
+      "LogName": "Marnie Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Beach",
+      "FromFile": "Assets/Marnie_Beach.png",
+    },
+
+    {
+      "LogName": "Marnie Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Winter",
+      "FromFile": "Assets/Marnie_Winter.png",
+    },
+
+    {
+      "LogName": "Maru Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru",
+      "FromFile": "Assets/Maru.png",
+    },
+
+    {
+      "LogName": "Maru Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Beach",
+      "FromFile": "Assets/Maru_Beach.png",
+    },
+
+    {
+      "LogName": "Maru Hospital Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Hospital",
+      "FromFile": "Assets/Maru_Hospital.png",
+    },
+
+    {
+      "LogName": "Maru Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Maru_Winter",
+      "FromFile": "Assets/Maru_Winter.png",
+    },
+
+    {
+      "LogName": "Morris Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Morris",
+      "FromFile": "Assets/Morris.png",
+    },
+
+    {
+      "LogName": "MrQi Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/MrQi",
+      "FromFile": "Assets/MrQi.png",
+    },
+
+    {
+      "LogName": "Pam Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Pam",
+      "FromFile": "Assets/Pam.png",
+    },
+
+    {
+      "LogName": "Pam Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Beach",
+      "FromFile": "Assets/Pam_Beach.png",
+    },
+
+    {
+      "LogName": "Pam Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Pam_Winter",
+      "FromFile": "Assets/Pam_Winter.png",
+    },
+
+    {
+      "LogName": "Penny Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny",
+      "FromFile": "Assets/Penny.png",
+    },
+
+    {
+      "LogName": "Penny Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Beach",
+      "FromFile": "Assets/Penny_Beach.png",
+    },
+
+    {
+      "LogName": "Penny Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Penny_Winter",
+      "FromFile": "Assets/Penny_Winter.png",
+    },
+
+    {
+      "LogName": "Pierre Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre",
+      "FromFile": "Assets/Pierre.png",
+    },
+
+    {
+      "LogName": "Pierre Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Beach",
+      "FromFile": "Assets/Pierre_Beach.png",
+    },
+
+    {
+      "LogName": "Pierre Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre_Winter",
+      "FromFile": "Assets/Pierre_Winter.png",
+    },
+
+    {
+      "LogName": "Robin Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin",
+      "FromFile": "Assets/Robin.png",
+    },
+
+    {
+      "LogName": "Robin Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Beach",
+      "FromFile": "Assets/Robin_Beach.png",
+    },
+
+    {
+      "LogName": "Robin Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Robin_Winter",
+      "FromFile": "Assets/Robin_Winter.png",
+    },
+
+    {
+      "LogName": "Sam Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Sam",
+      "FromFile": "Assets/Sam.png",
+    },
+
+    {
+      "LogName": "Sam Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Sam_Beach",
+      "FromFile": "Assets/Sam_Beach.png",
+    },
+
+    {
+      "LogName": "Sam Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Sam_Winter",
+      "FromFile": "Assets/Sam_Winter.png",
+    },
+
+    {
+      "LogName": "Sandy Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Sandy",
+      "FromFile": "Assets/Sandy.png",
+    },
+
+    {
+      "LogName": "Sebastian Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Sebastian",
+      "FromFile": "Assets/Sebastian.png",
+    },
+
+    {
+      "LogName": "Sebastian Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Sebastian_Beach",
+      "FromFile": "Assets/Sebastian_Beach.png",
+    },
+
+    {
+      "LogName": "Sebastian Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Sebastian_Winter",
+      "FromFile": "Assets/Sebastian_Winter.png",
+    },
+
+    {
+      "LogName": "Shane Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Shane",
+      "FromFile": "Assets/Shane.png",
+    },
+
+    {
+      "LogName": "Shane Beach Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Beach",
+      "FromFile": "Assets/Shane_Beach.png",
+    },
+
+    {
+      "LogName": "Shane Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Shane_Winter",
+      "FromFile": "Assets/Shane_Winter.png",
+    },
+
+    {
+      "LogName": "Vincent Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Vincent",
+      "FromFile": "Assets/Vincent.png",
+    },
+
+    {
+      "LogName": "Vincent Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Vincent_Winter",
+      "FromFile": "Assets/Vincent_Winter.png",
+    },
+
+    {
+      "LogName": "Willy Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Willy",
+      "FromFile": "Assets/Willy.png",
+    },
+
+    {
+      "LogName": "Willy Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Willy_Winter",
+      "FromFile": "Assets/Willy_Winter.png",
+    },
+
+    {
+      "LogName": "Wizard Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Wizard",
+      "FromFile": "Assets/Wizard.png",
+    },
+
+    {
+      "LogName": "ParrotBoy Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/ParrotBoy",
+      "FromFile": "Assets/ParrotBoy.png",
+    },
+
+    {
+      "LogName": "ParrotBoy Winter Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/ParrotBoy_Winter",
+      "FromFile": "Assets/ParrotBoy_Winter.png",
+    },
+
+    {
+      "LogName": "SafariGuy Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/SafariGuy",
+      "FromFile": "Assets/SafariGuy.png",
+    },
+
+    {
+      "LogName": "Birdie Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Birdie",
+      "FromFile": "Assets/Birdie.png",
+    },
+
+    {
+      "LogName": "Henchman Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Henchman",
+      "FromFile": "Assets/Henchman.png",
+    },
+
+    {
+      "LogName": "Bear Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Bear",
+      "FromFile": "Assets/Bear.png",
+    },
+
+    {
+      "LogName": "Governor Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Governor",
+      "FromFile": "Assets/Governor.png",
+    },
+
+    {
+      "LogName": "Bouncer Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Bouncer",
+      "FromFile": "Assets/Bouncer.png",
+    },
+
+    {
+      "LogName": "Fizz Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Fizz",
+      "FromFile": "Assets/Fizz.png",
+    },
+
+  ]
+}

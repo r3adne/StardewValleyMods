@@ -1,0 +1,33 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map",
+            "FromFile": "WorldMaps/spring_SVE.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 0, "Y": 0, "Width": 300, "Height": 424 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_Summer",
+            "FromFile": "WorldMaps/summer_SVE.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 0, "Y": 0, "Width": 300, "Height": 424 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_Fall",
+            "FromFile": "WorldMaps/fall_SVE.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 0, "Y": 0, "Width": 300, "Height": 424 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_Winter",
+            "FromFile": "WorldMaps/winter_SVE.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 0, "Y": 0, "Width": 300, "Height": 424 }
+        }
+    ]
+}

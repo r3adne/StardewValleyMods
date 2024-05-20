@@ -1,0 +1,33 @@
+{
+    // Config settings
+    "config.option.prompt_speak.name": "Aufforderung zum Sprechen mit Dorfbewohnern",
+    "config.option.prompt_speak.description": "Zeigt einen Indikator an, wenn mit dem Bewohner noch nicht gesprochen wurde.",
+
+    "config.option.gift_preference.name": "Geschenkvorschlag",
+    "config.option.gift_preference.description": "Die niedrigste Übereinstimmungsstufe für Geschenkvorschläge. Geschenkvorschläge aufgrund der Items in deinem Inventar, geordnet nach Geschenkwünsche, Qualität und niedrigster Wert.",
+    "config.option.gift_preference.value.love": "Zeige nur geliebte Geschenke",
+    "config.option.gift_preference.value.like": "Zeige gemochte Geschenke und höher",
+    "config.option.gift_preference.value.neutral": "Zeige neutrale Geschenke und höher",
+    "config.option.gift_preference.value.none": "Verstecke alle Wünsche",
+
+    "config.option.gift_max_count.name": "Maximale Geschenke anzeigen",
+    "config.option.gift_max_count.description": "Die maximale Anzahl an Geschenkvorschlägen, die durchlaufen werden können.",
+
+    "config.option.gift_display_time.name": "Geschenk Anzeigezeit (ms)",
+    "config.option.gift_display_time.description": "Die Zeit, die jedes vorgeschlagene Geschenk angezeigt wird, in Millisekunden.",
+
+    "config.option.gift_generic_prompts.name": "Allgemeine Geschenkaufforderungen anzeigen",
+    "config.option.gift_generic_prompts.description": "Zeigt einen Indikator, wenn ein Bewohner ein Geschenk erhalten kann, aber kein passendes Item im Inventar ist.",
+
+    "config.option.ignore_maxed.name": "Ignoriere maximale Freunschaft",
+    "config.option.ignore_maxed.description": "Versteckt Vorschläge und Aufforderungen für Beziehungen, die nicht schlechter werden können.",
+
+    "config.option.spouse_prompts.name": "Immer Ehepartneraufforderungen anzeigen",
+    "config.option.spouse_prompts.description": "Überschreibt andere Einstellungen, um immer Geschenk- und Gesprächsaufforderungen für Ihren Ehepartner anzuzeigen.",
+
+    "config.option.only_highest_quality.name": "Zeige nur höchste Qualität",
+    "config.option.only_highest_quality.description": "Zeigt nur die qualitativ hochwertigsten Items an.",
+
+    "config.option.enable_bubbles.name": "[!] Aktiviere Vorschläge",
+    "config.option.enable_bubbles.description": "Erlaubt die Anzeige der schwebenden Blasen über Bewohnern. Warnung: Deaktivierung versteckt ALLE schwebenden Blasen (Aufforderung zum Sprechen, Geschenkvorschläge, etc.)"
+}

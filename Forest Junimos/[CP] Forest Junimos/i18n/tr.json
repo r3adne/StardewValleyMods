@@ -1,0 +1,121 @@
+{
+    "config.SpritesheetVersion.name": "SpritesheetVersiyonu",
+	"config.SpritesheetVersion.description": "Content'teki Junimo spritesheetini değiştiren modların FJ'nin junimoları üzerinde etkilerini gösterip göstermeyeceğini ayarlar. Eğer 'Modlu' olarak ayarlandıysa, buna izin verecek. Eğer 'Vanilla' ise, FJ vanilla spriteları kullanacak.",
+	"config.SpritesheetVersion.values.Vanilla": "Vanilla",
+	"config.SpritesheetVersion.values.Modded": "Modlu",
+	
+	"config.RecolorPalettes.name": "RenklendirmePaletleri",
+	"config.RecolorPalettes.description": "FJ'nin junimolarının recolor modunuzla eşleşip eşleşmemesini isteyip istemediğinizi ayarlar.. Desteklenen recolorlar DaisyNiko's Earthy Recolor, Starblue Valley, A Wittily Named Recolor, Rosier Colored Glasses ve Vibrant Pastoral Recolor modlarıdır.",
+	"config.RecolorPalettes.values.Vanilla": "Vanilla",
+	"config.RecolorPalettes.values.Earthy": "Earthy",
+	"config.RecolorPalettes.values.Starblue": "Starblue",
+	"config.RecolorPalettes.values.Rosier": "Rosier",
+	"config.RecolorPalettes.values.Pastoral": "Pastoral",
+	"config.RecolorPalettes.values.Wittily": "Wittily",
+	
+	"config.JunimoSpeak.name": "JunimoKonuşma",
+	"config.JunimoSpeak.description": "FJ'nin junimolarının meep sesi çıkarmak dışında gerçek kelimelerle de konuşmalarını isteyip istemediğinizi ayarlar.",
+	"config.JunimoSpeak.values.true": "Açık",
+	"config.JunimoSpeak.values.false": "Kapalı",
+	
+	"config.OptionalEvents.name": "İsteğeBağlıOlaylar",
+	"config.OptionalEvents.description": "FJ'nin kendisine ait olayları görmek isteyip istemediğinizi ayarlar, şu anda sadece üç olay var. Daha fazla bilgi için mod sayfasını okuyun.",
+	"config.OptionalEvents.values.true": "Açık",
+	"config.OptionalEvents.values.false": "Kapalı",
+	
+	"config.VisualEffects.name": "GörselEfektler",
+	"config.VisualEffects.description": "FJ'nin junimolarının =büyülü= efektlere sahip olmalarını isteyip istemediğinizi ayarlar. iLoveLucy tarafından Particle Effects modunun kurulu olmasını gerektirir.",
+	"config.VisualEffects.values.true": "Açık",
+	"config.VisualEffects.values.false": "Kapalı",
+
+	//Junimo sentences
+		//Spring 
+	"LanguageLesson.Spring.Sun-1": "Güneş! Güneş!",
+	"LanguageLesson.Spring.Sun-2": "*ağaca el sallar*",
+	"LanguageLesson.Spring.Sun-3": "*şarkı söyler*",
+	"LanguageLesson.Spring.Sun-4": "PLACEHOLDER",
+	"LanguageLesson.Spring.Sun-5": "Mantar!",
+	
+	"LanguageLesson.Spring.Wind-1": "PLACEHOLDER",
+	"LanguageLesson.Spring.Wind-2": "Yaşasın! Yağmur!",
+	"LanguageLesson.Spring.Wind-3": "Polenler, ağaçlar, hayvanlar!",
+	"LanguageLesson.Spring.Wind-4": "PLACEHOLDER",
+	"LanguageLesson.Spring.Wind-5": "Yaz yakın! Yıldızmeyvesi!",
+	
+	"LanguageLesson.Spring.Rain-1": "Nasılsın, @?",
+	"LanguageLesson.Spring.Rain-2": "*birikintide zıplar*",
+	"LanguageLesson.Spring.Rain-3": "PLACEHOLDER",
+	"LanguageLesson.Spring.Rain-4": "Iy... Çamur.",
+	"LanguageLesson.Spring.Rain-5": "*şarkı söyler*",
+
+		//Summer
+	"LanguageLesson.Summer.Sun-1": "Merhaba, @!",
+	"LanguageLesson.Summer.Sun-2": "Yıldızmeyvesi istiyorum.",
+	"LanguageLesson.Summer.Sun-3": "*öksürür*",
+	"LanguageLesson.Summer.Sun-4": "Sıcak... ve kuru...",
+	"LanguageLesson.Summer.Sun-5": "PLACEHOLDER",
+	
+	"LanguageLesson.Summer.Wind-1": "Yıldızmeyvesi istiyorum.",
+	"LanguageLesson.Summer.Wind-2": "PLACEHOLDER",
+	"LanguageLesson.Summer.Wind-3": "Esinti!",
+	"LanguageLesson.Summer.Wind-4": "PLACEHOLDER",
+	"LanguageLesson.Summer.Wind-5": "PLACEHOLDER",
+	
+	"LanguageLesson.Summer.Rain-1": "PLACEHOLDER",
+	"LanguageLesson.Summer.Rain-2": "Çamurdankale!",
+	"LanguageLesson.Summer.Rain-3": "*birikintide zıplar*",
+	"LanguageLesson.Summer.Rain-4": "Iy... Çamur.",
+	"LanguageLesson.Summer.Rain-5": "Kavurucu yaz için yağmur!",
+
+		//Fall
+	"LanguageLesson.Fall.Sun-1": "Yapraklar nerede?",
+	"LanguageLesson.Fall.Sun-2": "*yerden bir yaprak alıp ona öyle bakar*",
+	"LanguageLesson.Fall.Sun-3": "Mantar!",
+	"LanguageLesson.Fall.Sun-4": "Nasılsın @?",
+	"LanguageLesson.Fall.Sun-5": "Yıldızmeyvesi... ama yaz geçti.",
+	
+	"LanguageLesson.Fall.Wind-1": "PLACEHOLDER",
+	"LanguageLesson.Fall.Wind-2": "*öksürür*",
+	"LanguageLesson.Fall.Wind-3": "*şarkı söyler*",
+	"LanguageLesson.Fall.Wind-4": "PLACEHOLDER",
+	"LanguageLesson.Fall.Wind-5": "PLACEHOLDER",
+	
+	"LanguageLesson.Fall.Rain-1": "Her yer ıslak yaprak... Öğk!",
+	"LanguageLesson.Fall.Rain-2": "Yaşasın! Yağmur!",
+	"LanguageLesson.Fall.Rain-3": "Sırılsıklamım!",
+	"LanguageLesson.Fall.Rain-4": "*birikintide zıplar*",
+	"LanguageLesson.Fall.Rain-5": "*ağacın altına saklanır*",
+	
+		//Winter
+	"LanguageLesson.Winter.Sun-1": "Güneş! Ama... soğuk?",
+	"LanguageLesson.Winter.Sun-2": "*dans eder*",
+	"LanguageLesson.Winter.Sun-3": "*yerdeki karı dürter*",
+	"LanguageLesson.Winter.Sun-4": "Brrr!",
+	"LanguageLesson.Winter.Sun-5": "PLACEHOLDER",
+	
+	"LanguageLesson.Winter.Wind-1": "Ha, soğuk!",
+	"LanguageLesson.Winter.Wind-2": "PLACEHOLDER",
+	"LanguageLesson.Winter.Wind-3": "Vuuu!",
+	"LanguageLesson.Winter.Wind-4": "*öksürür*",
+	"LanguageLesson.Winter.Wind-5": "Brrr!",
+	
+	"LanguageLesson.Winter.Snow-1": "Brr...",
+	"LanguageLesson.Winter.Snow-2": "*ağacın altına saklanır*",
+	"LanguageLesson.Winter.Snow-3": "*kardan junimo yapar*",
+	"LanguageLesson.Winter.Snow-4": "Bir kartanesi, iki kartanesi, üç kartanesi...",
+	"LanguageLesson.Winter.Snow-5": "Tüm kartaneleri farklı!",
+	
+	"LanguageLesson.Joja-1": "This junimo doesn't seem like they want to talk to you.",
+	"LanguageLesson.Joja-2": "Shoo! Bad! Bad!",
+	"LanguageLesson.Joja-3": "Humans be humans. Seeking shinies...",
+	"LanguageLesson.Joja-4": "PLACEHOLDER",
+	"LanguageLesson.Joja-5": "PLACEHOLDER",
+	
+/*	//Event strings
+	//Junimo appearing out of nowhere
+	"event.2258001.01": "Vay be, bugün dünden çok daha güneşli!",
+	"event.2258001.02": "Ah, yeni bir insan mı? Selam!",
+	"event.2258001.03": "...!?",
+	"event.2258001.04": "Görüşecek, şimdilik. Tekrar görüşecek!",
+	"event.2258001.05": "O da neydi öyle!?"*/
+}

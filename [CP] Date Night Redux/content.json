@@ -1,0 +1,1743 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+		"DateAskPercentChance": {
+			"AllowValues": "0, 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 49 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84 , 85 , 86 , 87 , 88 , 89 , 90 , 91 , 92 , 93 , 94 , 95 , 96 , 97 , 98 , 99 , 100",
+			"Default": 10,
+			"Description": "Configure the chance your spouse will ask you to go on a date upon leaving the farmhouse each day. Default is 10%, but can be any percent 0-100. Set to 0 to disable the date event.",
+			"Section": "Date Chances",
+		},
+		"UniqueDateChance": {
+			"AllowValues": "0, 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 49 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84 , 85 , 86 , 87 , 88 , 89 , 90 , 91 , 92 , 93 , 94 , 95 , 96 , 97 , 98 , 99 , 100",
+			"Default": "25",
+			"Description": "Choose the chance that, when asked on a date, it will be a spouse-unique date (given the spouse has the chance of asking specific date event). This will not affect anything if your spouse has no unique dates yet. If set to 0, disables spouse-specific unique dates. If set to 100, disables generic dates for spouses with specific events (if your spouse does not have any unique dates yet they will still ask for generic dates).",
+			"Section": "Date Chances",
+		},
+		"MinHeartsRequired": {
+			"AllowValues": "0, 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14",
+			"Default": 10,
+			"Description": "Change the minimum number of hearts required with your spouse for them to ask you on a date. Default is 10 hearts.",
+			"Section": "Friendship Requirements",
+		},
+		"FriendshipBonus": {
+			"AllowValues": "none, small, medium, large",
+			"Default": "medium",
+			"Description": "Change the amount of friendship received with your spouse if you go on a date with them. 'none' will disable any friendship bonuses, 'small' will increase friendship by 25 points (1/10 of a heart), 'medium' increases by 50 points (2/10 of a heart), and large increases by 100 points (4/10 of a heart).",
+			"Section": "Friendship Requirements",
+		},
+		"FreeLovePatch": {
+			"AllowValues": "disabled, enabled",
+			"Default": "disabled",
+			"Description": "If a polyamory mod like PolyamorySweet or Free Love is installed and the player has multiple spouses, enable this to choose a random spouse to ask for a date.",
+			"Section": "Date Tweaks",
+		},
+		"GenderedDialogue": {
+			"AllowValues": "disabled, enabled",
+			"Default": "enabled",
+			"Description": "Enable gendered dialogue for dialogue used in Date Night events. Note: Due to the large amount of dialogues in this mod, I was unable to catch all dialogue errors, so please inform me if you encounter any strange dialogue! Default set to false.",
+			"Section": "Date Tweaks",
+		},
+		"SuggestiveEndings": {
+			"AllowValues": "disabled, enabled",
+			"Default": "enabled",
+			"Description": "Enable/Disable suggestive endings to the date events. The endings are not NSFW, but can be disabled if you would rather keep it PG.",
+			"Section": "Date Tweaks",
+		},
+		"LibraryDateCutscene": {
+			"AllowValues": "disabled, enabled",
+			"Default": "enabled",
+			"Description": "Enable/Disable the book cutscene section of the library date. I recommend seeing it at least once, but if you would like to cut it out to make the dates overall shorter, you can disable this after. Default set to true.",
+			"Section": "Date Tweaks",
+		},
+		"DatesOnFestivalDays": {
+			"AllowValues": "disabled, enabled",
+			"Default": "disabled",
+			"Description": "Enable/Disable being asked on a date on a festival day. Usually many areas are closed or off-limits on festival days, making it impossible for you to complete the date if asked. Enabling this will allow dates to be asked on a date with a festival, even if you won't be able to complete it. When disabled, dates will never be asked on every festival day (except the Night Market). Works on every vanilla festival, the Pelican Town Potluck, and the Ridgeside festivals - more can be added on request.",
+			"Section": "Date Tweaks",
+		},
+		"AllowRoommateDates": {
+			"AllowValues": "disabled, enabled",
+			"Default": "disabled",
+			"Description": "Enable/Disable being asked on a date by a platonic roommate. Currently supports Krobus (vanilla), Apples (SVE), and Mr. Ginger (Mr. Ginger). NOTE: This does not make events platonic, just simply unblocks them from occuring. The dialogue will still be heavily romantic as of now.",
+			"Section": "Allowed Dates",
+		},
+		"DisabledDates": {
+			"AllowValues": "Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah, Maru, Penny, Sam, Sebastian, Shane",
+			"AllowBlank": "true",
+			"AllowMultiple": "true",
+			"Description": "Enable/Disable certain vanilla spouses from asking you on a date. Works well with mods like Platonic Partners and Friendships, if you have a platonic housemate that is usually romancable. If an NPC has this set to true, then this NPC will never ask you on a date. Default set to false for all.",
+			"Section": "Allowed Dates",
+		},
+	},
+    "DynamicTokens": [
+	
+	//Check for valid date targets
+	
+		{
+			"Name": "ValidDate",
+			"Value": "false",
+		},
+		
+		{
+			"Name": "ValidDate",
+			"Value": "true",
+			"When": {
+				"HasValue:{{spouse}}": "true",
+			},
+		},
+		
+		{
+			"Name": "ValidDate",
+			"Value": "true",
+			"When": {
+				"HasValue:{{roommate}}": "true",
+			},
+		},
+	
+	//Allow more than one spouse to ask for a date
+		
+		{
+			"Name": "Date",
+			"Value": "{{Spouse}}",
+			"When": {
+				"ValidDate": "true",
+			},
+		},
+		
+		{
+			"Name": "Date",
+			"Value": "{{Roommate}}",
+			"When": {
+				"ValidDate": "true",
+				"HasValue:{{spouse}}": "false",
+			},
+		},
+
+		{
+			"Name": "Date",
+			"Value": "{{Random:{{aedenthorn.FreeLove/PlayerSpouses}}}}",
+			"When": {
+				"FreeLovePatch": "enabled",
+				"HasMod": "aedenthorn.FreeLove",
+				"ValidDate": "true",
+			},
+		},
+
+		{
+			"Name": "Date",
+			"Value": "{{Random:{{ApryllForever.PolyamorySweetLove/PlayerSpouses}}}}",
+			"When": {
+				"FreeLovePatch": "enabled",
+				"HasMod": "ApryllForever.PolyamorySweetLove",
+				"ValidDate": "true",
+			},
+		},
+	
+	//PRONOUNS
+
+		{
+			"Name": "Gender",
+			"Value": "Gendered",
+		},
+		
+		{
+			"Name": "Gender",
+			"Value": "Neutral",
+			"When": {
+				"GenderedDialogue": "disabled",
+			},
+		},
+		
+			//Backup Gender Token for people using a Gender Neutral mod
+		{
+			"Name": "Gender",
+			"Value": "Neutral",
+			"When": {
+				"GenderedDialogue": "enabled",
+				"PlayerGender |contains=Male,Female": "false",
+			},
+		},
+		
+		{
+			"Name": "LibraryGender",
+			"Value": "{{PlayerGender}}",
+		},
+		
+		{
+			"Name": "LibraryGender",
+			"Value": "Neutral",
+			"When": {
+				"GenderedDialogue": "disabled",
+			},
+		},
+		
+			//Backup Gender Neutral Token for Library Date
+		{
+			"Name": "LibraryGender",
+			"Value": "Neutral",
+			"When": {
+				"GenderedDialogue": "enabled",
+				"PlayerGender |contains=Male,Female": "false",
+			},
+		},
+
+	//DATE NIGHT
+
+		//Date Interest
+		{
+			"Name": "DateInterest",
+			"Value": "{{Random:0, 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 49 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84 , 85 , 86 , 87 , 88 , 89 , 90 , 91 , 92 , 93 , 94 , 95 , 96 , 97 , 98 , 99 , 100}}",
+			"When": {
+				"ValidDate": "true"
+			},
+		},
+		
+		//Minimum Friendship Required for date with spouse
+		{
+			"Name": "MinFriendship",
+			"Value": "{{Query: {{MinHeartsRequired}} * 250}}",
+		},
+		
+		//Trout Derby Check
+		
+		{
+			"Name": "Trouts",
+			"Value": "normal",
+		},
+		{
+			"Name": "Trouts",
+			"Value": "derbyday",
+			"When": {
+				"Season": "summer",
+				"Day": "20, 21",
+			},
+		},
+
+	//POSSIBLE DATES:
+
+		//DEFAULT (Sunny/Rainy: Spring, Summer, Fall, and Winter)
+		{
+			"Name": "DateTypes",
+			"Value": "saloon",
+		},
+
+		//MONDAY
+		{
+			"Name": "DateTypes",
+			"Value": "{{DateTypes}}, grocery",
+			"When": {
+				"DayOfWeek": "Monday",
+			},
+		},
+		
+		//SUMMER, SUNNY
+		
+		{
+			"Name": "DateTypes",
+			"Value": "{{DateTypes}}, beach",
+			"When": {
+				"Weather": "Sun",
+				"Season": "Summer",
+			},
+		},
+		
+		//SPRING, SUMMER, AND FALL, SUNNY
+		
+		{
+			"Name": "DateTypes",
+			"Value": "{{DateTypes}}, forest, camping",
+			"When": {
+				"Weather": "Sun, Wind",
+				"Season": "Spring, Summer, Fall",
+				"Trouts": "normal",
+			},
+		},
+		
+		//RAINY, NOT WINTER
+		
+		{
+			"Name": "DateTypes",
+			"Value": "{{DateTypes}}, library",
+			"When": {
+				"Weather": "Rain, Storm, GreenRain",
+				"Season": "Spring, Summer, Fall",
+			},
+		},
+		
+		//WINTER
+		
+		{
+			"Name": "DateTypes",
+			"Value": "{{DateTypes}}, library",
+			"When": {
+				"Season": "Winter",
+			},
+		},
+		
+		//Pick Date From List of Valid Dates
+		{
+			"Name": "DateType",
+			"Value": "{{Random: {{DateTypes}} }}",
+			"When": {
+				"ValidDate": "true"
+			},
+		},
+
+	//VANILLA MODDED SPOUSE FIXES
+
+		{
+			"Name": "Gus",
+			"Value": "Gus",
+		},
+
+		{
+			"Name": "Pierre",
+			"Value": "Pierre",
+		},
+
+		{
+			"Name": "Robin",
+			"Value": "Robin",
+		},
+
+		{
+			"Name": "Jodi",
+			"Value": "Jodi",
+		},
+		
+		{
+			"Name": "Marnie",
+			"Value": "Marnie",
+		},
+		
+		{
+			"Name": "Caroline",
+			"Value": "Caroline",
+		},
+		
+		{
+			"Name": "Demetrius",
+			"Value": "Demetrius",
+		},
+
+		{
+			"Name": "Gunther",
+			"Value": "Gunther",
+		},
+
+		//Replace Jodi with Marnie if Jodi is the player's date
+		{
+			"Name": "Jodi",
+			"Value": "Marnie",
+			"When": {
+				"Date": "Jodi",
+			},
+		},
+		
+		//Replace Marnie with Leah in the Grocery Date if Marnie is the player's date
+		{
+			"Name": "Marnie",
+			"Value": "Leah",
+			"When": {
+				"Date": "Marnie",
+			},
+		},
+
+		//Replace Gus with Emily at the Grocery Date and the Saloon Date if Gus is the player's date
+		{
+			"Name": "Gus",
+			"Value": "Emily",
+			"When": {
+				"Date": "Gus",
+			},
+		},
+		
+		//Replace Pierre with Caroline if Pierre is the player's date
+		{
+			"Name": "Pierre",
+			"Value": "Caroline",
+			"When": {
+				"Date": "Pierre",
+			},
+		},
+		
+		//Replace Robin with Clint at the Saloon if Robin is the player's date
+		{
+			"Name": "Robin",
+			"Value": "Clint",
+			"When": {
+				"Date": "Robin",
+			},
+		},
+		
+		//Replace Caroline with Willy if Caroline is the player's date
+		{
+			"Name": "Caroline",
+			"Value": "Willy",
+			"When": {
+				"Date": "Caroline",
+			},
+		},
+		
+		//Replace Demetrius with Pam if Demetrius is the player's date
+		{
+			"Name": "Demetrius",
+			"Value": "Willy",
+			"When": {
+				"Date": "Demetrius",
+			},
+		},
+		
+		{
+			"Name": "Gunther",
+			"Value": "GuntherSilvian",
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+	//SPECIFIC DATES
+
+		//Default
+		{
+			 "Name": "UniqueDateType",
+			 "Value": "none",
+		},
+
+		//**** ALEX ****
+
+		{
+			"Name": "UniqueDateType",
+			"Value": "alexGridball",
+			"When": {
+				"Date": "Alex",
+				"DayOfWeek": "Sunday",
+			},
+		},
+
+		//**** EMILY ****
+		{
+			"Name": "UniqueDateType",
+			"Value": "emilyGem",
+			"When": {
+				"Date": "Emily",
+			},
+		},
+
+		//**** HALEY ****
+		
+		//unlock desert date once desert unlocked
+		{
+			"Name": "UniqueDateType",
+			"Value": "haleyDesert",
+			"When": {
+				"Date": "Haley",
+				"HasFlag": "ccVault, jojaVault",
+			},
+		},
+		
+		{
+			"Name": "UniqueDateType",
+			"Value": "none",
+			"When": {
+				"Date": "Haley",
+				"UniqueDateType": "haleyDesert",
+				"Season": "spring",
+				"Day": "15, 16, 17",
+			},
+		},
+		
+		{
+			"Name": "UniqueDateType",
+			"Value": "none",
+			"When": {
+				"Date": "Haley",
+				"UniqueDateType": "haleyDesert",
+				"Season": "fall",
+				"Day": "8, 9, 10",
+				"HasMod": "agentlyoko.desertfest2",
+			},
+		},
+
+		//**** MARU ****
+		
+		//every 15th day of the season
+		{ 
+			"Name": "UniqueDateType",
+			"Value": "maruLunar",
+			"When": {
+				"Date": "Maru",
+				"Day": "15",
+			},
+		},
+
+		//**** CUSTOM NPC ****
+		{
+			 "Name": "UniqueDateType",
+			 "Value": "{{Random:unique1,unique2,unique3,unique4,unique5,unique6,unique7,unique8,unique9,unique10,unique11,unique12,unique13,unique14,unique15,unique16,unique17,unique18,unique19,unique20}}", //Try and figure out a better way of doing this
+			 "When": {
+				 "HasFile:data/Custom/Unique/{{Date}}.json": true,
+			 },
+		},
+
+	//Unique Date Interest Alterations
+	
+	//Remove ability for someone with no unique dates to roll Unique Dates
+		{
+			"Name": "UniqueInterest",
+			"Value": "101",
+			"When": {
+				"UniqueDateType": "none",
+			},
+		},
+
+	//Evaluate Unique Date Chance config against a random number chosen - if Interest is higher than config and Unique Date type is valid (see above), fire Unique Date
+	
+		//Unique Date Template Present
+		{
+			"Name": "UniqueInterest",
+			"Value": "{{Random:1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 49 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84 , 85 , 86 , 87 , 88 , 89 , 90 , 91 , 92 , 93 , 94 , 95 , 96 , 97 , 98 , 99 , 100}}",
+			"When": {
+				"HasFile:data/Custom/Unique/{{Date}}.json": true,
+				"Query: {{UniqueDateChance}} < 100": "true",
+				"UniqueDateType |contains=none": "false",
+			},
+		},
+		
+		//Basic Unique Dates
+		
+		{
+			"Name": "UniqueInterest",
+			"Value": "{{Random:1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 49 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84 , 85 , 86 , 87 , 88 , 89 , 90 , 91 , 92 , 93 , 94 , 95 , 96 , 97 , 98 , 99 , 100}}",
+			"When": {
+				"Date": "Emily, Haley, Maru, Alex", //ALL SPOUSES WITH UNIQUE EVENTS
+				"Query: {{UniqueDateChance}} < 100": "true",
+				"UniqueDateType |contains=none": "false",
+			},
+		},
+		//If Unique Date Chance is 100%, force a Unique Date when valid
+		
+		{
+			"Name": "UniqueInterest",
+			"Value": 0,
+			"When": {
+				"HasFile:data/Custom/Unique/{{Date}}.json": true,
+				"Query: {{UniqueDateChance}} = 100": "true",
+				"UniqueDateType |contains=none": "false",
+			},
+		},
+
+		{
+			"Name": "UniqueInterest",
+			"Value": 0,
+			"When": {
+				"Date": "Emily, Haley, Maru, Alex", //ALL SPOUSES WITH UNIQUE EVENTS
+				"Query: {{UniqueDateChance}} = 100": "true",
+				"UniqueDateType |contains=none": "false",
+			},
+		},
+
+
+		{
+			"Name": "GenericPossible",
+			"Value": "true",
+		},
+		
+		//Disallow Generic Dates on days when Unique Date Types are valid
+		{
+			"Name": "GenericPossible",
+			"Value": "false",
+			"When": {
+				"HasFile:data/Custom/Unique/{{Date}}.json": true,
+				"Query: {{UniqueDateChance}} = 100": "true",
+				"UniqueDateType |contains=none": "false",
+			},
+		},
+	
+		{
+			"Name": "GenericPossible",
+			"Value": "false",
+			"When": {
+				"Date": "Emily, Haley, Maru, Alex", //ALL SPOUSES WITH UNIQUE EVENTS
+				"Query: {{UniqueDateChance}} = 100": "true",
+				"UniqueDateType |contains=none": "false",
+			},
+		},
+	
+
+	//ROOMMATE FIXES
+
+		{
+			"Name": "DateInterest",
+			"Value": "101",
+			"When": {
+				"HasFlag": "NoDateNight",
+			},
+		},
+
+		{
+			"Name": "DateInterest",
+			"Value": "101",
+			"When": {
+				"Date": "{{DisabledDates}}",
+			},
+		},
+	
+		//Remove date chance if the player is somehow married on Green Rain in Year 1
+		{
+			"Name": "DateInterest",
+			"Value": "101",
+			"When": {
+				"Weather": "GreenRain",
+				"Year": "1",
+			},
+		},
+
+	//GUARANTEED RARE DATES
+
+	//DANCE
+
+		{
+			"Name": "DateInterest",
+			"Value": "-1",
+			"When": {
+				"ValidDate": "true",
+				"Day": "1",
+				"Query: {{DateAskPercentChance}} > 0": "true",
+			},
+		},
+
+		{
+			"Name": "DateType",
+			"Value": "dance",
+			"When": {
+				"ValidDate": "true",
+				"Day": "1",
+				"Query: {{DateAskPercentChance}} > 0": "true",
+			},
+		},
+		
+		//Turn off Unique Dates to force Dance Date
+		{
+			"Name": "UniqueDateType",
+			"Value": "none",
+			"When": {
+				"ValidDate": "true",
+				"Day": "1",
+				"Query: {{DateAskPercentChance}} > 0": "true",
+			},
+		},
+
+		{
+			"Name": "UniqueInterest",
+			"Value": "101",
+			"When": {
+				"ValidDate": "true",
+				"Day": "1",
+				"Query: {{DateAskPercentChance}} > 0": "true",
+			},
+		},
+
+	//MARU'S LUNAR ECLIPSE
+
+		{
+			"Name": "DateInterest",
+			"Value": "-1",
+			"When": {
+				"Date": "Maru",
+				"Day": "15",
+				"Query: {{DateAskPercentChance}} > 0": "true",
+				"Query: {{UniqueDateChance}} >0": "true",
+			},
+		},
+
+		{
+			"Name": "UniqueDateType",
+			"Value": "maruLunar",
+			"When": {
+				"Date": "Maru",
+				"Day": "15",
+				"Query: {{DateAskPercentChance}} > 0": "true",
+				"Query: {{UniqueDateChance}} >0": "true",
+			},
+		},
+
+		{
+			"Name": "UniqueInterest",
+			"Value": "-1",
+			"When": {
+				"Date": "Maru",
+				"Day": "15",
+				"Query: {{DateAskPercentChance}} > 0": "true",
+				"Query: {{UniqueDateChance}} >0": "true",
+			},
+		},
+	
+
+	//DISABLE DATES ON FESTIVAL DAYS
+
+		{
+			"Name": "DateInterest",
+			"Value": "101",
+			"When": {
+				"DayEvent": "egg festival, flower dance, luau, dance of the moonlight jellies, stardew valley fair, spirit's eve, festival of ice, feast of the winter star",
+				"DatesOnFestivalDays": "disabled",
+			},
+		},
+		
+		//RSV Festivals
+
+		{
+			"Name": "DateInterest",
+			"Value": "101",
+			"When": {
+				"DayEvent": "Ember of Resolutions, Ridgeside Gathering",
+				"DatesOnFestivalDays": "disabled",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+		
+		//Pelican Town Potluck compatibility
+		
+		{
+			"Name": "DateInterest",
+			"Value": "101",
+			"When": {
+				"DayEvent": "Pelican Town Potluck",
+				"DatesOnFestivalDays": "disabled",
+				"HasMod": "LenneDalben.PelicanTownPotluck",
+			},
+		},
+
+	//FRIENDSHIP BONUS CONFIG DATA
+		{
+			"Name": "FriendBonus",
+			"Value": "0",
+			"When": {
+				"FriendshipBonus": "none",
+			},
+		},
+		{
+			"Name": "FriendBonus",
+			"Value": "25",
+			"When": {
+				"FriendshipBonus": "small",
+			},
+		},
+		{
+			"Name": "FriendBonus",
+			"Value": "50",
+			"When": {
+				"FriendshipBonus": "medium",
+			},
+		},
+		{
+			"Name": "FriendBonus",
+			"Value": "100",
+			"When": {
+				"FriendshipBonus": "large",
+			},
+		},
+
+	//KISS FRAMES
+		
+		{
+			"Name": "KissFrame",
+			"Value": "28",
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "33",
+			"When": {
+				"Date": "Abigail, Emily"
+			},
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "42",
+			"When": {
+				"Date": "Alex"
+			},
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "35",
+			"When": {
+				"Date": "Elliott"
+			},
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "31",
+			"When": {
+				"Date": "Harvey"
+			},
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "25",
+			"When": {
+				"Date": "Leah"
+			},
+		},
+
+		{
+			"Name": "KissFrame",
+			"Value": "35",
+			"When": {
+				"Date": "Penny"
+			},
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "36",
+			"When": {
+				"Date": "Sam"
+			},
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "40",
+			"When": {
+				"Date": "Sebastian"
+			},
+		},
+		
+		{
+			"Name": "KissFrame",
+			"Value": "34",
+			"When": {
+				"Date": "Shane"
+			},
+		},
+
+		{
+			"Name": "KissFrame",
+			"Value": "16",
+			"When": {
+				"Date": "Krobus"
+			},
+		},
+
+		{
+			"Name": "KissFrameFlip",
+			"Value": "false",
+		},
+
+		{
+			"Name": "KissFrameFlip",
+			"Value": "true",
+			"When": {
+				"Date": "Abigail, Emily, Elliott, Harvey, Maru, Sebastian, Shane"
+			},
+		},
+
+	//BEACH OUTFITS + SUGGESTIVE ENDINGS, supports Vanilla, SVE, and RSV
+
+	//SUGGESTIVE PORTRAITS
+	
+		{
+			"Name": "SuggestiveCommand",
+			"Value": "friendship {{Date}} 0",
+		},
+
+		//Vanilla
+		{
+			"Name": "SuggestiveCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Alex, Elliott, Sam, Sebastian, Abigail, Emily, Haley, Leah, Maru, Penny, Clint, Jodi, Marnie, Robin"
+			},
+		},
+
+		//SVE
+		{
+			"Name": "SuggestiveCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Lance, Sophia, Victor, Olivia, Claire",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//RSV
+		{
+			"Name": "SuggestiveCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Alissa, Daia, Flor, Ian, Jeric, Kenneth, Maddie, Philip, Shiro, Ysabelle",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//GE
+		{
+			"Name": "SuggestiveCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Gabriel, Zinnia",
+				"HasMod": "supert.adventureguildexpanded",
+			},
+		},
+
+		//BEACH PORTRAITS
+		
+		{
+			"Name": "BeachPortraitCommand",
+			"Value": "friendship {{Date}} 0",
+		},
+
+		//Vanilla
+		{
+			"Name": "BeachPortraitCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Alex, Harvey, Shane, Elliott, Sam, Sebastian, Abigail, Emily, Haley, Leah, Maru, Penny, Clint, Gus, Pam, Jodi, Marnie, Robin"
+			},
+		},
+
+		//SVE
+		{
+			"Name": "BeachPortraitCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Claire, Olivia, Lance, Sophia, Victor",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//RSV
+		{
+			"Name": "BeachPortraitCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Alissa, Corine, Daia, Flor, Ian, Jeric, Jio, Kenneth, Maddie, Philip, Shiro, Ysabelle",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//GE
+		{
+			"Name": "BeachPortraitCommand",
+			"Value": "changePortrait {{Date}} Beach",
+			"When": {
+				"Date": "Gabriel, Zinnia",
+				"HasMod": "supert.adventureguildexpanded",
+			},
+		},
+
+		//BEACH SPRITES
+		{
+			"Name": "BeachSpriteCommand",
+			"Value": "friendship {{Date}} 0",
+		},
+
+		//Vanilla
+		{
+			"Name": "BeachSpriteCommand",
+			"Value": "changeSprite {{Date}} Beach",
+			"When": {
+				"Date": "Alex, Harvey, Shane, Elliott, Sam, Sebastian, Abigail, Emily, Haley, Leah, Maru, Penny, Clint, Gus, Pam, Jodi, Marnie, Robin"
+			},
+		},
+
+		//SVE
+		{
+			"Name": "BeachSpriteCommand",
+			"Value": "changeSprite {{Date}} Beach",
+			"When": {
+				"Date": "Claire, Olivia, Lance, Sophia, Victor",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//RSV
+		{
+			"Name": "BeachSpriteCommand",
+			"Value": "changeSprite {{Date}} Beach",
+			"When": {
+				"Date": "Alissa, Corine, Daia, Flor, Ian, Jeric, Jio, Kenneth, Maddie, Philip, Shiro, Ysabelle",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//GE
+		{
+			"Name": "BeachSpriteCommand",
+			"Value": "changeSprite {{Date}} Beach",
+			"When": {
+				"Date": "Gabriel, Zinnia",
+				"HasMod": "supert.adventureguildexpanded",
+			},
+		},
+
+
+	//FOOD (Saloon/Picnic Date)
+
+		//VANILLA SPOUSES
+
+		//default, emily, shiro (RSV) - survival burger
+		{
+			"Name": "SpouseFood",
+			"Value": "241",
+		},
+
+		//alex - salmon dinner
+		{
+			"Name": "SpouseFood",
+			"Value": "212",
+			"When": {
+				"Date": "Alex"
+			},
+		},
+
+		//elliott - crab cakes
+		{
+			"Name": "SpouseFood",
+			"Value": "732",
+			"When": {
+				"Date": "Elliott"
+			},
+		},
+
+		//harvey - super meal
+		{
+			"Name": "SpouseFood",
+			"Value": "237",
+			"When": {
+				"Date": "Harvey"
+			},
+		},	
+
+		//krobus - void mayonaisse
+		{
+			"Name": "SpouseFood",
+			"Value": "308",
+			"When": {
+				"Date": "Krobus"
+			},
+		},
+
+		//sam, shane - pizza
+		{
+			"Name": "SpouseFood",
+			"Value": "206",
+			"When": {
+				"Date": "Sam, Shane"
+			},
+		},
+
+		//sebastian - pumpkin soup
+		{
+			"Name": "SpouseFood",
+			"Value": "236",
+			"When": {
+				"Date": "Sebastian"
+			},
+		},
+
+		//abigail - spicy eel
+		{
+			"Name": "SpouseFood",
+			"Value": "226",
+			"When": {
+				"Date": "Abigail"
+			},
+		},
+
+		//haley - fruit salad
+		{
+			"Name": "SpouseFood",
+			"Value": "610",
+			"When": {
+				"Date": "Haley"
+			},
+		},
+
+		//leah - salad
+		{
+			"Name": "SpouseFood",
+			"Value": "196",
+			"When": {
+				"Date": "Leah"
+			},
+		},
+
+		//maru - cheese cauliflower
+		{
+			"Name": "SpouseFood",
+			"Value": "197",
+			"When": {
+				"Date": "Maru"
+			},
+		},
+
+		//penny - red plate
+		{
+			"Name": "SpouseFood",
+			"Value": "230",
+			"When": {
+				"Date": "Penny"
+			},
+		},
+
+		//clint - fiddlehead risotto
+		{
+			"Name": "SpouseFood",
+			"Value": "649",
+			"When": {
+				"Date": "Clint"
+			},
+		},
+
+		//gus - escargot
+		{
+			"Name": "SpouseFood",
+			"Value": "729",
+			"When": {
+				"Date": "Gus"
+			},
+		},
+
+		//lewis - autumn's bounty
+		{
+			"Name": "SpouseFood",
+			"Value": "235",
+			"When": {
+				"Date": "Lewis"
+			},
+		},
+
+		//linus - dish o the sea
+		{
+			"Name": "SpouseFood",
+			"Value": "242",
+			"When": {
+				"Date": "Linus"
+			},
+		},
+
+		//marnie - farmer's lunch
+		{
+			"Name": "SpouseFood",
+			"Value": "240",
+			"When": {
+				"Date": "Marnie"
+			},
+		},
+
+		//pam - glazed yams
+		{
+			"Name": "SpouseFood",
+			"Value": "208",
+			"When": {
+				"Date": "Pam"
+			},
+		},
+
+		//sandy - mango sticky rice
+		{
+			"Name": "SpouseFood",
+			"Value": "905",
+			"When": {
+				"Date": "Sandy"
+			},
+		},
+
+
+		//willy - baked fish
+		{
+			"Name": "SpouseFood",
+			"Value": "198",
+			"When": {
+				"Date": "Willy"
+			},
+		},
+
+		//robin - spaghetti
+		{
+			"Name": "SpouseFood",
+			"Value": "204",
+			"When": {
+				"Date": "Robin"
+			},
+		},
+
+		//jodi - crispy bass
+		{
+			"Name": "SpouseFood",
+			"Value": "214",
+			"When": {
+				"Date": "Jodi"
+			},
+		},
+
+		//wizard/magnus - purple mushroom
+		{
+			"Name": "SpouseFood",
+			"Value": "422",
+			"When": {
+				"Date": "Wizard"
+			},
+		},
+
+		//SVE Spouses
+
+		//claire - bruschetta
+		{
+			"Name": "SpouseFood",
+			"Value": "618",
+			"When": {
+				"Date": "Claire",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//lance - tropical curry
+		{
+			"Name": "SpouseFood",
+			"Value": "907",
+			"When": {
+				"Date": "Lance",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//olivia - chocolate cake
+		{
+			"Name": "SpouseFood",
+			"Value": "220",
+			"When": {
+				"Date": "Olivia",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//victor - spaghetti
+		{
+			"Name": "SpouseFood",
+			"Value": "224",
+			"When": {
+				"Date": "Victor",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//sophia - pink cake
+		{
+			"Name": "SpouseFood",
+			"Value": "221",
+			"When": {
+				"Date": "Sophia",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+
+		//RSV Spouses
+
+		//ian - fish taco
+		{
+			"Name": "SpouseFood",
+			"Value": "213",
+			"When": {
+				"Date": "Ian",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//jeric, kiarra - spaghetti
+		{
+			"Name": "SpouseFood",
+			"Value": "224",
+			"When": {
+				"Date": "Jeric, Kiarra",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//jio - plum pudding
+		{
+			"Name": "SpouseFood",
+			"Value": "604",
+			"When": {
+				"Date": "Jio",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//kenneth - pizza
+		{
+			"Name": "SpouseFood",
+			"Value": "206",
+			"When": {
+				"Date": "Kenneth",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//philip - trout soup
+		{
+			"Name": "SpouseFood",
+			"Value": "219",
+			"When": {
+				"Date": "Philip",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//alissa - pancakes
+		{
+			"Name": "SpouseFood",
+			"Value": "211",
+			"When": {
+				"Date": "Alissa",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//corine, daia, maddie - salad
+		{
+			"Name": "SpouseFood",
+			"Value": "196",
+			"When": {
+				"Date": "Corine, Daia, Maddie",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//flor - ice cream
+		{
+			"Name": "SpouseFood",
+			"Value": "233",
+			"When": {
+				"Date": "Flor",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//ysabelle - unknown???
+		{
+			"Name": "SpouseFood",
+			"Value": "228",
+			"When": {
+				"Date": "Ysabelle",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//sean - hashbrowns
+		{
+			"Name": "SpouseFood",
+			"Value": "210",
+			"When": {
+				"Date": "Sean",
+				"HasMod": "Rafseazz.RSVCP",
+			},
+		},
+
+		//GE Spouses
+
+		//gabriel - roots platter
+		{
+			"Name": "SpouseFood",
+			"Value": "244",
+			"When": {
+				"Date": "Gabriel",
+				"HasMod": "supert.adventureguildexpanded",
+			},
+		},
+
+		//zinnia - green tea
+		{
+			"Name": "SpouseFood",
+			"Value": "614",
+			"When": {
+				"Date": "Zinnia",
+				"HasMod": "supert.adventureguildexpanded",
+			},
+		},
+
+	//DANCE DATE
+	
+	//Music
+
+		//vanilla spouses
+
+		//default, Sam no 8-heart event - Music Box Song
+		{
+			"Name": "SpouseMusic",
+			"Value": "musicboxsong",
+		},
+
+		//abigail - A Stillness In The Rain Duet
+		{
+			"Name": "SpouseMusic",
+			"Value": "AbigailFluteDuet",
+			"When": {
+				"Date": "Abigail",
+			},
+		},
+
+		//alex - Alex's Keepsake
+		{
+			"Name": "SpouseMusic",
+			"Value": "tinymusicbox",
+			"When": {
+				"Date": "Alex",
+			},
+		},
+
+		//elliott - Piano Solo
+		{
+			"Name": "SpouseMusic",
+			"Value": "elliottPiano",
+			"When": {
+				"Date": "Elliott",
+			},
+		},
+
+		//emily - Emily's Dance
+		{
+			"Name": "SpouseMusic",
+			"Value": "EmilyDance",
+			"When": {
+				"Date": "Emily",
+			},
+		},
+
+		//haley - Pickle Jar Rag
+		{
+			"Name": "SpouseMusic",
+			"Value": "ragtime",
+			"When": {
+				"Date": "Haley",
+			},
+		},
+
+		//harvey - Grapefruit Sky Jazz
+		{
+			"Name": "SpouseMusic",
+			"Value": "harveys_theme_jazz",
+			"When": {
+				"Date": "Harvey",
+			},
+		},
+
+		//leah - Land of Green and Gold
+		{
+			"Name": "SpouseMusic",
+			"Value": "breezy",
+			"When": {
+				"Date": "Leah",
+			},
+		},
+
+		//maru - Starwatcher
+		{
+			"Name": "SpouseMusic",
+			"Value": "spaceMusic",
+			"When": {
+				"Date": "Maru",
+			},
+		},
+
+		//penny - Pleasant Memory
+		{
+			"Name": "SpouseMusic",
+			"Value": "50s",
+			"When": {
+				"Date": "Penny",
+			},
+		},
+
+		//sam - Sam's Band (if seen 8 heart event)
+		{
+			"Name": "SpouseMusic",
+			"Value": "samBand",
+			"When": {
+				"Date": "Sam",
+				"HasSeenEvent": "4081148",
+			},
+		},
+
+		//sam - Sam Acoustic (if seen 14 heart event)
+		{
+			"Name": "SpouseMusic",
+			"Value": "sam_acoustic1",
+			"When": {
+				"Date": "Sam",
+				"HasSeenEvent": "3918603",
+			},
+		},
+
+		//sebastian - Cloth
+		{
+			"Name": "SpouseMusic",
+			"Value": "Cloth",
+			"When": {
+				"Date": "Sebastian",
+			},
+		},
+
+		//wizard - A Glimpse Of Another World
+		{
+			"Name": "SpouseMusic",
+			"Value": "WizardSong",
+			"When": {
+				"Date": "Wizard",
+			},
+		},
+
+
+		//RSV Spouses
+
+		{
+			"Name": "SpouseMusic",
+			"Value": "{{Date}}Theme",
+			"When": {
+				"Date": "Alissa, Corine, Daia, Flor, Ian, Jeric, Jio, Kenneth, Maddie, Philip, Shiro, Ysabelle, Sean, Kiarra, Anton, Paula, Blair",
+				"HasMod": "Rafseazz.RSVSAATExtra",
+			},
+		},
+		
+		{
+			"Name": "SpouseMusic",
+			"Value": "Satiety",
+			"When": {
+				"Date": "Irene",
+				"HasMod": "Rafseazz.RSVSAATExtra",
+			},
+		},
+		
+		{
+			"Name": "SpouseMusic",
+			"Value": "Saliency",
+			"When": {
+				"Date": "Zayne",
+				"HasMod": "Rafseazz.RSVSAATExtra",
+			},
+		},
+		
+		{
+			"Name": "SpouseMusic",
+			"Value": "Daydreaming",
+			"When": {
+				"Date": "Faye",
+				"HasMod": "Rafseazz.RSVSAATExtra",
+			},
+		},
+		
+		{
+			"Name": "SpouseMusic",
+			"Value": "Defending",
+			"When": {
+				"Date": "Bryle",
+				"HasMod": "Rafseazz.RSVSAATExtra",
+			},
+		},
+
+		//GE Spouses
+
+		//Zinnia - Zinnia's Sorrow
+		
+		{
+			"Name": "SpouseMusic",
+			"Value": "ZinniaSorrow",
+			"When": {
+				"Date": "Zinnia",
+				"HasMod": "supert.guildexpandedsaat",
+			},
+		},
+
+		//Gabriel - Daisy's Farewell
+		{
+			"Name": "SpouseMusic",
+			"Value": "DaisyFarewell",
+			"When": {
+				"Date": "Gabriel",
+				"HasMod": "supert.guildexpandedsaat",
+			},
+		},
+	  
+		//FLOWER GIFT
+
+		//spring - tulip, blue jazz, daffodil
+		{
+			"Name": "FlowerGift",
+			"Value": "{{Random:591, 597, 18}}",
+			"When": {
+				"Season": "Spring",
+			},
+		},
+
+		//summer - sweet pea, summer spangle, poppy, sunflower
+		{
+			"Name": "FlowerGift",
+			"Value": "{{Random:402, 376, 593, 421}}",
+			"When": {
+				"Season": "Summer",
+			},
+		},
+
+		//fall - fairy rose, sunflower
+		{
+			"Name": "FlowerGift",
+			"Value": "{{Random:595, 421}}",
+			"When": {
+				"Season": "Fall",
+			},
+		},
+
+		//winter - crocus
+		{
+			"Name": "FlowerGift",
+			"Value": "418",
+			"When": {
+				"Season": "Winter",
+			},
+		},
+	  
+	//SEEDS - Grocery Date
+
+		{
+			"Name": "Seeds",
+			"Value": "{{Random:472, 473, 474, 475, 477, 495, 476, 478, 429, 273, 427, 802}}",
+			"When": {
+				"Season": "Spring",
+			},
+		},
+
+		{
+			"Name": "Seeds",
+			"Value": "{{Random:479, 480, 481, 482, 483, 484, 487, 496, 485, 486, 431, 453, 455, 302, 301, 802}}",
+			"When": {
+				"Season": "Summer",
+			},
+		},
+
+		{
+			"Name": "Seeds",
+			"Value": "{{Random:483, 487, 488, 490, 491, 492, 493, 497, 489, 431, 425, 299, 802}}",
+			"When": {
+				"Season": "Fall",
+			},
+		},
+
+		{
+			"Name": "Seeds",
+			"Value": "{{Random: 498, 802}}",
+			"When": {
+				"Season": "Winter",
+			},
+		},
+
+   ],
+   "Changes": [
+	
+		//Load Invisible Actors For Certain Events
+		
+		{
+			"LogName": "Add Placeholder Actor 1",
+			"Action": "Load",
+			"Target": "Characters/Placeholder1DN",
+			"FromFile": "assets/Characters/Placeholder1_DN.png",
+		},
+
+		{
+			"LogName": "Add Placeholder Actor 2",
+			"Action": "Load",
+			"Target": "characters/Placeholder2DN",
+			"FromFile": "assets/Characters/Placeholder2_DN.png",
+		},
+
+		//Generic Dates
+		{
+			"LogName": "Include Dates",
+			"Action": "Include",
+			"FromFile": "data/Dates/generic.json",
+		},
+
+		//Alex Dates
+		{
+			"LogName": "Include Alex Unique Date",
+			"Action": "Include",
+			"FromFile": "data/Dates/alex.json",
+			"When": {
+				"Date": "Alex",
+			},
+		},
+
+		//Emily Dates
+		{
+			"LogName": "Include Emily Unique Date",
+			"Action": "Include",
+			"FromFile": "data/Dates/emily.json",
+			"When": {
+				"Date": "Emily",
+			},
+		},
+
+		//Haley Dates
+		{
+			"LogName": "Include Haley Unique Date",
+			"Action": "Include",
+			"FromFile": "data/Dates/haley.json",
+			"When": {
+				"Date": "Haley",
+			},
+		},
+
+		//Maru Dates
+		{
+			"LogName": "Include Maru Unique Date",
+			"Action": "Include",
+			"FromFile": "data/Dates/maru.json",
+			"When": {
+				"Date": "Maru",
+			},
+		},
+
+		// Custom Dates
+		{
+			"LogName": "Generic Date Overrides",
+			"Action": "Include",
+			"FromFile": "data/CustomDates/GenericOverrides/{{Date}}.json",
+			"When": {
+				"HasFile:{{FromFile}}": true
+			},
+		},
+
+		{
+			"LogName": "Unique Dates for NPCs",
+			"Action": "Include",
+			"FromFile": "data/CustomDates/Unique/{{Date}}.json",
+			"When": {
+				"HasFile:{{FromFile}}": true
+			},
+		},
+		
+		{
+			"LogName": "Allow Dates to Repeat",
+			"Action": "Include",
+			"FromFile": "data/Triggers.json",
+		},
+/*		
+		//Do not uncomment this out, this patch is used for testing
+		
+			//Test All Dates
+		
+		{
+			"LogName": "Include Test Dates",
+			"Action": "Include",
+			"FromFile": "data/TestDates.json",
+		},*/		
+	],
+}

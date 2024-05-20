@@ -1,0 +1,19 @@
+{
+    "Name": "Frog Friends",
+    "Author": "neuralwiles",
+    "Version": "3.0.1",
+    "Description": "Adds a variety of frog friends for your farm. Created for SDV 1.6.",
+    "UniqueID": "neuralwiles.FrogFriends",
+    "UpdateKeys": [ "Nexus:20657" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "DaisyNiko.Tilesheets"
+        },
+        {
+            "UniqueID": "hxw.tilesheets"
+        }
+    ]
+}

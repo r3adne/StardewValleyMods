@@ -1,0 +1,1130 @@
+{
+  "Format": "1.23.0",
+  "Changes": [
+  {
+         "Action": "EditData",
+         "Target": "Data/Events/Town",
+         "Entries": {
+"97465928/u 1/z spring/z fall/z winter/t 600 1700/k 6497428/k 97465408": "starshoot/29 66/Lewis 29 63 2 George 35 64 3 Evelyn 36 64 3 Alex 35 63 3 Willy 35 66 3 Haley 36 69 3 Penny 31 65 1 Pam 32 65 3 Abigail 26 65 0 Sebastian 27 66 0 Jodi 22 70 1 Sam 25 69 1 Vincent 26 69 3 Marnie 24 64 2 Jas 23 64 2 farmer 22 66 1 Clint 24 67 1 Emily 34 69 2 Gus 37 70 3 Shane 35 71 0 Pierre 25 71 0 Caroline 26 71 0 Leah 28 70 1 Elliott 29 70 3 Harvey 32 68 0 Maru 29 68 0 Demetrius 30 68 3 Robin 31 71 0 Sandy 34 70 0/pause 4000/jump Lewis 4/speak Lewis \"Alright everyone, is everyone ready for the Pride march?$1\"/jump Abigail 6/pause 200/jump Emily 6/textAboveHead Robin \"Yes!\"/pause 500/textAboveHead Sam \"Absolutely!\"/pause 500/textAboveHead Harvey \"Let's go!\"/pause 1000/speak Lewis \"Fantastic! Remember our route - up through the mountains...$0#$b#...then left and down through the farm, before we go past Marnie's and back to town.$0\"/pause 1000/faceDirection Lewis 1/pause 900/faceDirection Lewis 2/pause 300/faceDirection Lewis 3/pause 900/faceDirection Lewis 2/pause 600/speak Lewis \"Alright, let's march! Happy Pride, everyone!$1\"/stopMusic/playMusic junimoStarSong/jump Jas 7/pause 100/jump Vincent 7/pause 200/jump Leah 5/speed Lewis 1/speed Abigail 1/speed Sebastian 1/speed Harvey 1/speed Penny 1/speed Sandy 1/speed Pam 1/speed Emily 1/speed Maru 1/speed Demetrius 1/speed Leah 1/speed Elliott 1/speed Sam 1/speed Vincent 1/speed Robin 1/speed Caroline 1/speed Pierre 1/animate Haley true true 300 25 32 33 32/animate Jas true true 400 24 0/move Lewis 0 -15 0 true/pause 800/move Abigail 0 -15 0 0 true/move Sebastian 0 -15 0 0 true/pause 1000/move Harvey 0 -15 0 0 true/move Pam 0 -15 0 0 true/move Penny 0 -15 -0 0 true/textAboveHead Pam \"Trans Rights!\"/pause 1200/move Emily 0 -15 0 0 true/move Sandy 0 -15 0 0 true/move Maru 0 -15 0 0 true/move Demetrius 0 -15 0 0 true/textAboveHead George \"Gay liberation!\"/pause 1000/move Leah 0 -15 0 0 true/move Elliott 0 -15 0 0 true/textAboveHead Leah \" Pride is protest!\"/pause 800/move Sam 0 -15 0 0 true/move Vincent 0 -15 0 0 true/textAboveHead Marnie \"Be fearless!\"/move Robin 0 -15 0 0 true/move Caroline 0 -15 0 0 true/move Pierre 0 -15 0 0 true/pause 1500/fade/mail PrideParade/end"
+},
+},
+{
+         "Action": "EditData",
+         "Target": "Data/Events/Town",
+         "Entries": {
+"97465408/u 1/z spring/z fall/z winter/t 600 1700/e 6497428/k 97465928": "starshoot/29 66/Lewis 29 63 2 George 35 64 3 Evelyn 36 64 3 Alex 35 63 3 Willy 35 66 3 Haley 36 69 3 Penny 31 65 1 Pam 32 65 3 Abigail 26 65 0 Sebastian 27 66 0 Jodi 22 70 1 Sam 25 69 1 Vincent 26 69 3 Marnie 24 64 2 Jas 23 64 2 farmer 22 66 1 Clint 24 67 1 Emily 34 69 2 Gus 37 70 3 Shane 35 71 0 Pierre 25 71 0 Caroline 26 71 0 Leah 28 70 1 Elliott 29 70 3 Harvey 32 68 0 Maru 29 68 0 Demetrius 30 68 3 Robin 31 71 0 ParrotBoy 28 71 3 Birdie 27 71 1 Sandy 34 70 0/pause 4000/jump Lewis 4/speak Lewis \"Alright everyone, is everyone ready for the Pride march?$1\"/jump Abigail 6/pause 200/jump Emily 6/textAboveHead Robin \"Yes!\"/pause 500/textAboveHead Sam \"Absolutely!\"/pause 500/textAboveHead Harvey \"Let's go!\"/pause 1000/speak Lewis \"Fantastic! Remember our route - up through the mountains...$0#$b#...then left and down through the farm, before we go past Marnie's and back to town.$0\"/pause 1000/faceDirection Lewis 1/pause 900/faceDirection Lewis 2/pause 300/faceDirection Lewis 3/pause 900/faceDirection Lewis 2/pause 600/speak Lewis \"Alright, let's march! Happy Pride, everyone!$1\"/stopMusic/playMusic junimoStarSong/jump Jas 7/pause 100/jump Vincent 7/pause 200/jump Leah 5/speed Lewis 1/speed Abigail 1/speed Sebastian 1/speed Harvey 1/speed Penny 1/speed Pam 1/speed Emily 1/speed Birdie 1/speed ParrotBoy 1/speed Sandy 1/speed Maru 1/speed Demetrius 1/speed Leah 1/speed Elliott 1/speed Sam 1/speed Vincent 1/speed Robin 1/speed Caroline 1/speed Pierre 1/animate Haley true true 300 25 32 33 32/animate Jas true true 400 24 0/move Lewis 0 -15 0 true/pause 800/move Abigail 0 -15 0 0 true/move Sebastian 0 -15 0 0 true/pause 1000/move Harvey 0 -15 0 0 true/move Pam 0 -15 0 0 true/move Penny 0 -15 -0 0 true/textAboveHead Pam \"Trans Rights!\"/pause 1200/move Emily 0 -15 0 0 true/move Sandy 0 -15 0 0 true/move Maru 0 -15 0 0 true/move Demetrius 0 -15 0 0 true/textAboveHead George \"Gay liberation!\"/pause 1000/move Leah 0 -15 0 0 true/move Elliott 0 -15 0 0 true/textAboveHead Leah \" Pride is protest!\"/pause 800/move Sam 0 -15 0 0 true/move Vincent 0 -15 0 0 true/textAboveHead Marnie \"Be fearless!\"/move Robin 0 -15 0 0 true/move Caroline 0 -15 0 0 true/move Pierre 0 -15 0 0 true/pause 500/move ParrotBoy 0 -15 0 true/move Birdie 0 -15 0 true/textAboveHead Birdie \"Kira ta'ota tupoi!\"/pause 1500/fade/end"
+},
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Alex",
+         "Entries": {
+			 "summer_1_1": "My grandpa showed me photographs of the Pride marches he went to when he was younger.$0#$b#They were a bit of a riot!$1",
+			 "summer_1_2": "My grandpa showed me photographs of the Pride marches he went to when he was younger.$0#$b#They were a bit of a riot!$1",
+			  "summer_1": "My grandpa showed me photoraphs of the Pride marches he went to when he was younger.$0#$b#They were a bit of a riot!$1",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Elliott",
+         "Entries": {
+			 "summer_1_1": "So many literary greats were queer, and I'm just following in their footsteps...$1",
+			 "summer_1_2": "So many literary greats were queer, and I'm just following in their footsteps...$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Harvey",
+         "Entries": {
+"summer_1_1": "Healthcare in the queer community has had its problems, but I'm dedicated to offering the best service I can.$0#$b#No gatekeeping here!$1",
+"summer_1_2": "Healthcare in the queer community has had its problems, but I'm dedicated to offering the best service I can.$0#$b#No gatekeeping here!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sam",
+         "Entries": {
+			 "summer_1_1": "I don't think Vincent quite gets Pride, but I'm glad to walk with him during the march.$0#$b#Being trans sure is better when your family is supportive.$1",
+			 "summer_1_2": "I don't think Vincent quite gets Pride, but I'm glad to walk with him during the march.$0#$b#Being trans sure is better when your family is supportive.$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sebastian",
+         "Entries": {
+			 "summer_1_1": "I hear Grampleton Pride always involves protest about its mayor.$0#$b#Mayor Lewis says we're not to throw stones in solidarity, though.$1",
+			  "summer_1_2": "I hear Grampleton Pride always involves protest about its mayor.$0#$b#Mayor Lewis says we're not to throw stones in solidarity, though.$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Shane",
+         "Entries": {
+			 "summer_1_1": "It's been difficult to accept myself as I am...$0#$b#But the Pride march here has never been less than welcoming!$1",
+			 "summer_1_2": "It's been difficult to accept myself as I am...$0#$b#But the Pride march here has never been less than welcoming!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Abigail",
+         "Entries": {
+			 "summer_1_1": "Hey @, if you need some queer movies to watch tonight, I have a few recommendations...",
+			  "summer_1_2": "Hey @, if you need some queer movies to watch tonight, I have a few recommendations...",
+			 "summer_1": "Hey @, if you need some queer movies to watch tonight, I have a few recommendations...",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Emily",
+         "Entries": {
+			 "summer_1_1": "See these pride leis? I hand-dyed all of them!",
+			 "summer_1_2": "See these pride leis? I hand-dyed all of them!"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Haley",
+         "Entries": {
+			 "summer_1_1": "I always take the best photos at Pride.$0#$b#Plus, I can support my sister as she marches!",
+			 "summer_1_2": "I always take the best photos at Pride.$0#$b#Plus, I can support my sister as she marches!"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Leah",
+         "Entries": {
+			 "summer_1_1": "The first pride was a protest! And don't let anyone forget it!$1",
+			 "summer_1_2": "The first pride was a protest! And don't let anyone forget it!$1",
+			 "summer_1": "The first pride was a protest! And don't let anyone forget it!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Maru",
+         "Entries": {
+			 "summer_1_1": "Hey @. Enjoying pride?#$b#I've walked with my dad in the march ever since I can remember.",
+			 "summer_1_2": "Hey @. Enjoying pride?#$b#I've walked with my dad in the march ever since I can remember.",
+			 "summer_1": "Hey @. Enjoying pride?#$b#I've walked with my dad in the march ever since I can remember."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Penny",
+         "Entries": {
+			 "summer_1_1": "Mom always walks with me in the March.$0#$b#She's been so supportive, ever since I came out and transitioned. I'm so glad!$1",
+			 "summer_1_2": "Mom always walks with me in the March.$0#$b#She's been so supportive, ever since I came out and transitioned. I'm so glad!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Caroline",
+         "Entries": {
+			 "summer_1_1": "Back in the day, I went to Grampleton Pride. I used to throw stones at the city hall - the mayor was the most bigoted man!$1#$b#I promise I won't throw stones in protest this year...$0",
+			 "summer_1_2": "Back in the day, I went to Grampleton Pride. I used to throw stones at the city hall - the mayor was the most bigoted man!$1#$b#I promise I won't throw stones in protest this year...$0"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Clint",
+         "Entries": {
+			 "summer_1_1": "Ace folk like myself sometimes struggle with our identities.$0#$b#But Pride helps me feel like I belong!$1",
+			 "summer_1_2": "Ace folk like myself sometimes struggle with our identities.$0#$b#But Pride helps me feel like I belong!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Demetrius",
+         "Entries": {
+			 "summer_1_1": "My family have walked in Pride every year since Robin and I married.",
+			 "summer_1_2": "My family have walked in Pride every year since Robin and I married."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Dwarf",
+         "Entries": {
+			 "summer_1_1": "Your people gleam like rubies and emeralds this time of year.",
+			 "summer_1_2": "Your people gleam like rubies and emeralds this time of year."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Evelyn",
+         "Entries": {
+			 "summer_1_1": "George took me to my first Pride. It was such a shock to me back then!$1",
+			  "summer_1_2": "George took me to my first Pride. It was such a shock to me back then!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/George",
+         "Entries": {
+			 "summer_1_1": "Didn't think I would be one for Pride?$1#$b#Bi men like myself always have a place here. Although I can't exactly fight the police anymore...",
+			 "summer_1_2": "Didn't think I would be one for Pride?$1#$b#Bi men like myself always have a place here. Although I can't exactly fight the police anymore..."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Gus",
+		 "When": {
+			 "Season": "summer",
+			 "Day": "1",
+		 },
+         "Entries": { 
+		 "summer_1_1": "Bear pride!$1",
+		 "summer_1_2": "Bear pride!$1",
+		 "SaloonMon": "Bear pride!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jas ",
+         "Entries": {
+			 "summer_1_1": "I love all the pride leis!",
+			 "summer_1_2": "I love all the pride leis!"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jodi",
+         "Entries": {
+			 "summer_1_1": "I've been going to Pride since before my sons were born.$1",
+			 "summer_1_2": "I've been going to Pride since before my sons were born.$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Kent",
+         "Entries": {
+			 "summer_1_1": "The crowds trip my PTSD, so I stay inside during the march.$0#$b#But I always sit by the window and wave. I don't want my son to think I don't support him.",
+			 "summer_1_2": "The crowds trip my PTSD, so I stay inside during the march.$0#$b#But I always sit by the window and wave. I don't want my son to think I don't support him."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Krobus",
+         "Entries": {
+			 "summer_1_1": "There are so many colours up top this time of year.",
+			 "summer_1_2": "There are so many colours up top this time of year."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Leo",
+         "Entries": {
+			 "summer_1_1": "Queer folk, or ta'ota tupoi have always been supported in my community, so a Pride march is a bit of a novelty.$1",
+			  "summer_1_2": "Queer folk, or ta'ota tupoi have always been supported in my community, so a Pride march is a bit of a novelty.$1",
+		 },
+},
+		 {
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/LeoMainland",
+         "Entries": {
+			 "summer_1_1": "Queer folk, or ta'ota tupoi have always been supported in my community, so a Pride march is a bit of a novelty.$1",
+			 "summer_1_2": "Queer folk, or ta'ota tupoi have always been supported in my community, so a Pride march is a bit of a novelty.$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Lewis",
+         "Entries": {
+			 "summer_1_1": "The fisrt Pride here was a protest. A number of villagers took part.$0#$b#It's still a protest now, but hopefully Caroline does't feel the need to pelt my window with rocks!$1",
+			 "summer_1_2": "The fisrt Pride here was a protest. A number of villagers took part.$0#$b#It's still a protest now, but hopefully Caroline does't feel the need to pelt my window with rocks!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Linus",
+         "Entries": {
+			 "summer_1_1": "I don't feel comfortable with the crowds, so you won't find me marching.$0#$b#But seeing everyone walk by my tent all rainbow coloured is nice.$1",
+			 "summer_1_2": "I don't feel comfortable with the crowds, so you won't find me marching.$0#$b#But seeing everyone walk by my tent all rainbow coloured is nice.$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Marnie",
+         "Entries": {
+			 "summer_1_1": "Happy Pride, @! How's your day been?",
+			 "summer_1_2": "Happy Pride, @! How's your day been?"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pam",
+		 "When": {
+			 "Season": "summer",
+			 "Day": "1",
+		 },
+         "Entries": {
+			 "summer_1_1": "I've walked with Penny in the march every year since she transitioned.$0#$b#We've had our problems, but I'm so proud of her...$1",
+			 "summer_1_2": "I've walked with Penny in the march every year since she transitioned.$0#$b#We've had our problems, but I'm so proud of her...$1",
+			 "SaloonMon": "I've walked with Penny in the march every year since she transitioned.$0#$b#We've had our problems, but I'm so proud of her...$1",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pierre",
+         "Entries": {
+			 "summer_1_1": "I met Caroline at a Pride march in Grampleton.$1#$b#She was throwing stones at the councillor's office because he wouldn't support same-sex marriage.",
+			 "summer_1_2": "I met Caroline at a Pride march in Grampleton.$1#$b#She was throwing stones at the councillor's office because he wouldn't support same-sex marriage." 
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Robin",
+         "Entries": {
+			 "summer_1_1": "Demetrius has always walked with Maru in the march.$0#$b#Sebastian finds it embarassing if I walk with him, though.$1",
+			 "summer_1_2": "Demetrius has always walked with Maru in the march.$0#$b#Sebastian finds it embarassing if I walk with him, though.$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sandy",
+         "Entries": {
+			 "summer_1_1": "I always go over to the valley on Pride. Gotta show that lesbian pride!$1",
+			 "summer_1_2":"I always go over to the valley on Pride. Gotta show that lesbian pride!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Vincent",
+         "Entries": {
+			 "summer_1_1": "My brother takes me to Pride every year!$1",
+			 "summer_1_2": "My brother takes me to Pride every year!$1"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Willy",
+         "Entries": {
+			 "summer_1_1": "I remember our first Pride. It was just me, Lewis, George, Evelyn and a handful of others.$1#$b#Of course, most of the young'ns didn't live here then.$0",
+			 "summer_1_2": "I remember our first Pride. It was just me, Lewis, George, Evelyn and a handful of others.$1#$b#Of course, most of the young'ns didn't live here then.$0"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Wizard",
+         "Entries": {
+			 "summer_1_1": "The Junimos are always happiest on Pride. I think it's the colours.",
+			 "summer_1_2": "The Junimos are always happiest on Pride. I think it's the colours."
+		 },
+},
+
+{
+         "Action": "EditImage",
+         "Target": "Characters/Alex",
+		 "FromFile": "assets/bipride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Elliott",
+		 "FromFile": "assets/panpride-vtall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Harvey",
+		 "FromFile": "assets/bipride-vtall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Sam",
+		 "FromFile": "assets/transpride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Sebastian",
+		 "FromFile": "assets/bipride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Shane",
+		 "FromFile": "assets/panpride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Abigail",
+		 "FromFile": "assets/panpride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Emily",
+		 "FromFile": "assets/intersexpride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Haley",
+		 "FromFile": "assets/panpride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Leah",
+		 "FromFile": "assets/bipride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Maru",
+		 "FromFile": "assets/bipride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Penny",
+		 "FromFile": "assets/transpride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Caroline",
+		 "FromFile": "assets/gaypride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Clint",
+		 "FromFile": "assets/acepride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Demetrius",
+		 "FromFile": "assets/gaypride-vtall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Dwarf",
+		 "FromFile": "assets/gaypride-kids.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Evelyn",
+		 "FromFile": "assets/gaypride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/George",
+		 "FromFile": "assets/bipride-george.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Gus",
+		 "FromFile": "assets/gaypride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Jas",
+		 "FromFile": "assets/gaypride-kids.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Jodi",
+		 "FromFile": "assets/enbypride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Kent",
+		 "FromFile": "assets/gaypride-vtall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Krobus",
+		 "FromFile": "assets/gaypride-kids.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/ParrotBoy",
+		 "FromFile": "assets/gaypride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+				"HasMod": "gwenynnefydd.diversegingerisland",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/ParrotBoy",
+		 "FromFile": "assets/gaypride-kids.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+				"HasMod |contains=gwenynnefydd.diversegingerisland": false 
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Lewis",
+		 "FromFile": "assets/panpride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Linus",
+		 "FromFile": "assets/acepride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Marnie",
+		 "FromFile": "assets/bipride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Pam",
+		 "FromFile": "assets/transpride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Pierre",
+		 "FromFile": "assets/gaypride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Robin",
+		 "FromFile": "assets/gaypride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Sandy",
+		 "FromFile": "assets/lesbianpride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Vincent",
+		 "FromFile": "assets/gaypride-kids.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Willy",
+		 "FromFile": "assets/enbypride-vtall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Wizard",
+		 "FromFile": "assets/transpride-tall.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Characters/Birdie",
+		 "FromFile": "assets/lesbianpride.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":140 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Alex",
+		 "FromFile": "assets/lei-alex.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":384 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Elliott",
+		 "FromFile": "assets/lei-elliott.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":320 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Harvey",
+		 "FromFile": "assets/lei-harvey.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":384 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Sam",
+		 "FromFile": "assets/lei-sam.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":384 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Sebastian",
+		 "FromFile": "assets/lei-sebastian.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":320 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Shane",
+		 "FromFile": "assets/lei-shane.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":384 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Abigail",
+		 "FromFile": "assets/lei-abigail.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":320 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Emily",
+		 "FromFile": "assets/lei-emily.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":256 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Haley",
+		 "FromFile": "assets/lei-haley.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":384 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Leah",
+		 "FromFile": "assets/lei-leah.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":320 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Maru",
+		 "FromFile": "assets/lei-maru.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":320 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Penny",
+		 "FromFile": "assets/lei-penny.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":384 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Caroline",
+		 "FromFile": "assets/lei-caroline.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Clint",
+		 "FromFile": "assets/lei-clint.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":256 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Demetrius",
+		 "FromFile": "assets/lei-demetrius.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":256 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Dwarf",
+		 "FromFile": "assets/lei-dwarf.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height":64 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Evelyn",
+		 "FromFile": "assets/lei-evelyn.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/George",
+		 "FromFile": "assets/lei-george.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Gus",
+		 "FromFile": "assets/lei-gus.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Jas",
+		 "FromFile": "assets/lei-jas.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Jodi",
+		 "FromFile": "assets/lei-jodi.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Kent",
+		 "FromFile": "assets/lei-kent.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Krobus",
+		 "FromFile": "assets/lei-krobus.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":320 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/ParrotBoy",
+		 "FromFile": "assets/lei-leo-dgi.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+				"HasMod": "gwenynnefydd.diversegingerisland",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/ParrotBoy",
+		 "FromFile": "assets/lei-leo.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+				"HasMod |contains=gwenynnefydd.diversegingerisland": false 
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Lewis",
+		 "FromFile": "assets/lei-lewis.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Linus",
+		 "FromFile": "assets/lei-linus.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Marnie",
+		 "FromFile": "assets/lei-marnie.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Pam",
+		 "FromFile": "assets/lei-pam.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Pierre",
+		 "FromFile": "assets/lei-pierre.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":192 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Robin",
+		 "FromFile": "assets/lei-robin.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":256 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Sandy",
+		 "FromFile": "assets/lei-sandy.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Vincent",
+		 "FromFile": "assets/lei-vincent.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Willy",
+		 "FromFile": "assets/lei-willy.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Wizard",
+		 "FromFile": "assets/lei-wizard.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":64 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Birdie",
+		 "FromFile": "assets/lei-birdie-dgi.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+				"HasMod": "gwenynnefydd.diversegingerisland",
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditImage",
+         "Target": "Portraits/Birdie",
+		 "FromFile": "assets/lei-birdie.png",
+		 "ToArea": { "X": 0, "Y": 0, "Width": 128, "Height":128 },
+		 "When": {
+				"Season": "summer",
+				"Day": "1",
+				"HasMod |contains=gwenynnefydd.diversegingerisland": false 
+			},
+			"PatchMode": "Overlay",
+},
+{
+         "Action": "EditData",
+         "Target": "Data/Mail",
+         "Entries": { 
+		 "PrideParade": "@,^Always remember... even though it's hard out there... no matter your identity, there is always a place for you in the valley!^^-Lewis%item object 74 1 %%"
+		 },
+},
+],
+}

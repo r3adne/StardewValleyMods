@@ -1,0 +1,10 @@
+{
+    "Name": "Rats!",
+    "Author": "slumberwood",
+    "Version": "1.0.0",
+    "Description": "A great cheese alternative!",
+    "UniqueID": "slumberwood.rat",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

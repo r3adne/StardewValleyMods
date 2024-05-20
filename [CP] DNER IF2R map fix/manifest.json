@@ -1,0 +1,26 @@
+{
+    "Name": "DNER IF2R map fix",
+    "Author": "Xryzo11",
+    "Version": "3.0.1",
+    "Description": "This mod fixes the incorrect color on the world map while using the Earthy Recolour with the Immersive Farm 2 Remastered's farm.",
+    "UniqueID": "DNER.IF2Rmapfix",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:12326"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "DaisyNiko.EarthyRecolour",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "flashshifter.immersivefarm2remastered",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "DNER.SVEmapfix",
+            "IsRequired": true
+        }
+    ]
+}

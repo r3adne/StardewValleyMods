@@ -1,0 +1,100 @@
+{
+    "Format": "1.26.0",
+	"ConfigSchema": {
+		"SpritesheetVersion": {
+			"AllowValues": "Modded, Vanilla",
+			"Description": "Toggles whether if you want mods changing the Junimo spritesheet in Content to take effect on FJ's junimos too or not. If set as 'Modded', it!ll allow that. If it's 'Vanilla', FJ will stick to vanilla sprites.",
+			"Default": "Modded"
+		},
+		"RecolorPalettes":{
+			"AllowValues": "Vanilla, Earthy, Starblue, Wittily, Rosier",
+			"Description": "Toggles whether if you want the FJ junimos' colors to match your recolor mod. Supported recolors are DaisyNiko's Earthy Recolor, Starblue Valley, A Wittily Named Recolor, Rosier Colored Glasses",
+			"Default": "Vanilla"
+		},
+		"JunimoSpeak": {
+			"AllowValues": "true, false",
+			"Description": "Toggles whether if you want FJ's junimos to have actual words to say besides meeping.",
+			"Default": "true"
+		},
+		/*"OptionalEvents":{
+			"AllowValues": "true, false",
+ 			"Description": "Toggles whether if you want to see FJ's events, there're just three events currently. Check the modpage for more info.",
+			"Default": "true",
+		},*/
+		"VisualEffects": {
+			"AllowValues": "true, false",
+			"Description": "Toggles whether if you want FJ's junimos to have =magical= effects. Requires Particle Effects by iLoveLucy to be installed.",
+			"Default": "true",
+		}
+	},
+	"DynamicTokens":[
+		{
+			"Name": "JunimosForCC",
+			"Value": "{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}"
+		},
+		{
+			"Name": "PrismaticJunimos",
+			"Value": "{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50}}"
+		},
+		{
+			"Name": "LLWeather",
+			"Value": "{{Weather}}",
+			"When": {
+				"JunimoSpeak": "true"
+			}
+		},
+		{
+			"Name": "LLWeather",
+			"Value": "Rain",
+			"When": {
+				"JunimoSpeak": "true",
+				"Weather": "Storm" 
+			}
+		},
+		{
+			"Name": "LLDialogue-1",
+			"Value": "{{i18n:LanguageLesson.{{Season}}.{{LLWeather}}-{{Random: 1, 2, 3, 4, 5}}}}",
+			"When": {
+				"JunimoSpeak": "true"
+			}
+		},
+		{
+			"Name": "LLDialogue-2",
+			"Value": "{{i18n:LanguageLesson.{{Season}}.{{LLWeather}}-{{Random: 1, 2, 3, 4, 5}}}}",
+			"When": {
+				"JunimoSpeak": "true"
+			}
+		},
+		{
+			"Name": "LLDialogue-3",
+			"Value": "{{i18n:LanguageLesson.{{Season}}.{{LLWeather}}-{{Random: 1, 2, 3, 4, 5}}}}",
+			"When": {
+				"JunimoSpeak": "true"
+			}
+		}
+	],
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "assets/Code/MapPatching.json",
+			"When": {
+				"HasSeenEvent": "112"
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Code/ColorAndSprites.json",
+			"When": {
+				"HasSeenEvent": "112"
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Code/TidyUp.json",
+			"When": {
+				"HasSeenEvent": "112"
+			}
+		}
+   ]
+}

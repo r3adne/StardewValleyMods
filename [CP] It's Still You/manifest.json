@@ -1,0 +1,11 @@
+{
+    "Name": "It's Still You",
+    "Author": "emreyski",
+    "Version": "1.0.0",
+    "Description": "Displays 'Despite everything, it's still you.' after looking in a mirror at the bathhouse.",
+    "UniqueID": "emreyski.ItsStillYou",
+    "UpdateKeys": [20921],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

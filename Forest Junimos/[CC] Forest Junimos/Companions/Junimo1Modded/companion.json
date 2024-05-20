@@ -1,0 +1,151 @@
+{
+    "Name": "Junimo1Modded",
+	"Type": "Walking",
+	"Scale": "0.7",
+	"TravelSpeed": 2,
+	"FrameSizeHeight": 16,
+	"FrameSizeWidth": 16,
+	"MaxIdleDistance": -1,
+    "MaxDistanceBeforeTeleport": -1,	
+	"IdleBehavior": "Wander",
+	"TileSheetPath": "Characters\\Junimo",
+
+	"EnableSpawnAtDayStart": true,
+	"EnableFarmerCollision": true,
+	"EnableCharacterCollision": true,
+	"EnableShadow": true,
+	"EnableEventAppearance": true,
+
+	"CollisionPositionY": -4,
+	"CollisionPositionX": 24,
+	"CollisionPositionHeight": 16,
+	"CollisionPositionWidth": 22,
+
+	"OverheadTexts": [
+        {
+			"Text": "*meep*",
+		},
+	],
+     "UpAnimation": { //Doney
+        "StartingFrame": 32,
+		"NumberOfFrames": 8,
+		"Duration": 125,
+		"IdleAnimation": {
+            "StartingFrame": 40,
+			"NumberOfFrames": 4,
+			"Duration": 125,
+		}
+	},
+	"DownAnimation": { //Doney
+		"StartingFrame": 0,
+		"NumberOfFrames": 8,
+		"Duration": 125,
+		"IdleAnimation": {
+			"StartingFrame": 8,
+			"NumberOfFrames": 4,
+			"Duration": 125
+		}		
+	},
+	"RightAnimation": { //Doney
+		"StartingFrame": 16,
+		"NumberOfFrames": 8,
+		"Duration": 125,
+		"IdleAnimation": {
+			"StartingFrame": 24,
+			"NumberOfFrames": 4,
+			"Duration": 125
+		}
+	},
+	"LeftAnimation": { //Also doney
+		"ManualFrames":[
+			{
+				"Frame": 16,
+				"Duration": 125,
+				"Flip": true
+			},
+			{
+				"Frame": 17,
+				"Duration": 125,
+				"Flip": true
+			},
+			{
+				"Frame": 18,
+				"Duration": 125,
+				"Flip": true
+			},
+			{
+				"Frame": 19,
+				"Duration": 125,
+				"Flip": true
+			},
+			{
+				"Frame": 20,
+				"Duration": 125,
+				"Flip": true
+			},
+			{
+				"Frame": 21,
+				"Duration": 125,
+				"Flip": true
+			},
+			{
+				"Frame": 22,
+				"Duration": 125,
+				"Flip": true,
+			},
+			{
+				"Frame": 23,
+				"Duration": 125,
+				"Flip": true,
+			}
+		],
+		"IdleAnimation": {
+			"ManualFrames":[
+				{
+					"Frame": 24,
+					"Duration": 125,
+					"Flip": true
+				},
+				{
+					"Frame": 25,
+					"Duration": 125,
+					"Flip": true
+				},
+				{
+					"Frame": 26,
+					"Duration": 125,
+					"Flip": true
+				},
+				{
+					"Frame": 27,
+					"Duration": 125,
+					"Flip": true
+				}
+			]
+		}
+	},
+    "Shadow": {
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Scale": 0.7,
+      "Alpha": 255
+    },
+	"Colors": [
+        [ 50, 205, 50, 255],
+		[ 217, 141, 0, 255],
+        [ 19, 196, 189, 255],
+		[ 184, 164, 129, 255],
+		[ 168, 180, 166, 255],
+		[ 217, 191, 0, 255],
+		[ 170, 81, 252, 255]
+    ],
+	"Sounds": [
+	    {
+		    "SoundName": "junimoMeep1",
+		    "WhenToPlay": "Idle",
+			"TimeBetweenSound": 2000,
+		    "ChanceOfPlaying": 0.4
+    	}
+	]
+
+}

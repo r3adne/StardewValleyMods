@@ -1,0 +1,140 @@
+{
+    "Changes": 
+    [
+
+    	// Unobtainable Weapons
+
+        {
+			"LogName": "Holy Blade",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/HolyBlade.png",
+			"ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Holy Blade": true
+			}
+		},
+        {
+			"LogName": "Alex's Bat",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/AlexsBat.png",
+			"ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Alex's Bat": true
+			}
+		},
+        {
+			"LogName": "Sam's Old Guitar",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/SamsOldGuitar.png",
+			"ToArea": { "X": 96, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Sam's Old Guitar": true
+			}
+		},
+        {
+			"LogName": "Elliott's Pencil",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/ElliottsPencil.png",
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Elliott's Pencil": true
+			}
+		},
+        {
+			"LogName": "Maru's Wrench",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/MarusWrench.png",
+			"ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Maru's Wrench": true
+			}
+		},
+        {
+			"LogName": "Harvey's Mallet",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/HarveysMallet.png",
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Harvey's Mallet": true
+			}
+		},
+        {
+			"LogName": "Penny's Fryer",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/PennysFryer.png",
+			"ToArea": { "X": 96, "Y": 64, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Penny's Fryer": true
+			}
+		},
+        {
+			"LogName": "Leah's Whittler",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/LeahsWhittler.png",
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Leah's Whittler": true
+			}
+		},
+        {
+			"LogName": "Abby's Planchette",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/AbbysPlanchette.png",
+			"ToArea": { "X": 0, "Y": 80, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Abby's Planchette": true
+			}
+		},
+        {
+			"LogName": "Seb's Lost Mace",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/SebsLostMace.png",
+			"ToArea": { "X": 16, "Y": 80, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Seb's Lost Mace": true
+			}
+		},
+		{
+			"LogName": "Haley's Iron",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/HaleysIron.png",
+			"ToArea": { "X": 32, "Y": 80, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Haley's Iron": true
+			}
+		},
+		{
+			"LogName": "Rapier",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/UnobtainableWeapons/Rapier.png",
+			"ToArea": { "X": 16, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UnobtainableWeaponsRecolor |contains= Rapier": true
+			}
+		},
+    ]
+}

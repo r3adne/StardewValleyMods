@@ -1,0 +1,13 @@
+{
+    "Name": "Pride In The Valley",
+    "Author": "sapphicsaph",
+    "Version": "1.0.2",
+    "Description": "The villagers of Pelican Town are a little bit more gay.",
+    "UniqueID": "sapphicsaph.pitv",
+    "UpdateKeys": ["Nexus:16916"],
+	"Dependencies": [
+],
+	"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

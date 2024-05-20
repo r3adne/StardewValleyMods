@@ -1,0 +1,283 @@
+{
+    "Changes": 
+    [
+
+    	// Swords
+
+        {
+			"LogName": "Rusty Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/RustySword.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Rusty Sword": true
+			}
+		},
+        {
+			"LogName": "Silver Saber",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/SilverSaber.png",
+			"ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Silver Saber": true
+			}
+		},
+        {
+			"LogName": "Dark Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/DarkSword.png",
+			"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Dark Sword": true
+			}
+		},
+        {
+			"LogName": "Galaxy Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/GalaxySword.png",
+			"ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Galaxy Sword": true
+			}
+		},
+        {
+			"LogName": "Bone Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/BoneSword.png",
+			"ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Bone Sword": true
+			}
+		},
+        {
+			"LogName": "Iron Edge",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/IronEdge.png",
+			"ToArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Iron Edge": true
+			}
+		},
+        {
+			"LogName": "Templar's Blade",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/TemplarsBlade.png",
+			"ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Templar's Blade": true
+			}
+		},
+        {
+			"LogName": "Obsidian Edge",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/ObsidianEdge.png",
+			"ToArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Obsidian Edge": true
+			}
+		},
+        {
+			"LogName": "Lava Katana",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/LavaKatana.png",
+			"ToArea": { "X": 16, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Lava Katana": true
+			}
+		},
+        {
+			"LogName": "Claymore",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/Claymore.png",
+			"ToArea": { "X": 32, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Claymore": true
+			}
+		},
+		{
+			"LogName": "Steel Smallsword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/SteelSmallsword.png",
+			"ToArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Steel Smallsword": true
+			}
+		},
+		{
+			"LogName": "Wooden Blade",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/WoodenBlade.png",
+			"ToArea": { "X": 64, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Wooden Blade": true
+			}
+		},
+		{
+			"LogName": "Insect Head",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/InsectHead.png",
+			"ToArea": { "X": 80, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Insect Head": true
+			}
+		},
+		{
+			"LogName": "Neptune's Glaive",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/NeptunesGlaive.png",
+			"ToArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Neptune's Glaive": true
+			}
+		},
+		{
+			"LogName": "Forest Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/ForestSword.png",
+			"ToArea": { "X": 112, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Forest Sword": true
+			}
+		},
+		{
+			"LogName": "Pirate's Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/PiratesSword.png",
+			"ToArea": { "X": 48, "Y": 80, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Pirate's Sword": true
+			}
+		},
+		{
+			"LogName": "Cutlass",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/Cutlass.png",
+			"ToArea": { "X": 64, "Y": 80, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Cutlass": true
+			}
+		},
+		{
+			"LogName": "Yeti Tooth",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/YetiTooth.png",
+			"ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Yeti Tooth": true
+			}
+		},
+		{
+			"LogName": "Steel Falchion",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/SteelFalchion.png",
+			"ToArea": { "X": 32, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Steel Falchion": true
+			}
+		},
+		{
+			"LogName": "Tempered Broadsword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/TemperedBroadsword.png",
+			"ToArea": { "X": 64, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Tempered Broadsword": true
+			}
+		},
+		{
+			"LogName": "Dwarf Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/DwarfSword.png",
+			"ToArea": { "X": 96, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Dwarf Sword": true
+			}
+		},
+		{
+			"LogName": "Dragontooth Cutlass",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/DragontoothCutlass.png",
+			"ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Dragontooth Cutlass": true
+			}
+		},
+		{
+			"LogName": "Ossified Blade",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/OssifiedBlade.png",
+			"ToArea": { "X": 64, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Ossified Blade": true
+			}
+		},
+		{
+			"LogName": "Infinity Blade",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/InfinityBlade.png",
+			"ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Infinity Blade": true
+			}
+		},
+		{
+			"LogName": "Meowmere",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Swords/Meowmere.png",
+			"ToArea": { "X": 16, "Y": 128, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsRecolor |contains= Meowmere": true
+			}
+		},
+    ]
+}

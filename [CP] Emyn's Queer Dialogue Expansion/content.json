@@ -1,0 +1,1282 @@
+{
+  "Format": "1.23.0",
+  "ConfigSchema":
+	{
+		// Config Options
+		"BiAlex":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"BiHarvey":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"BiSebastian":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"BiLeah":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"BiMaru":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"BiGeorge":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"BiMarnie":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"PanElliott":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"PanShane":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"PanAbigail":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"PanHaley":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"PanLewis":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"AceClint":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"AroAceLinus":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"EnbyJodi":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"EnbyWilly":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"TransSam":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"SamHasBinder":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"TransPenny":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"BiPenny":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"TransWizard":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"IntersexEmily":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"PanEmily":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"GayGus":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"LesbianSandy":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"PolyEvelynGeorge":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"GenderNonConformingVincent":
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+	},
+  "Changes": [
+  // Alex Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Alex",
+		 "When": {
+			 "BiAlex": "true",
+		 },
+         "Entries": {
+			 "Wed8": "There aren't many out and proud queer folk in sports. I worry about that sometimes.$s#$e#When I go pro I want to be open about who I am, so queer kids can feel inspired.$0",
+			 "Tue": "The beach is a cool place to hang out and soak up some rays.#e#You gotta spend some time in the sun or else you'll get all pale.$0#$e#*Plus, everyone looks cute in a speedo or bikini.$4",
+			 "summer_Tue": "If my hair wasn't so popular with cute folk, I swear I'd shave it all off in a second.$0#$e#*sigh*... Life can be tough.$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Alex",
+         "Entries": {
+			 "spring_8_1": "I watched a film with Haley yesterday. It was about gay activists helping a mining town during a strike.$0#$e#I'm not normally one to sit down and watch a film, but it was good!$0",
+			 "spring_8_2": "I watched a film with Haley yesterday. It was about gay activists helping a mining town during a strike.$0#$e#I'm not normally one to sit down and watch a film, but it was good!$0",
+			 "fall_8_1": "Hey @. Did you catch the gridball game last night?$0#$e#The girl with the pink hair played really well, didn't she?And her interview afterwards... electrifying!$h",
+			 "fall_8_2": "Hey @. Did you catch the gridball game last night?$0#$e#The girl with the pink hair played really well, didn't she? And her interview afterwards... electrifying!$h",
+			 "fall_22_1": "Hey @. Did you catch the gridball game last night?$0#$e#The girl with the pink hair played really well, didn't she?And her interview afterwards... electrifying!$h",
+			 "fall_22_2": "Hey @. Did you catch the gridball game last night?$0#$e#The big bald commentator is an old player - one of the greats!#$e# He came out when he retired, and does a lot of work supporting children's charities.$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "/Data/Festivals/winter25",
+		 "When": {
+			 "BiAlex": "true",
+		 },
+         "Entries": {
+			 "Alex": "What am I thankful for? I'm thankful that my grandparents accept me for who I am.^It might sound corny, but I love my grandma and grandpa.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Data/Events/Saloon",
+		 "When": {
+			 "BiAlex": "true",
+		 },
+         "Entries": {
+			 "911526/f Alex 2500/t 1900 2200/n joshMessage": "gusviolin/-1000 -1000/farmer 5 5 1 Gus 10 6 2 Alex 9 5 3 Emily 9 17 2/skippable/showFrame 117/showFrame Alex 39/positionOffset farmer 12 8/positionOffset Alex -12 0/animate Gus false true 723 16 17/viewport 7 4 true/pause 23000/stopAnimation Gus/pause 1000/faceDirection Gus 3/speak Alex \"Thanks, Gus. That was great.\"/move Gus 0 1 1/move Gus 1 0 2/move Gus 0 1 2/doAction 11 9/move Gus 0 3 1/move Gus 12 0 3 true/speak Alex \"This is nice... I've never dined in here before.\"/pause 1000/emote Alex 40/speak Alex \"Um, anyway... I reserved this private room so we could talk...$l\"/warp Emily 11 11 true/playSound woodyStep/move Emily 0 -4 3/move Emily -4 0 0/move Emily 0 -1 0/speak Emily \"I've got a linguini with mushroom cream sauce for Mr. @.^I've got a kale and walnut salad for the lady.#$b#...and a grilled steak for Alex.^And a grilled steak for the gentleman.\"/playSound woodyHit/specificTemporarySprite joshDinner/speak Alex \"Thanks.\"/move Emily 4 0 2/move Emily 0 5 1/move Emily 11 0 1 true/speak Alex \"So, what I wanted to say was...$9\"/playMusic musicboxsong/speak Alex \"*gulp*$s\"/pause 600/speak Alex \"Well... when we first met, I was instantly drawn to you. It was confusing... I'd never felt that way about anyone.$l^When I first met you, I thought you were really cute.$l^Normally, when I have a crush on someone, the feeling goes away pretty quick...$l\"/pause 800/speak Alex \"...But my heart was telling me something else.^...But with you, it kept growing.$l\"/pause 400/emote Alex 40/pause 600/question fork1 \"#I feel the same way.#I'm sorry... I don't feel that way about you.\"/pause 400/fork rejectJosh/speak Alex \"...$l#$b#I can't believe it took this long to say that to each other.$l\"/emote Alex 32/pause 800/animate Alex false false 400 40 41 41 40 41 41 40 41 41 40 41 41 40/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound gulp/pause 400/speak Alex \"Mmm... this steak is outstanding. Can you smell that fragrant sauce?$10\"/eyes 1 -4000/animate Alex false false 400 40 41 41 40 41 41 40/pause 1000/specificTemporarySprite alexDiningDog/playSound dogWhining/pause 1000/globalFade/viewport -1000 -1000/pause 6000/end dialogue Alex \"...$l\"",
+		 },
+},
+// Harvey Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Harvey",
+		 "When": {
+			 "BiHarvey": "true",
+		 },
+         "Entries": {
+			 "winter_Fri8": "Winter's always a bit melancholy for me.$s#$e#I used to visit my parents this time of year, but they asked me not to visit when I came out as bi.$s#$e#But I've found a new family here, who accept me as I am, so I'll be alright.$0",
+			 "summer_Tue2": "Hi @. Enjoying the weather?$0#$e#If the sun holds up, I might sit outside and read. My queer booklist grows longer by the day!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Harvey",
+         "Entries": {
+			 "fall_Mon4": "If you ever need trans-related healthcare, just come to me. Don't worry about the cost.$0#$e#I couldn't stand the thought of trans folk struggling to get healthcare here, so I lobbied Lewis to have it fully funded.$0",
+			 "winter_6_1": "I enjoy curling up with blankets and a good documentary this time of year.$0#$e#I watched one last night about one of the first trans folk in the Ferngill Airforce!$h",
+			 "winter_6_2": "I enjoy curling up with blankets and a good documentary this time of year.$0#$e#I watched one last night about one of the first trans folk in the Ferngill Airforce!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "/Data/Events/spring24",
+		 "When": {
+			"BiPenny": "true",
+			"BiMaru": "true",
+		 },
+         "Entries": {
+			 "Harvey": "I'm working up the courage to ask someone to dance with me.#$b#I wonder if Maru will be dancing with Penny this year...",
+		 },
+},
+// Sebastian Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sebastian",
+		 "When": {
+			 "BiSebastian": "true"
+		 },
+         "Entries": {
+			 "Fri8": "I shouldn't have said my sister was an attention grabbing scam. Sorry.$s#$e#It's just, when I came out my dad told me I broke his heart. When Maru came out, Demetrius made her cupcakes.$s#$e#It's just a bit difficult sometimes.$s",
+			 "spring_26_1": "Abigail's been bugging me about going to Pride next season.$0#$e#I fancy going to the one in Zuzu City, but she wants to stay local.$0",
+			 "spring_26_2": "Abigail's been bugging me about going to Pride next season.$0#$e#I fancy going to the one in Zuzu City, but she wants to stay local.$0",
+			 "fall_Sat4": "Maru had some scrap metal and enamel left over, so she made me some pride frog pins.$0#$e#I guess she can be thoughtful sometimes...$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sebastian",
+		 "When": {
+			 "BiSebastian": "true",
+			 "TransSam": "true",
+		 },
+         "Entries": {
+			 "winter_10_1": "I like Sam well enough, but I swear if he suggests another queer pun for the band name...$0",
+			 "winter_10_2": "I like Sam well enough, but I swear if he suggests another queer pun for the band name...$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sebastian",
+		 "When": {
+			 "GayGus": "true",
+		 },
+         "Entries": {
+			 "summer_Sun2": "I keep seeing Gus out by the lake with a man from Grampleton.$0#$e#They look pretty close. Do you think they're dating?$0",
+		 },
+},
+// Leah Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Leah",
+		 "When": {
+			 "BiLeah": "true"
+		 },
+         "Entries": {
+			 "Tue8": "My ex used to get real weird about me being bi.$0#$e#Something about me running off with a girl...$7^Something about me running off with a guy...$7#$e#I think my ex was just insecure.$7",
+			 "summerBeach": "Hi @. I'm just sketching today.$0#$e#I'm kind of hoping to see a mermaid. They're so pretty, don't you think?$4",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Leah",
+		 "When": {
+			 "BiLeah": "true",
+			 "PanElliott": "true"
+		 },
+         "Entries": {
+			 "fall_Fri4": "Hi @. Don't mind me, I'm just reading today. Elliott gave me some queer literature recommendations, so I'm giving some a go.",
+			 "winter_Sun4": "I like inviting Elliott over this season for tea and a chat.$0#$e#It was mainly so he wasn't shivering alone in his cabin, but I've come to like his opinions on queer literature.$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Leah",
+		 "When": {
+			 "BiLeah": "true",
+			 "BiMarnie": "true"
+		 },
+         "Entries": { 
+		 "winter_Tue6": "Marnie's been teaching me how to quilt.$0#$e#She has a lovely bi pride quilt, and I'd love to make one myself.$h",
+		 },
+},
+// Maru Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Maru",
+		 "When": {
+			 "BiMaru": "true"
+		 },
+         "Entries": {
+			 "Sat8": "I'm so glad my dad accepts that I'm bi, but now he keeps insisting I keep the door open everytime I have someone in my room.$0#$e#I love him dearly, but there are some things my dad really does not need to know.$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Maru",
+         "Entries": {
+			 "springHospital_Tue": "Hi @. Sorry if I'm quiet, Harvey's asked me to put through the paperwork to get our trans healthcare fully funded again.$0",
+			 "winter_Wed2": "When it's particularly snowy, I bundle under blankets and watch an old sci-fi show with my dad.$0#$e#The latest episode is about two women in love who can't be together in their alien culture. I'm really enjoying it!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Maru",
+		 "When": {
+			 "BiMaru": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",
+		 },
+         "Entries": {
+			 "fall_Fri4": "Penny always looks so sweet in the fall. Her red hair matches the autumn leaves just perfectly.$4",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Maru",
+		 "When": {
+			 "TransPenny": "true",
+		 },
+         "Entries": {
+			 "summer_Wed4": "I like going swimming with Penny in the lake, but sometimes it's hard for her to come out.$0#$e#I wish there was a way for me to help with the dysphoria...$s",
+		 },
+},
+// George Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/George",
+		 "When": {
+			 "BiGeorge": "true",
+		 },
+         "Entries": {
+			 "winter_Mon10": "Apologies if I seem out of sorts today.$s#$e#I had a lover when I worked in the mines. Today's the anniversary of his death.$s#$e#Thanks for checking in with me, @. I miss him, sometimes.$s",
+			"spring_Thu4": "There are so many TV programs nowadays.$0#$e$Evelyn's been watching one about drag performers with me.$0",
+			"summerTown": "The weather reminds me of times gone by, where I would go out to Grampleton for the pride parade. Those were good times...",
+			"fall_Thu8": "Alex doesn't think I know about the 'athletic' men's magazines under his bed.$0#$e#I'm just saying there are better men's magazines out there.$h",
+			"winter_Mon": "I'm not feeling up to visitors today, @. Maybe you should come by tomorrow.",
+			"winter_1_1": "Hope you have a good pair of winter boots, @. The ice can be nasty.",
+			"winter_1_2": "Hope you have a good pair of winter boots, @. The ice can be nasty.",
+			"winter_15_1": "Evelyn and I used to have ferocious snowball fights when we were young.$0#$e#Heh... Those were the days.$h",
+			"winter_15_2": "Evelyn and I used to have ferocious snowball fights when we were young.$0#$e#Heh... Those were the days.$h",
+			"Wed10_inlaw_Alex": "You're part of the family now. You're such a nice young man, and I know you and Alex are in love.$h^You're part of the family, now. You're such a sweet young lass, I couldn't be more proud.$h",
+			"Wed_inlaw_Alex": "Back when I was a youngster, two men couldn't get married. I'm glad to see that's changed.$h^You're part of the family, now. I'm glad that my grandson found such a nice wife.$h", 
+		 },
+},
+// Marnie Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Marnie",
+		 "When": {
+			 "BiMarnie": "true",
+		 },
+         "Entries": {
+			 "Sat10": "Don't tell anyone, but Lewis and I have been dating for a little while.$0#$e#It's the first time I've dated a man, so it's quite exciting!$h",
+			"summer_Wed2": "I thought about decorating the goats with leis for the Pride season.$0#$e#But the goats just kept eating the flowers, so perhaps it's not a great idea...$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Marnie",
+         "Entries": {
+			"fall_Thu2": "Jas, Shane and I have rewatching one of our favourite TV series' recently.#$e#It's about a girl who finds a magical sword. Although Jas prefers her cat-like antagonist.#$e#",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Marnie",
+		 "When": {
+			 "BiMarnie": "true",
+			 "BiLeah": "true",
+		 },
+         "Entries": {
+			"winter_Tue6": "Hi @! Hope you're not too cold!$0#$e#Leah and I made pride flag quilts to keep out the chill - let me know if you want me to make you one too.$0" 
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Data/Festivals/spring24",
+		 "When": {
+			 "BiMarnie": "true"
+		 },
+         "Entries": {
+			"Marnie": "*sigh*... Love is in the air... Perhaps this year I'll finally pluck up the courage to ask a lady or gent to dance.",
+		 },
+},
+// Elliott Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Elliott",
+		 "When": {
+			 "PanElliott": "true",
+		 },
+         "Entries": {
+			 "Sat8": "I'm glad to have you, Willy and Leah as friends, @.$0#$e#I was worried that there wouldn't be space for a flowery old fruit in this town, but you've all made this queer man feel very welcome.$h",
+			"spring_2_1": "Ah, the springtime. All the spring may be hidden in the single bud...#$e#...and the low ground nest of the lark may hold the joy that is to herald the feet of many rose-red dawns.#$e#Sorry, I've been getting into a new book and can't stop quoting it.$h",
+			"spring_2_2": "Ah, the springtime. All the spring may be hidden in the single bud...#$e#...and the low ground nest of the lark may hold the joy that is to herald the feet of many rose-red dawns.#$e#Sorry, I've been getting into a new book and can't stop quoting it.$h",
+			"summerSaloon": "Hey @! Come join me.#$e#Let me tell you about his latest read. It's one about a stockbroker and a gameskeeper who fall in love in the 20th century...",
+			"winter_Fri4": "We used to have a gay men's choir, back where I used to live. We always sung carols around this time of year.#$e#In the bleak mid-winter, frosty wind made moan...",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Elliott",
+		 "When": {
+			 "PanElliott": "true",
+		 },
+         "Entries": {
+			"spring_2_1": "Ah, the springtime. All the spring may be hidden in the single bud...#$e#...and the low ground nest of the lark may hold the joy that is to herald the feet of many rose-red dawns.#$e#Sorry, I've been getting into a new book and can't stop quoting it.$h",
+			"spring_2_2": "Ah, the springtime. All the spring may be hidden in the single bud...#$e#...and the low ground nest of the lark may hold the joy that is to herald the feet of many rose-red dawns.#$e#Sorry, I've been getting into a new book and can't stop quoting it.$h",
+			"summerSaloon": "Hey @! Come join me.#$e#Let me tell you about his latest read. It's one about a stockbroker and a gameskeeper who fall in love in the 20th century...",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Elliott",
+		 "When": {
+			 "PanElliott": "true",
+			 "BiPenny": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",			 
+		 },
+         "Entries": {
+			 "fall_Wed4": "I've seen Penny admiring Maru a lot recently.#$e#To quote an old poet, she would much prefer to see the lovely way she walks and the radiant glance of her face..."
+		 },
+},
+// Shane Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Shane",
+		 "When": {
+			 "PanShane": "true",
+			 "HasSeenEvent": "3910975",
+		 },
+         "Entries": {
+			 "Thu6": "Harvey's found me a queer-friendly therapist in Zuzu City, and it's really been helping.#$e#Our community struggles with addiction, but I want to get better and I'm glad to have someone who understands."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Shane",
+		 "When": {
+			 "PanShane": "true",
+		 },
+         "Entries": {
+			 "summer_Sun4": "One of my favourite treats is a pizza, with blue cheese, yellow pineapple and pink ham, cooked in a cast iron skillet.$0#$e#You could say it's a PAN-fried pizza...$e",
+			 "fall_Sat6": "We have a bonded pair of hens out back, and they often feed each other corn. It's quite sweet.$0#$e#One's a gentle giant, but the other will fight anything that comes near them!$h#$e#Including my hands...$h",
+			 "winter_Mon6":  "Hi @. Has Marnie tried to foist a quilt on you yet?$0#$e#I have one pan flag and one rainbow quilt, but she's insisting I get another this year.$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Shane",
+		 "When": {
+			 "PanShane": "true",
+		 },
+         "Entries": {
+			 "spring_24_1": "Emily's been trying to rope me into lei-making for an upcoming Pride event.#$e#I've never even darned a button, so I'm not sure what she's expecting.",
+			 "spring_24_2": "Emily's been trying to rope me into lei-making for an upcoming Pride event.#$e#I've never even darned a button, so I'm not sure what she's expecting.",
+			 "fall_Sat6": "We have a bonded pair of hens out back, and they often feed each other corn. It's quite sweet.$0#$e#One's a gentle giant, but the other will fight anything that comes near them!$h#$e#Including my hands...$h",
+		 },
+},
+// Abigail Dialogue
+{
+         "Action": "EditData",
+         "Target": "/Characters/Dialogue/rainy",
+		 "When": {
+			 "PanAbigail": "true",
+		 },
+         "Entries": {
+			 "Abigail": "I once took a girl out in the rain so I could kiss her like in the movies.$0#$e#It wasn't that romantic. Plus, she gave me the flu.$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "/Characters/Dialogue/Abigail",
+		 "When": {
+			 "PanAbigail": "true",
+		 },
+         "Entries": {
+			 "spring_Mon4": "I learnt tarot from an old girlfriend. Here, let me do a reading for you, @...$0#$e#...The Hermit! Maybe you should get out more.$h",
+			 "summer_Fri8": "My parents used to drag me out of town to visit my grandmother for barbecue around this time.$5#$e#I hated going, because she never let any of my boyfriends or girlfriends come along.$5#$e#Well, the old witch is dead now, so I can bring whoever I like to barbecue.$h",
+			 "Fall_Wed4": "Hey @! What do you call a queer witch?$0#$e#Pan-hex-ual...$h",
+		 },	
+},
+{
+         "Action": "EditData",
+         "Target": "/Characters/Dialogue/Abigail",
+         "Entries": {
+			 "winter_19_1": "There was a horror film on last night, where a couple end up trapped in a mansion with a scientist building his own muscle man.$0#$e#Sebastian and I watch it every winter.$0",
+			 "winter_19_2": "There was a horror film on last night, where a couple end up trapped in a mansion with a scientist building his own muscle man.$0#$e#Sebastian and I watch it every winter.$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Data/Events/Mine",
+		 "When": {
+			 "PanAbigail": "true",
+		 },
+         "Entries": {
+			   "901756/f Abigail 2500/t 1700 2400/o Abigail": "Upper_Ambient/18 7/farmer -1000 -1000 0 Abigail 18 11 0/skippable/move Abigail 0 -3 1/move Abigail 5 0 2/pause 500/animate Abigail false false 150 26 24 25 25 25 25/pause 450/playSound sandyStep/stopAnimation Abigail/showFrame Abigail 25/pause 2000/playSound batFlap/pause 500/playSound batFlap/pause 500/playSound batFlap/pause 500/emote Abigail 8/pause 1000/specificTemporarySprite abbyOneBat/playSound batScreech/showFrame Abigail 32/shake Abigail 2000/pause 2000/showFrame Abigail 0/pause 600/animate Abigail false true 100 28 29/pause 1200/stopAnimation Abigail/pause 1000/specificTemporarySprite abbyManyBats/showFrame Abigail 32/shake Abigail 2000/pause 2000/speed Abigail 8/move Abigail 0 -4 0/speed Abigail 8/move Abigail 2 0 0/animate Abigail false false 100 21 20 20/pause 200/showFrame Abigail 20/shake Abigail 10000/pause 2000/warp farmer 18 13/move farmer 0 -5 0/pause 1000/faceDirection farmer 1/pause 300/emote farmer 16/speed farmer 8/move farmer 6 0 0/speed farmer 8/playMusic desolate/move farmer 0 -4 1/speak Abigail \"$q 776589 null#*sniff*$s#$r 776589 20 Event_Cave2_1#What happened?#$r 776589 40 Event_Cave2_2#Are you okay?\"/pause 500/animate Abigail false false 100 21 0 0/pause 200/stopAnimation Abigail/faceDirection Abigail 3/pause 500/speak Abigail \"You know I've been practicing my swordsmanship for a while...$9#$b#Well I decided today would be the day I venture into the caves...$8\"/pause 500/faceDirection Abigail 1/pause 1000/speak Abigail \"...but I got scared. I couldn't do it.$8\"/pause 500/faceDirection Abigail 3/speak Abigail \"$q 34 null#I guess I'm not as tough as I thought...$8#$r 34 20 Event_Cave_1#You're safe with me.#$r 34 40 Event_Cave_2#I get scared too.#$r 34 -50 Event_Cave_3#You're crying like a little baby. Stop.\"/faceDirection Abigail 3/stopMusic/pause 1500/playMusic sadpiano/pause 1800/speak Abigail \"@, I... I really like you... And not just as a friend. You know that, right?$l\"/pause 1000/speak Abigail \"I can't believe I'm actually saying this... But I can't keep it in anymore. I've felt this way for a long time.$l\"/pause 1800/speak Abigail \"You don't have to say anything right now. Let's just stay here for a while...$l\"/playMusic Upper_Ambient/pause 1000/showFrame Abigail 33/showFrame 101/pause 2500/globalFade/viewport -1000 -1000/end",
+		 },
+},
+// Haley Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Haley",
+		 "When": {
+			 "PanHaley": "true",
+		 },
+         "Entries": {
+			 "fall_Tue4": "I used to have a girlfriend who would not stop buying pumpkin spice everything this season.$0#$e#I like a good pumpkin spice latte, but seriously? Everything?!$3",
+			 "winter_Wed2": "It's hard to be fashionable in a big winter parka, but winter's all about living in your lover's oversized sweater.#$e#It's sweater weather!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Haley",
+         "Entries": {
+			"spring_27_1": "Emily and Shane have spent the past week making leis for Pride next summer.$0#$e#I can't take one step inside my house without getting flowers between my toes!$0",
+			 "spring_27_2": "Emily and Shane have spent the past week making leis for Pride next summer.$0#$e#I can't take one step inside my house without getting flowers between my toes!$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Haley",
+		 "When": {
+			 "IntersexEmily": "true"
+		 },
+         "Entries": {
+			 "Tue8": "Emily and I are polar opposites, but you bet I won't let anyone hurt her!$0#$e#She didn't look like a typical girl, didn't go through typical puberty, so she attracted bullies.$5#$e#I got in sooo much trouble as a kid when I punched them out!$h"
+		 },			 
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Haley",
+		 "When": {
+			 "PanHaley": "true",
+			 "BiAlex": "true",
+		 },
+         "Entries": {
+			 "summer_Wed6": "I normally bring Alex iced coffee when he works the ice cream store.#$e#It's gay culture... or maybe it's the liters of sugar syrup.",
+		 },
+},
+// Lewis Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Lewis",
+		 "When": {
+			 "PanLewis": "true"
+		 },
+         "Entries": {
+			 "Fri8": "It took me a while to accept my sexuality. I didn't come from a time where it was acceptable.#$e#But it's gotten much better. A community of folk like me have formed here, and I couldn't be happier.$h",
+			"fall_Sat6": "A group of us older queer folk come together once or twice a week for tea and cake, and for a bit of a gossip.#$e#We've come to call ourselves 'Friends of Dorothy'.$h",
+			"winter_Thu": "An old boyfriend of mine used to take me skating on the pond in the forest when I was a young man.$0#$e#I think I'm a bit too old to get my skates on now...$s",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Lewis",
+         "Entries": {
+			"spring_Wed2": "Hi @. How's the farm going?$0#$e#I've been busy planning this year's Pride event!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Lewis",
+		 "When": {
+			 "GayGus": "true"
+		 },
+         "Entries": {
+			"summer_Thu4": "I've noticed Gus visiting the lakes a lot recently, armed with a bottle of wine and a picnic basket.$0#$e#Sounds like someone's starting a summer romance...$h",
+		 },
+},
+// Clints Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Clint",
+		 "When": {
+			 "AceClint": "true",
+		 },
+         "Entries": {
+			 "Tue8": "I get worried about dating as an ace person.$2#$e#What if they ask for something I'm not comfortable with?$4#$e#I guess there's gotta be someone out there who accepts me for me...$2",
+"spring_Fri4": "I like listening to the blues, particularly songs with A minor chords.$0#$e#In other words, the songs are ACE...$h",
+"summer_Tue2": "Emily brought me over some rainbow succulents to try growing on the window.#$e#She says it's 'queer culture', but I just think she wants me to have plants I can't kill.",
+"fall_Thu4": "Lewis has been inviting me for tea with other older queer folk in the town.#$e#I'm not the most sociable of men, but I might take him up on the invite...",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter25",
+		 "When": {
+			 "AceClint": "true",
+		 },
+         "Entries": {
+			 "Clint": "I haven't got family to celebrate with.#$b#But I do have a queer community here, and that makes me feel less lonesome." 
+		 },
+},
+// Linus Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Linus",
+		 "When": {
+			 "AroAceLinus": "true",
+		 },
+         "Entries": {
+		"spring_Mon4": "It's finally spring. Flowers are in bloom, romance is in the air...$0#$e#...not really. It's just pollen for me.$h",
+		"fall_Thu6": "Have you seen the kingfishers? They're courting this season.#$e#That's the closest I'd like to be to a romance, honestly.",
+		"Fri8": "Folk keep suggesting I settle down with someone. But it's not really my thing.#$e#I don't enjoy romance, nor dating. I like being out here, with the natural world.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Linus",
+		 "When": {
+			 "TransWizard": "true",
+		 },
+         "Entries": {
+			 "winterBathHouse_Thu": "The Wizard and I met at a trans-friendly pagan commune when we were youngsters.$0#$e#It was over in Castle Village. I hear it's still going well.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Linus",
+		 "When": {
+			 "GayGus": "true",
+		 },
+         "Entries": {
+			 "summer_Sun4": "I've seen Gus bringing a guy for picnics by the lake this summer.$0#$e#I think he's trying to keep it quiet though, so don't tell anyone. Okay?$0",
+		 },
+},
+// Jodi Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jodi",
+		 "When": {
+			 "EnbyJodi": "true",
+		 },
+         "Entries": {
+"spring_Sun6": "I pray regularly, but honestly, the church is a little uncomfortable.$s#$e#The church hasn't always been welcoming to queer families like mine.$s",
+"fall_Sun8": "I came out as nonbinary as a teen, but when I got pregnant with Sam, some folk told me to climb back in the closet and just be a woman.$s#$e#They were wrong. We're a queer family, and I want to be proud of that.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jodi",
+		 "When": {
+			 "GenderNonConformingVincent": "true",
+		 },
+         "Entries": {
+			 "spring_Sat2": "Sometimes I take Vincent to Zuzu City for new clothes.$0#$e#He looks so cute in the dresses!",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jodi",
+		 "When": {
+			 "TransSam": "true",
+			 "SamHasBinder": "true",
+		 },
+         "Entries": {
+			 "winter_Mon4": "I think I might get Sam a new binder for the Feast of the Winter Star. What do you think, @?",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jodi",
+		 "When": {
+			 "EnbyJodi": "true",
+			 "TransSam": "true",
+			 "GenderNonConformingVincent": "true",
+		 },
+         "Entries": {
+			 "summer_Mon4": "Summer's here... and that means I have to struggle with finding trans-appropriate swimwear for me and the boys. Sigh.",
+		 },
+},
+// Willy dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Willy",
+		 "When": {
+			 "EnbyWilly": "true",
+		 },
+         "Entries": {
+			 "Thu8": "Being nonbinary never really affected me while working the fishing boat, so I didn't really talk about it.#$e#No-one can tell your gender in a big set of waders, anyhow.$h",
+			 "spring_23_1": "I'm still choosing between a suit and tie and a shirt and skirt for the Flower Dance.",
+			 "spring_23_2": "I'm still choosing between a suit and tie and a shirt and skirt for the Flower Dance.",
+			 "summer_Fri6": "Back home, when the boats were pulled in to the inner reefs for summer fishing, the sailors used to run drag contests on shore every month.$0#$e#Of course I took part. I was the best gal those men ever did see!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Willy",
+		 "When": { 
+		 "EnbyWilly": "true",
+		 "PanLewis": "true",
+		 },
+         "Entries": { 
+		 "fall_Thu4": "Nice to see you out, @. Any plans for today?#$e#I think I might see Lewis and the other bears tonight, just for a chat.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Willy",
+		 "When": {
+			 "PanElliott": "true",
+		 },
+         "Entries": {
+			 "winter_Wed2": "I've been visiting Elliot some evenings, so he's not all by his lonesome in the colder season.#$e#I bring him Tom Kha Soup, and he reads me queer poetry that he's found.#$e#It's a good exchange.$h"
+		 },
+},
+// Sam Dialogue
+{
+         "Action": "EditData",
+         "Target": "Strings/schedules/Sam",
+		 "When": {
+			 "TransSam": "true"
+		 },
+         "Entries": {
+		 "fall_11.001": "I'm a healthy boy, doc. Can I get stabbed with T and go now? This is boring.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sam",
+		 "When": {
+			 "TransSam": "true",
+			 "TransPenny": "true"
+		 },
+         "Entries": {
+			 "spring_Tue4": "Penny and I are really good friends. It's nice to have someone who understands what being trans is like.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sam",
+		 "When": {
+			 "TransSam": "true",
+			 "SamHasBinder": "true",
+		 },
+         "Entries": {
+			 "Sun6": "Did you know I got my first binder from Joja?$0#$e#It was kind of crappy... Mom insists I buy better ones from a place in Zuzu City now.$0",
+			 "summer_Wed4": "You get so sweaty wearing a binder in summer.$s#$e#Would it be uncool if I borrowed my mom's talcum powder?$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sam",
+		 "When": {
+			 "TransSam": "true"
+		 },
+         "Entries": {
+			 "winter_10_1": "I've been trying to convince Sebastian to call our band the Bi-tles or Pan-gea.$0#$e#I don't think he's biting, though.",
+			 "winter_10_2": "I've been trying to convince Sebastian to call our band the Bi-tles or Pan-gea.$0#$e#I don't think he's biting, though.",
+			 "fall_Sat8": "It's been three years since I transitioned, and still my older relatives send greetings cards in my deadname.$4 At least at family gatherings, Vincent pretends he doesn't know that name and winds the transphobes up, which is hilarious.$h"
+		 },
+},
+// Penny Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Penny",
+		 "When": {
+			 "TransPenny": "True"
+		 },
+         "Entries": {
+			 "Sat8": "I'm glad my hormones are fully funded through Harvey's clinic. I don't think Mom and I could afford it otherwise...$s",
+			 "summer_Tue6": "Maru wants to go swimming in the lake this summer. I don't know...$0#$e#It'll depend how my dysphoria is, I think.$s",
+			 "winter_Mon2": "We don't have much, but I'm glad for whatever my Mom can give at the Feast of the Winter Star.$0#$e#The year I came out, she got me the most beautiful dress - I was so happy I cried!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Penny",
+		 "When": {
+			 "BiPenny": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",
+		 },
+         "Entries": {
+			 "fall_Sat4": "Don't you think Maru looks handsome today?$0#$e#The autumn sunlight really brings out her freckles...$4",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Penny",
+		 "When": {
+			 "TransPenny": "true",
+			 "TransSam": "true",
+		 },
+         "Entries": {
+			 "spring_Tue4": "I like Sam. Sure, he's a bit of a troublemaker, but he gets what it's like to be trans like me, you know?",
+		 },
+},
+// Wizard Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Wizard",
+		 "When": {
+			 "TransWizard": "true",
+		 },
+         "Entries": {
+			 "spring_Tue8": "I built the Shrine of Illusions specifically for my transition.$0When the mundane doctors wouldn't offer me what I needed, I called on the arcane.",
+			 "summer_Fri8": "I transitioned when I was still married to my ex-wife.#$e#It made the relationship... complicated.",
+			 "fall_Mon6": "Before I became master of the occult, I lived in a commune, where I met Linus.$0#$e#He was the first to accept me as a transgender man.$0",
+			 "winter_Sat4": "The forest spirits hold very different concepts to us on all matter of things. Life, death, love, gender...#$e#It's refreshing to work with them."
+		 },
+},
+// Emily Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Emily",
+		 "When": {
+			 "PanEmily": "true"
+		 },
+         "Entries": {
+			 "summer_Wed": "I used some pink strawberries, gold bananas and blueberries to make a cooked breakfast this morning.$0#$e#Clearly I made PAN-cakes...$h",
+			 "spring_20_1": "Hi @. Will you be going to Pride this year?#$e#I've been trying to rope Shane into helping me with pride leis.",
+			 "spring_20_2": "Hi @. Will you be going to Pride this year?#$e#I've been trying to rope Shane into helping me with pride leis.",
+			 "Thu8": "It may look like we don't get on, but I know Haley will likely kill for me if she needed to.$0#$e#At my first Pride in Zuzu City, she very nearly broke a bigot's arm because he tried to approach me!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Emily",
+		 "When": {
+			 "LesbianSandy": "true",
+		 },
+         "Entries": {
+			 "fall_12_1": "Sandy's got herself heartbroken over a girl again. I'm going to pop round next week with a bottle of wine to cheer her up.",
+			 "fall_12_2": "Sandy's got herself heartbroken over a girl again. I'm going to pop round next week with a bottle of wine to cheer her up.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Emily",
+		 "When": {
+			 "PanAbigail": "true",
+			 "PanEmily": "true",
+		 },
+         "Entries": {
+			 "winter_Fri4": "Sometimes Abigail and I meet up to discuss crystals and magic.$0#$e#We might be starting a queer witch coven here in the valley!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Strings/schedules/Emily",
+		 "When": {
+			 "IntersexEmily": "true",
+		 },
+         "Entries": {
+			 "winter_11.001": "Being an intersex kid, I had way too many visits to the doctors. I'm a bit nervous...$s",
+		 },
+},
+// Gus Dialogue
+{
+         "Action": "EditData",
+         "Target": "Gus",
+		 "When": {
+			 "GayGus": "true"
+		 },
+         "Entries": {
+			 "summerSaloon8": "Alright, I'll admit it... Maybe I have been seeing a man by the lake this summer.$h#$e#Even old bears like me should have a summer romance!$h",
+			 "springSaloonThu": "Hiya @. Ready for Pride next month?",
+			 "summerSaloon4": "A visit to the lake would be mighty nice for a couple, don't you think?#$e#Not that I'm asking for any particular reason...$2",
+			 "winter_Sat6": "Winter can be tough on many folk in the gay community.#$e#I always like to keep a door open in case any troubled soul needs a shoulder to cry on..."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Gus",
+		 "When": {
+			 "GayGus": "true"
+		 },
+         "Entries": {
+			 "springSaloonThu": "Hiya @. Ready for Pride next month?",
+			 "winter_Sat6": "Winter can be tough on many folk in the gay community.#$e#I always like to keep a door open in case any troubled soul needs a shoulder to cry on..."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Gus",
+		 "When": {
+			 "GayGus": "true",
+			 "BiMaru": "true",
+			 "BiPenny": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",
+		 },
+         "Entries": {
+			  "fallSaloon_Tue": "Don't you think Penny and Maru look sweet together?#$e#They might be oblivious, but this old bear has eyes...$h",
+		 },
+},
+// Sandy Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sandy",
+		 "When": {
+			 "LesbianSandy": "true",
+		 },
+         "Entries": {
+"Mon8": "It's hard being gay out here, @.$2#$e#You don't tend to get many girls coming to the desert.$2#$e#There's always online dating, though!",
+"spring_27_1": "Emily's been sending over photos of all her beautiful Pride leis. I can't wait to go over and see them in person!$h",
+"spring_27_2": "Emily's been sending over photos of all her beautiful Pride leis. I can't wait to go over and see them in person!$h",
+"summer_Wed4": "Hi, @!~ I watched my favourite film again last night - let me tell you about it!$h#$e#It was about two queens and a trans woman travelling across a desert...$h",
+"fall_Mon2": "Hi!~ Did you see the bikers on your way in?#$e#They were the Grampleton Bullydykes - an all female bikers club! Oh, I'm coming over all a-flutter just thinking about them...$h",
+"fall_12_1": "Sorry if I'm a bit down today, @.$s#$e#A girl I've been seeing just broke up with me.$s",
+"fall_12_1": "Sorry if I'm a bit down today, @.$s#$e#A girl I've been seeing just broke up with me.$s",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Sandy",
+		 "When": {
+			 "LesbianSandy": "true",
+			 "PanEmily": "true"
+		 },
+         "Entries": {
+			 "winter_Tue6": "Emily often jokes that cacti are gay culture, and that Calico Desert is therefore the queer homeland.$h#$e#Hey, maybe you should take some cacti back for your friends!$h",
+		 },
+},
+// Robin Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Robin",
+		 "When": {
+			 "BiSebastian": "true",
+		 },
+         "Entries": {
+			 "Fri8": "Sebastian's father wasn't great about him being bi, and I didn't really stand up for him back then.$2#$e#I'm trying to make up for that, and to be a better mom to him.$5"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Robin",
+		 "When": {
+			 "BiSebastian": "true",
+			 "BiMaru": "true",
+		 },
+         "Entries": {
+			 "spring_Mon2": "I made the mistake of asking my kids if they wanted me to make them anything.$h#$e#Both of them asked for a ca-BI-net...$4"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Robin",
+         "Entries": {
+			 "summer_Thu": "Hey @. Need anything new? A new chair, perhaps?#$e#I can make it rainbow coloured if you ask nicely...$h"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Robin",
+		 "When": {
+			 "BiMaru": "true",
+			 "BiPenny": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",
+		 },
+         "Entries": {
+			 "fall_Tue4": "Do you think Penny and Maru are...?$0#$e#I can't tell if it's a crush or if something's changed between them.$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "/Data/Festivals/winter25",
+         "Entries": {
+			 "Robin": "Hiya, @. You're welcome to join our family table if you need company.$0#$b#I know it can be isolating for queer folk this time of year.$0",
+		 },
+},
+// Pierre Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pierre",
+         "Entries": {
+			"spring_22_1": "Business has been good this past week. Emily's been bulk-ordering silks and coloured fabrics for her Pride leis.",
+			"spring_22_2": "Business has been good this past week. Emily's been bulk-ordering silks and coloured fabrics for her Pride leis.",
+			"summer_Tue2": "I've been thinking I might start selling Pride merch at the store...$0#$e#Hey, I'm not adverse to capitalizing on the pink pound here!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pierre",
+         "Entries": {
+			 "Sun8": "Caroline and I are no strangers to a protest or march. We attended the first Pride here, you see.$0#$e#I like to think I've settled down in my middle age, but Caroline... well, its hard to keep her away from a riot.$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pierre",
+		 "When": {
+			 "PanAbigail": "true"
+		 },
+         "Entries": {
+			 "winter_Sat4": "I do worry about Abigail's interests somedays.$s#$e#I'm no stranger to an 'alternative' lifestyle, but I think she's leaning into the 'queer witch' aesthetic a little too hard...",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Data/Festivals/summer28",
+         "Entries": {
+			 "Pierre": "The rainbow coloured jellies remind me of all the pride flags from the marches Caroline and I have attended...$h" 
+		 },
+},
+// Pam Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pam",
+		 "When": {
+			 "BiMaru": "true",
+			 "BiPenny": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",
+		 },
+         "Entries": {
+			 "fall_Thu4": "Penny's been mooning over that young lass from the mountains for a week straight.#$e#I suggested she ask her for a drink at the Saloon, but she got flustered and bolted to her room!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pam",
+         "Entries": {
+			 "spring_Fri4": "When we lived in Zuzu City, there was an old drag bar I used to go to.#$e#It was always such a hoot!$h",
+			 "summerSaloon_Sat": "When I'm hungover, I like putting on foreign-language films.#$e#Did you ever catch that film about the clothing mangate's daughter and her secret girl? Penny liked that one.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pam",
+		 "When": {
+			 "TransPenny": "true",
+		 },
+         "Entries": {
+			 "Thu8": "Penny's happiness means everything to me. Even if her HRT wasn't funded, I would scrape together what I had to make sure she got what she needed.$0#$e#I'll also fight who I need to so she doesn't get hurt, so you best treat her kindly, you hear?!$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Pam",
+		 "When": {
+			 "GayGus": "true",
+		 },
+         "Entries": {
+			 "winter_Wed6": "Gus likes to keep his door open for neghbours who are struggling this season. But I like to check in on him as well.#$e#Even for someone as jovial as him, it can be hard for gay men in the winter. While Gus looks out for other folk, I look out for Gus.",
+		 },
+},
+// Caroline Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Caroline",
+         "Entries": {
+			 "winter_Thu8": "My husband wasn't always such a stick-in-the-mud.$0#$e#He once punched out a policeman to defend my honour at a Pride protest!$h#$e#I was flattered, even though I ended up paying his bail."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Caroline",
+		 "When": {
+			 "EnbyJodi": "true",
+		 },
+         "Entries": {
+			 "fall_Tue4": "Hey @. How's it going?#$e#On long autumn evenings, I go over to Jodi's when the kids are in bed to chat.#$e#Being a non-binary parent is hard on her."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Caroline",
+         "Entries": {
+			"summer_Sun4": "I read a wonderful book in my sunroom the other day.#$e#It was about a detransitioned trans person wanting to raise a kid with their lover and their ex-partner. It got me thinking for days!",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Caroline",
+		 "When": {
+			 "PanAbigail": "true",
+		 },
+         "Entries": {
+			 "spring_Mon2": "Abby offered to read my tarot this morning. She said my card for the day was 'Judgement'.#$e# I think maybe she's taking this 'queer witch' thing too seriously...",
+		 },
+},
+// Demetrius Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Demetrius",
+		 "When": {
+			 "BiMaru": "true",
+			 "BiPenny": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",
+		 },
+         "Entries": {
+			 "fall_Tue6": "I've seen Maru looking at that girl from the trailer south of here.$3#$e# Do I need to be having words with her or...?$4"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Demetrius",
+         "Entries": {
+			 "spring_Thu2": "I've been thinking about going down to the beach and looking at the corals.#$e#I hear there's someone working on creating 'super corals' that are more resistant to climate change!",
+			 "summer_Thu2": "Maybe one of these days I'll go out to the desert and take a look at the native fauna.#$e#I've been reading papers from a woman who's an expert in arachnids, and I'm curious to test her findings on spiders and scorpions in the field."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Demetrius",
+		 "When": {
+			 "BiSebastian": "true",
+		 },
+         "Entries": {
+			 "winter_Fri2": "I found a book on queer pioneers in computing while shopping online. I think I might gift it to Sebastian this Feast of the Winter Star...",		
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Demetrius",
+		 "When": {
+			 "BiMaru": "true",
+		 },
+         "Entries": {
+			 "Wed8": "I like to teach Maru about the queer scientists that came before her.#$e#I think it's important to be able to see people like you in the work that you do.",
+		 },
+},
+// Evelyn Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Evelyn",
+         "Entries": {
+			 "spring_Fri4": "Do you watch the television much?$0#$e#George and I have been watching a show about drag performers recently. It's quite entertaining!$h",
+			 "summer_Fri2": "Around this time of year, Grampleton hosts its own Pride.#$e#If I could still travel that far, I'd love to see it again.",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Evelyn",
+		 "When": {
+			 "BiGeorge": "true",
+			 "PolyEvelynGeorge": "true",
+		 },
+         "Entries": {
+			 "winter_Mon10": "When we were younger, George used to have another partner in our relationship. I fully consented, of course.$0#$e#He died of an illness on this day several decades back.$s#$e#George tends to get upset this time of year, so maybe you should check in on him.",
+			 "winter_1_1": "Be careful you don't slip on the ice, dear.",
+			 "winter_1_2": "Be careful you don't slip on the ice, dear.",
+			 "winter_15_2": "Be careful you don't slip on the ice, dear.",
+			 "winter_15_2": "Be careful you don't slip on the ice, dear.",
+			 "winter_Mon": "George tends to be quite melancholy this time of year.$s#$e#I like to give him a litte extra care and attention to cheer him up.$0"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Evelyn",
+		 "When": {
+			 "BiAlex": "true",
+		 },
+         "Entries": {
+			 "fall_Fri6": "Around this time a few years ago, Alex introduced his boyfriend to us.$0#$e#He was so nervous! They didn't last long, but I'm glad he was happy for a time.$h"
+		 },
+},
+// Jas Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jas",
+		 "When": {
+			 "BiMarnie": "true",
+		 },
+         "Entries": {
+			 "Mon8": "Don't tell anyone... But Mayor Lewis has been around for tea many times.#$e#Marnie only ever brought girls before. It's a bit weird."
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jas",
+		 "When": {
+			 "BiMaru": "true",
+			 "BiPenny": "true",
+			 "Hearts:Penny": "{{Range: 0, 7}}",
+			 "Hearts:Maru": "{{Range: 0, 7}}",
+		 },
+         "Entries": {
+			 "winter_Thu6": "I know Vincent wants to marry Miss Penny when he's older, but I think Miss Penny wants to marry Miss Maru!$4#$e#She gets all blushy when I say it, though.$4"
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Jas",
+         "Entries": {
+			 "spring_17_1": "Shane brought me a lei to where at Pride this year!$h",
+			"spring_17_2": "Shane brought me a lei to where at Pride this year!$h",
+			 "summer_Wed6": "Sometimes Shane paints his nails to match the moonlit jellies that come this season.#$e#I wonder if he'll do mine this year?",
+			 "fall_Thu4": "Last night I watched my favourite cartoon.#$e# The magic sword lady and the cat lady kissed in it!$h"
+		 },
+},
+// Vincent Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Vincent",
+		 "When": {
+			 "GenderNonConformingVincent": "true",
+		 },
+         "Entries": {
+			 "fall_Wed4": "I want to be a princess this Spirit's Eve! No, wait, a ghost! Or maybe a tiger!",
+			 "winter_Sat6": "Miss Penny asked us to draw what we wanted for Winter Star at class today.$0#$e#I drew a pretty skirt, and she said she had one just like it!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Vincent",
+		 "When": {
+			 "GenderNonConformingVincent": "true",
+		 },
+         "Entries": {
+			 "spring_11_2": "Look! Dad did my nails today ready for the egg hunt!$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Vincent",
+		 "When": {
+			 "TransSam": "true",
+		 },
+         "Entries": {
+			 "Thu8": "I don't remember Sam as my sister, so it's weird when people call him the wrong name.#$e#I don't like it when they do that. He gets mad about it.$s",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Vincent",
+		 "When": {
+			 "TransSam": "true",
+			 "SamHasBinder": "true",
+		 },
+         "Entries": {
+			 "summerBeach": "Sam doesn't really take his shirt off at the beach. He says he can't, but other boys can?",
+		 },
+},
+// Kent Dialogue
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Kent",
+         "Entries": {
+			 "winter_Fri6": "The military wasn't all sunshine and roses.$2#$e#They had a 'Don't Ask, Don't Tell' policy. Some of my comrades died, and their partners had no rights to military pensions or benefits.$3#$e#I make sure to donate my Winter Star holiday bonus to a charity that supports those affected.$0",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Kent",
+		 "When": {
+			 "EnbyJodi": "true",
+		 },
+         "Entries": {
+			 "fall_Sun6": "I know Jodi gets a bit uncomfortable at the church. But in my opinion, Yoba doesn't care that we're a queer family.",
+			 "summer_17_2": "Today's the anniversary of the day Jodi and I started dating.$h#$e#She came out to me as nonbinary not long after. It took a bit of discussion to make sure I used the correct pronouns and terminology for her.$0#$e#I might make her a Rhubarb Pie to show how much I care...$h",
+
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Kent",
+		 "When": {
+			 "TransSam": "true",
+		 },
+         "Entries": {
+			 "Tue8": "I went overseas before Sam transitioned, so coming back to see him after two or three years on hormones has been a bit of a surprise.$0#$e#He's grown handsome though, hasn't he? I'm proud of him.$h",
+		 },
+},
+{
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/Kent",
+		 "When": {
+			 "GenderNonConformingVincent": "true",
+		 },
+         "Entries": {
+			 "spring_11_2": "Vincent asked me to paint his nails today, ready for the Egg festival.$0#$e#My hand's not as steady as Jodi's, but I think I did a good job.$h",
+		 },
+},
+   ]
+}

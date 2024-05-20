@@ -1,0 +1,33 @@
+{
+    // Config settings
+    "config.option.prompt_speak.name": "提示可以与之交流的村民w/",
+    "config.option.prompt_speak.description": "如果今天没有可以与之深入交流的村民，则会显示一个提示图标。",
+
+    "config.option.gift_preference.name": "心选佳礼指南",
+    "config.option.gift_preference.description": "根据你目前可以获得的礼物的最低标准，以便获取礼物提示。这些建议将基于收礼人的喜好、物品的品质以及价格的划算程度，从您现有库存中进行筛选和排序。",
+    "config.option.gift_preference.value.love": "仅显示人们喜爱的礼物",
+    "config.option.gift_preference.value.like": "显示人们喜爱的礼物 & 更高级别的礼物",
+    "config.option.gift_preference.value.neutral": "显示一般喜爱的礼物 & 更高级别的礼物",
+    "config.option.gift_preference.value.none": "隐藏所有建议",
+
+    "config.option.gift_max_count.name": "最多可以显示多少礼物",
+    "config.option.gift_max_count.description": "重复提示最多可以显示多少礼物",
+
+    "config.option.gift_display_time.name": "礼物提示的显示时间(毫秒)",
+    "config.option.gift_display_time.description": "每个礼物提示的显示时间，以时间单位亳秒计算",
+
+    "config.option.gift_generic_prompts.name": "显示通用礼物的提示",
+    "config.option.gift_generic_prompts.description": "如果某村民可以接受礼物，但你的库存中没有任何符合他们口味的物品，就会显示一个通用礼物图标。",
+
+    "config.option.ignore_maxed.name": "忽略达到最高友谊等级的村民",
+    "config.option.ignore_maxed.description": "不显示任何关于已达到顶峰值，并且友谊值不会下降的村民的提示。",
+
+    "config.option.spouse_prompts.name": "始终显示配偶的礼物提示",
+    "config.option.spouse_prompts.description": "覆盖其他设置，始终为你配偶显示礼物和交谈提示。",
+
+    "config.option.only_highest_quality.name": "只显示最高品质的物品",
+    "config.option.only_highest_quality.description": "只显示可用物品的最高品质版本。例如，如果你既有金色品质的辣椒，也有银色品质的辣椒，那么只会建议赠送金色品质的辣椒。",
+
+    "config.option.enable_bubbles.name": "[!] 启用提示气泡",
+    "config.option.enable_bubbles.description": "允许在村民上方显示浮动气泡。警告：关闭此选项将隐藏该模组启用的所有浮动气泡（交谈和礼物提示等）。"
+}

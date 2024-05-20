@@ -1,0 +1,26 @@
+{
+    "Name": "DNER GF map fix",
+    "Author": "Xryzo11",
+    "Version": "1.0.0",
+    "Description": "This mod fixes the incorrect color on the world map while using the Earthy Recolour with the Grandpa's Farm.",
+    "UniqueID": "DNER.GFmapfix",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:21755"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "DaisyNiko.EarthyRecolour",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "flashshifter.GrandpasFarm",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "DNER.SVEmapfix",
+            "IsRequired": true
+        }
+    ]
+}

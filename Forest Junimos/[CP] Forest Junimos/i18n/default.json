@@ -1,0 +1,123 @@
+{
+	//Config translations
+	
+    "config.SpritesheetVersion.name": "SpritesheetVersion",
+	"config.SpritesheetVersion.description": "Toggles whether if you want mods changing the Junimo spritesheet in Content to take effect on FJ's junimos too or not. If set as 'Modded', it!ll allow that. If it's 'Vanilla', FJ will stick to vanilla sprites.",
+	"config.SpritesheetVersion.values.Vanilla": "Vanilla",
+	"config.SpritesheetVersion.values.Modded": "Modded",
+	
+	"config.RecolorPalettes.name": "RecolorPalettes",
+	"config.RecolorPalettes.description": "Toggles whether if you want the FJ junimos' colors to match your recolor mod. Supported recolors are DaisyNiko's Earthy Recolor, Starblue Valley, A Wittily Named Recolor, Rosier Colored Glasses, Vibrant Pastoral Recolor",
+	"config.RecolorPalettes.values.Vanilla": "Vanilla",
+	"config.RecolorPalettes.values.Earthy": "Earthy",
+	"config.RecolorPalettes.values.Starblue": "Starblue",
+	"config.RecolorPalettes.values.Rosier": "Rosier",
+	"config.RecolorPalettes.values.Pastoral": "Pastoral",
+	"config.RecolorPalettes.values.Wittily": "Wittily",
+	
+	"config.JunimoSpeak.name": "JunimoSpeak",
+	"config.JunimoSpeak.description": "Toggles whether if you want FJ's junimos to have actual words to say besides meeping.",
+	"config.JunimoSpeak.values.true": "true",
+	"config.JunimoSpeak.values.false": "false",
+	
+/*	"config.OptionalEvents.name": "OptionalEvents",
+	"config.OptionalEvents.description":  "Toggles whether if you want to see FJ's events, there're just three events currently. Check the modpage for more info.",
+	"config.OptionalEvents.values.true": "true",
+	"config.OptionalEvents.values.false": "false",*/
+	
+	"config.VisualEffects.name": "VisualEffects",
+	"config.VisualEffects.description":  "Toggles whether if you want FJ's junimos to have =magical= effects. Requires Particle Effects by iLoveLucy to be installed.",
+	"config.VisualEffects.values.true": "true",
+	"config.VisualEffects.values.false": "false",
+	
+	//Junimo sentences
+		//Spring 
+	"LanguageLesson.Spring.Sun-1": "Sun! Sun! Sun!",
+	"LanguageLesson.Spring.Sun-2": "*waves to tree*",
+	"LanguageLesson.Spring.Sun-3": "*sings*",
+	"LanguageLesson.Spring.Sun-4": "Mushroom!",
+	"LanguageLesson.Spring.Sun-5": "Shroom!",
+	
+	"LanguageLesson.Spring.Wind-1": "PLACEHOLDER",
+	"LanguageLesson.Spring.Wind-2": "Yay! Rain!",
+	"LanguageLesson.Spring.Wind-3": "Pollens, trees, animals!",
+	"LanguageLesson.Spring.Wind-4": "PLACEHOLDER",
+	"LanguageLesson.Spring.Wind-5": "Summer is soon! More starfruit!",
+	
+	"LanguageLesson.Spring.Rain-1": "PLACEHOLDER",
+	"LanguageLesson.Spring.Rain-2": "*jumps in puddle*",
+	"LanguageLesson.Spring.Rain-3": "PLACEHOLDER",
+	"LanguageLesson.Spring.Rain-4": "Ew... Muddy.",
+	"LanguageLesson.Spring.Rain-5": "*sings*",
+
+		//Summer
+	"LanguageLesson.Summer.Sun-1": "Hello, @!",
+	"LanguageLesson.Summer.Sun-2": "I want Starfruit.",
+	"LanguageLesson.Summer.Sun-3": "*coughes*",
+	"LanguageLesson.Summer.Sun-4": "Hot... and dry...",
+	"LanguageLesson.Summer.Sun-5": "PLACEHOLDER",
+	
+	"LanguageLesson.Summer.Wind-1": "I want Starfruit.",
+	"LanguageLesson.Summer.Wind-2": "PLACEHOLDER",
+	"LanguageLesson.Summer.Wind-3": "Breeze!",
+	"LanguageLesson.Summer.Wind-4": "PLACEHOLDER",
+	"LanguageLesson.Summer.Wind-5": "PLACEHOLDER",
+	
+	"LanguageLesson.Summer.Rain-1": "PLACEHOLDER",
+	"LanguageLesson.Summer.Rain-2": "Mudcastle!",
+	"LanguageLesson.Summer.Rain-3": "*jumps in puddle*",
+	"LanguageLesson.Summer.Rain-4": "Ew... Muddy.",
+	"LanguageLesson.Summer.Rain-5": "Rain for the boiling summer!",
+
+		//Fall
+	"LanguageLesson.Fall.Sun-1": "*looks up*#Where da leaves?",
+	"LanguageLesson.Fall.Sun-2": "*picks a leaf from the ground and stares at it*",
+	"LanguageLesson.Fall.Sun-3": "Shroom!",
+	"LanguageLesson.Fall.Sun-4": "Mushroom!",
+	"LanguageLesson.Fall.Sun-5": "Starfruit... but summer passed.",
+	
+	"LanguageLesson.Fall.Wind-1": "This hazelnut is mine!",
+	"LanguageLesson.Fall.Wind-2": "PLACEHOLDER",
+	"LanguageLesson.Fall.Wind-3": "*sings*",
+	"LanguageLesson.Fall.Wind-4": "PLACEHOLDER",
+	"LanguageLesson.Fall.Wind-5": "No! It's mine!",
+	
+	"LanguageLesson.Fall.Rain-1": "Wet leaves everywhere... Yuck!",
+	"LanguageLesson.Fall.Rain-2": "Yay! Rain!",
+	"LanguageLesson.Fall.Rain-3": "I'm all wet!",
+	"LanguageLesson.Fall.Rain-4": "*jumps in puddle*",
+	"LanguageLesson.Fall.Rain-5": "*hides under tree*",
+	
+		//Winter
+	"LanguageLesson.Winter.Sun-1": "Sun! But... cold?",
+	"LanguageLesson.Winter.Sun-2": "*dances*",
+	"LanguageLesson.Winter.Sun-3": "*pokes the snow on the ground*",
+	"LanguageLesson.Winter.Sun-4": "Brrr!",
+	"LanguageLesson.Winter.Sun-5": "PLACEHOLDER",
+	
+	"LanguageLesson.Winter.Wind-1": "Huh, cold!",
+	"LanguageLesson.Winter.Wind-2": "PLACEHOLDER",
+	"LanguageLesson.Winter.Wind-3": "Wooo!",
+	"LanguageLesson.Winter.Wind-4": "PLACEHOLDER",
+	"LanguageLesson.Winter.Wind-5": "Brrr!",
+	
+	"LanguageLesson.Winter.Snow-1": "Brr...",
+	"LanguageLesson.Winter.Snow-2": "*hides under tree*",
+	"LanguageLesson.Winter.Snow-3": "*makes snow junimo*",
+	"LanguageLesson.Winter.Snow-4": "One snowflake, two snowflakes, three snowflakes...",
+	"LanguageLesson.Winter.Snow-5": "All snowflakes different!",
+	
+	"LanguageLesson.Joja-1": "This junimo doesn't seem like they want to talk to you.",
+	"LanguageLesson.Joja-2": "Shoo! Bad! Bad!",
+	"LanguageLesson.Joja-3": "Humans be humans. Seeking shinies...",
+	"LanguageLesson.Joja-4": "PLACEHOLDER",
+	"LanguageLesson.Joja-5": "PLACEHOLDER",
+
+/*	//Event strings
+	//Junimo appearing out of nowhere
+	"event.2258001.01": "Wow, today's much sunnier than yesterday!",
+	"event.2258001.02": "Oh, a new human? Hi!",
+	"event.2258001.03": "...!?",
+	"event.2258001.04": "Gud bye, for now. Will meet again!",
+	"event.2258001.05": "What was that!?"*/
+}

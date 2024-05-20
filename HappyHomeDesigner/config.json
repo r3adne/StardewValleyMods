@@ -1,0 +1,17 @@
+{
+  "CloseWithKey": true,
+  "GiveModifier": "LeftShift",
+  "FavoriteModifier": "LeftControl",
+  "ExtendedCategories": true,
+  "FurnitureTooltips": true,
+  "PauseTime": true,
+  "ReplaceFurnitureCatalog": true,
+  "ReplaceWallpaperCatalog": true,
+  "ReplaceRareCatalogs": true,
+  "ToggleShortcut": "None",
+  "AlwaysLockScroll": false,
+  "ClientMode": false,
+  "EarlyDeluxe": false,
+  "LargeVariants": false,
+  "OpenMenu": "None"
+}

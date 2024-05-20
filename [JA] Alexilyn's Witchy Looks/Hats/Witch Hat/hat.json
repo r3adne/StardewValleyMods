@@ -1,0 +1,8 @@
+{
+	"Name": "Witchty Hat",
+	"Description": "Witch Hat",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"CanPurchase": true
+}

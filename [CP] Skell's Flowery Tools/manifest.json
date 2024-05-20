@@ -1,0 +1,11 @@
+{
+	"Name": "Skell's Flowery Tools",
+	"Author": "skellady",
+	"Version": "1.1.0",
+	"Description": "Retextures the tools.",
+	"UniqueID": "skellady.toolsrecolor",
+	"UpdateKeys": ["Nexus:11104"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

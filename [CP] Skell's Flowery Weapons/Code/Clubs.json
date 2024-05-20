@@ -1,0 +1,118 @@
+{
+    "Changes": 
+    [
+
+    	// Clubs
+
+        {
+			"LogName": "Wood Club",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/WoodClub.png",
+			"ToArea": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Wood Club": true
+			}
+		},
+        {
+			"LogName": "Lead Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/LeadRod.png",
+			"ToArea": { "X": 32, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Lead Rod": true
+			}
+		},
+        {
+			"LogName": "Wood Mallet",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/WoodMallet.png",
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Wood Mallet": true
+			}
+		},
+        {
+			"LogName": "The Slammer",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/TheSlammer.png",
+			"ToArea": { "X": 64, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= The Slammer": true
+			}
+		},
+        {
+			"LogName": "Galaxy Hammer",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/GalaxyHammer.png",
+			"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Galaxy Hammer": true
+			}
+		},
+        {
+			"LogName": "Femur",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/Femur.png",
+			"ToArea": { "X": 112, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Femur": true
+			}
+		},
+        {
+			"LogName": "Kudgel",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/Kudgel.png",
+			"ToArea": { "X": 96, "Y": 80, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Kudgel": true
+			}
+		},
+        {
+			"LogName": "Dwarf Hammer",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/DwarfHammer.png",
+			"ToArea": { "X": 112, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Dwarf Hammer": true
+			}
+		},
+        {
+			"LogName": "Dragontooth Club",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/DragontoothClub.png",
+			"ToArea": { "X": 32, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Dragontooth Club": true
+			}
+		},
+        {
+			"LogName": "Infinity Gavel",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/Weapons/Clubs/InfinityGavel.png",
+			"ToArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsRecolor |contains= Infinity Gavel": true
+			}
+		},
+    ]
+}
